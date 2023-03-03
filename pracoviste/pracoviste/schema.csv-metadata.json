@@ -1,0 +1,90 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "cs"
+        }
+    ],
+    "@id": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c/table.csv-metadata.json",
+    "@type": "Table",
+    "url": "table.csv",
+    "tableSchema": {
+        "@type": "Schema",
+        "columns": [
+            {
+                "@type": "Column",
+                "name": "adresa-pr_k%C3%B3d",
+                "titles": "adresa-pr_kód",
+                "propertyUrl": null,
+                "datatype": "string"
+            },
+            {
+                "@type": "Column",
+                "name": "adresa-pr-txt",
+                "titles": "adresa-pr-txt",
+                "dc:title": {
+                    "@value": "Má adresu pracoviště neevidovanou v RÚIAN",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Adresa pracoviště orgánu veřejné moci v textové podobě v případě, že adresa není evidována v registru územní identifikace, adres a nemovitostí.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/agendový/104/pojem/má-adresu-pracoviště-neevidovanou-v-rúian",
+                "datatype": "string"
+            },
+            {
+                "@type": "Column",
+                "name": "st%C3%A1t-pr",
+                "titles": "stát-pr",
+                "dc:title": {
+                    "@value": "Má stát pracoviště",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Přiřazuje pracovišti orgánu veřejné moci jeho stát z číselníku států.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/agendový/104/pojem/má-stát-pracoviště",
+                "valueUrl": "{+st%C3%A1t-pr}",
+                "datatype": "anyURI"
+            },
+            {
+                "@type": "Column",
+                "name": "otev%C5%99en%C3%AD",
+                "titles": "otevření",
+                "dc:title": {
+                    "@value": "Má datum otevření pracoviště",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Datum, ke kterému bylo nebo bude otevřeno pracoviště orgánu veřejné moci.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/agendový/104/pojem/má-datum-otevření-pracoviště",
+                "datatype": "date"
+            },
+            {
+                "@type": "Column",
+                "name": "uzav%C5%99en%C3%AD",
+                "titles": "uzavření",
+                "dc:title": {
+                    "@value": "Má datum uzavření pracoviště",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Datum, ke kterému bylo nebo bude uzavřeno pracoviště orgánu veřejné moci.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/agendový/104/pojem/má-datum-uzavření-pracoviště",
+                "datatype": "date"
+            },
+            {
+                "@type": "Column",
+                "propertyUrl": "rdf:type",
+                "valueUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/pracoviště",
+                "virtual": true
+            }
+        ]
+    }
+}

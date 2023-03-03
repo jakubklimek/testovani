@@ -1,0 +1,18 @@
+@startuml
+set namespaceSeparator none
+skinparam dpi 200
+class "Pracoviště" {
+  Má adresu pracoviště neevidovanou v RÚIAN
+  Má datum otevření pracoviště
+  Má datum uzavření pracoviště
+}
+
+class "adresní místo" {
+}
+
+class "Stát" {
+}
+
+"Pracoviště" -- "0..1" "adresní místo" :  "Má adresu pracoviště"
+"Pracoviště" -- "0..1" "Stát" :  "Má stát pracoviště"
+@enduml

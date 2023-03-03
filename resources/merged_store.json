@@ -1,0 +1,2333 @@
+{
+    "https://ofn.gov.cz/schema/1657559394201-1a50-85b0-a52c": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Schema"
+        ],
+        "iri": "https://ofn.gov.cz/schema/1657559394201-1a50-85b0-a52c",
+        "pimHumanLabel": {
+            "en": "Orgán veřejné moci"
+        },
+        "pimHumanDescription": {},
+        "pimParts": [
+            "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+            "https://ofn.gov.cz/attribute/1657559470029-3242-f4ad-a7c6",
+            "https://ofn.gov.cz/attribute/1657559470087-4fae-1ec3-ab5a",
+            "https://ofn.gov.cz/attribute/1657559470143-81f6-3130-9da2",
+            "https://ofn.gov.cz/attribute/1657559470200-bcd4-9b8a-a82c",
+            "https://ofn.gov.cz/class/1657559559293-8f66-ee61-90de",
+            "https://ofn.gov.cz/association/1657559559334-b6a0-a8e1-8e40",
+            "https://ofn.gov.cz/association-end/1657559559333-b552-41d9-9287",
+            "https://ofn.gov.cz/association-end/1657559559333-dcbd-a0d7-8db1",
+            "https://ofn.gov.cz/class/1657559607780-6370-2230-998c",
+            "https://ofn.gov.cz/association/1657559607828-6c5c-c9ed-8529",
+            "https://ofn.gov.cz/association-end/1657559607827-c5ff-4e5a-ab06",
+            "https://ofn.gov.cz/association-end/1657559607828-e622-ffc1-a19d",
+            "https://ofn.gov.cz/class/1657559665649-8410-28bc-8483",
+            "https://ofn.gov.cz/class/1657559665657-a237-2787-acf9",
+            "https://ofn.gov.cz/association/1657559665716-0582-1e3a-bf1c",
+            "https://ofn.gov.cz/association-end/1657559665715-02f3-a560-bc39",
+            "https://ofn.gov.cz/association-end/1657559665716-cac5-0a06-aac4",
+            "https://ofn.gov.cz/class/1657559683349-fe19-993b-8811",
+            "https://ofn.gov.cz/association/1657559683393-247a-80d3-be17",
+            "https://ofn.gov.cz/association-end/1657559683393-bc8c-be41-b0fb",
+            "https://ofn.gov.cz/association-end/1657559683393-4537-ba42-b782",
+            "https://ofn.gov.cz/attribute/1657559683449-d857-0668-b980",
+            "https://ofn.gov.cz/attribute/1657559683497-5242-07bf-8717",
+            "https://ofn.gov.cz/class/1657559753016-bb75-0de5-a5a3",
+            "https://ofn.gov.cz/association/1657559753059-72e2-fe6a-b245",
+            "https://ofn.gov.cz/association-end/1657559753059-eee2-990a-9f04",
+            "https://ofn.gov.cz/association-end/1657559753059-a782-e4bb-8561",
+            "https://ofn.gov.cz/association/1657559753162-56e5-492a-be9a",
+            "https://ofn.gov.cz/association-end/1657559753162-7b90-71c6-9912",
+            "https://ofn.gov.cz/association-end/1657559753162-e3d9-9eb3-83ad",
+            "https://ofn.gov.cz/class/1657559796267-5d59-fcbd-b6e4",
+            "https://ofn.gov.cz/association/1657559796302-6807-07a2-a49a",
+            "https://ofn.gov.cz/association-end/1657559796302-6e26-ebe0-99fd",
+            "https://ofn.gov.cz/association-end/1657559796302-c4b3-84ac-9c9f",
+            "https://ofn.gov.cz/attribute/1657559823964-89ac-f77f-bd43",
+            "https://ofn.gov.cz/attribute/1657559883263-7165-4c40-a32a",
+            "https://ofn.gov.cz/attribute/1657559883327-5bca-9041-a781",
+            "https://ofn.gov.cz/attribute/1657559883386-7d93-4e3e-8193",
+            "https://ofn.gov.cz/attribute/1657559883443-5f94-cd6a-a1f3",
+            "https://ofn.gov.cz/attribute/1657559883499-9d12-038b-94eb",
+            "https://ofn.gov.cz/attribute/1657559883564-4d28-f2b4-ba39",
+            "https://ofn.gov.cz/class/1657559972920-74a4-d514-9e87",
+            "https://ofn.gov.cz/association/1657559972962-250f-9129-9ab6",
+            "https://ofn.gov.cz/association-end/1657559972962-775b-abb6-bd72",
+            "https://ofn.gov.cz/association-end/1657559972962-ec0c-5471-9e1d",
+            "https://ofn.gov.cz/association/1657560003411-98de-dc15-8768",
+            "https://ofn.gov.cz/association-end/1657560003411-9195-f588-86eb",
+            "https://ofn.gov.cz/association-end/1657560003411-33bf-28b2-865e",
+            "https://ofn.gov.cz/attribute/1657560003577-212c-7834-9670",
+            "https://ofn.gov.cz/class/1657560003635-6e4c-8675-94ba",
+            "https://ofn.gov.cz/association/1657560003679-c382-09c7-8da0",
+            "https://ofn.gov.cz/association-end/1657560003679-5b77-b39d-b3e3",
+            "https://ofn.gov.cz/association-end/1657560003679-5159-9d33-9137",
+            "https://ofn.gov.cz/attribute/1657560003740-8f45-bc2f-85cb",
+            "https://ofn.gov.cz/attribute/1657560003797-0fc7-aa7d-af12",
+            "https://ofn.gov.cz/class/1657561791194-3e3a-4a5f-9161",
+            "https://ofn.gov.cz/class/1665471782578-cc87-6625-95cd",
+            "https://ofn.gov.cz/class/1665471782593-d5b6-9ec6-ad39",
+            "https://ofn.gov.cz/class/1665471782988-dd50-ee6f-b927",
+            "https://ofn.gov.cz/association/1665471783120-7ec9-c5c5-b748",
+            "https://ofn.gov.cz/association-end/1665471783119-e84b-7ad8-8448",
+            "https://ofn.gov.cz/association-end/1665471783120-e548-5c7e-b124",
+            "https://ofn.gov.cz/attribute/1677840077893-12f4-1e6d-82cf"
+        ]
+    },
+    "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/orgán-veřejné-moci",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Orgán veřejné moci"
+        },
+        "pimHumanDescription": {
+            "cs": "Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy."
+        },
+        "pimExtends": [
+            "https://ofn.gov.cz/class/1657559665649-8410-28bc-8483"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/attribute/1657559470029-3242-f4ad-a7c6": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559470029-3242-f4ad-a7c6",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikátor-orgánu-veřejné-moci",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má identifikátor orgánu veřejné moci"
+        },
+        "pimHumanDescription": {
+            "cs": "Jednoznačný identifikátor orgánu veřejné moci v rámci všech orgánů veřejné moci. Identifikátor je referenčním údajem."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": 1,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657559470087-4fae-1ec3-ab5a": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559470087-4fae-1ec3-ab5a",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-název-orgánu-veřejné-moci",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má název orgánu veřejné moci"
+        },
+        "pimHumanDescription": {
+            "cs": "Pojmenovává orgán veřejné moci názvem, který je oficiálním názvem orgánu veřejné moci. Název je referenčním údajem převzatým z registru obyvatel nebo z registru osob."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": 1,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657559470143-81f6-3130-9da2": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559470143-81f6-3130-9da2",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/je-vnitřní-organizační-jednotkou",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Je vnitřní organizační jednotkou"
+        },
+        "pimHumanDescription": {
+            "cs": "Údaj o tom, zda je orgán veřejné moci vnitřní organizační jednotkou organizační složky státu, které byla zákonem svěřena vlastní působnost. Jedná se o referenční údaj."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657559470200-bcd4-9b8a-a82c": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559470200-bcd4-9b8a-a82c",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikační-číslo-osoby-orgánu-veřejné-moci",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má identifikační číslo osoby orgánu veřejné moci"
+        },
+        "pimHumanDescription": {
+            "cs": "Identifikační číslo osoby orgánu veřejné moci, bylo-li přiděleno. Identifikační číslo je referenčním údajem."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/class/1657559559293-8f66-ee61-90de": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559559293-8f66-ee61-90de",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/datová-schránka",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Datová schránka"
+        },
+        "pimHumanDescription": {
+            "cs": "Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/association/1657559559334-b6a0-a8e1-8e40": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559559334-b6a0-a8e1-8e40",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-datovou-schránku-orgánu-veřejné-moci",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má datovou schránku orgánu veřejné moci"
+        },
+        "pimHumanDescription": {
+            "cs": "Určuje datovou schránku orgánu veřejné moci. Datová schránka orgánu veřejné moci vedená v Registru práv a povinností je referenčním údajem a je převzata z registru obyvatel nebo registru osob. Orgán veřejné moci může mít více datových schránek a má alespoň jednu. Jedna datová schránka patří nejvýše jednomu orgánu veřejné moci."
+        },
+        "pimIsOriented": true,
+        "pimEnd": [
+            "https://ofn.gov.cz/association-end/1657559559333-b552-41d9-9287",
+            "https://ofn.gov.cz/association-end/1657559559333-dcbd-a0d7-8db1"
+        ]
+    },
+    "https://ofn.gov.cz/association-end/1657559559333-b552-41d9-9287": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559559333-b552-41d9-9287",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association-end/1657559559333-dcbd-a0d7-8db1": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559559333-dcbd-a0d7-8db1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559559293-8f66-ee61-90de",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/class/1657559607780-6370-2230-998c": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559607780-6370-2230-998c",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/ustanovení-právního-předpisu",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Ustanovení právního předpisu"
+        },
+        "pimHumanDescription": {
+            "cs": "Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/association/1657559607828-6c5c-c9ed-8529": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559607828-6c5c-c9ed-8529",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/vykonává-působnost-na-základě-ustanovení",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Vykonává působnost na základě ustanovení"
+        },
+        "pimHumanDescription": {
+            "cs": "Určuje právní předpis a označení jeho ustanovení, na jehož základě orgán veřejné moci vykonává svoji působnost."
+        },
+        "pimIsOriented": true,
+        "pimEnd": [
+            "https://ofn.gov.cz/association-end/1657559607827-c5ff-4e5a-ab06",
+            "https://ofn.gov.cz/association-end/1657559607828-e622-ffc1-a19d"
+        ]
+    },
+    "https://ofn.gov.cz/association-end/1657559607827-c5ff-4e5a-ab06": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559607827-c5ff-4e5a-ab06",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association-end/1657559607828-e622-ffc1-a19d": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559607828-e622-ffc1-a19d",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559607780-6370-2230-998c",
+        "pimCardinalityMin": 1,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/class/1657559665649-8410-28bc-8483": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559665649-8410-28bc-8483",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/orgán-veřejné-moci-nebo-soukromoprávní-uživatel-údajů",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Orgán veřejné moci nebo soukromoprávní uživatel údajů"
+        },
+        "pimHumanDescription": {
+            "cs": "Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy. Soukromoprávním uživatelem údajů se rozumí podnikající fyzická osoba nebo právnická osoba, která není orgánem veřejné moci a je podle jiného právního předpisu oprávněna využívat údaje ze základního registru nebo z agendového informačního systém."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/class/1657559665657-a237-2787-acf9": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559665657-a237-2787-acf9",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/zařazení-do-kategorie",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Zařazení do kategorie"
+        },
+        "pimHumanDescription": {
+            "undefined": "b32_b521813"
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/association/1657559665716-0582-1e3a-bf1c": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559665716-0582-1e3a-bf1c",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/má-zařazený-subjekt",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má zařazený subjekt"
+        },
+        "pimHumanDescription": {
+            "cs": "Určuje orgán veřejné moci nebo soukromoprávního uživatele údajů zařazený do kategorie."
+        },
+        "pimIsOriented": true,
+        "pimEnd": [
+            "https://ofn.gov.cz/association-end/1657559665715-02f3-a560-bc39",
+            "https://ofn.gov.cz/association-end/1657559665716-cac5-0a06-aac4"
+        ]
+    },
+    "https://ofn.gov.cz/association-end/1657559665715-02f3-a560-bc39": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559665715-02f3-a560-bc39",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559665657-a237-2787-acf9",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association-end/1657559665716-cac5-0a06-aac4": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559665716-cac5-0a06-aac4",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559665649-8410-28bc-8483",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/class/1657559683349-fe19-993b-8811": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559683349-fe19-993b-8811",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/kategorie",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Kategorie"
+        },
+        "pimHumanDescription": {
+            "cs": "Kategorií se rozumí skupina orgánů veřejné moci nebo soukromoprávních uživatelů údajů, kteří vykonávají stejné činnosti."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/association/1657559683393-247a-80d3-be17": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559683393-247a-80d3-be17",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/zařazuje-do-kategorie",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Zařazuje do kategorie"
+        },
+        "pimHumanDescription": {
+            "cs": "Určuje kategorii, do které je orgán veřejné moci nebo soukromoprávní uživatel údajů zařazen."
+        },
+        "pimIsOriented": true,
+        "pimEnd": [
+            "https://ofn.gov.cz/association-end/1657559683393-bc8c-be41-b0fb",
+            "https://ofn.gov.cz/association-end/1657559683393-4537-ba42-b782"
+        ]
+    },
+    "https://ofn.gov.cz/association-end/1657559683393-bc8c-be41-b0fb": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559683393-bc8c-be41-b0fb",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559665657-a237-2787-acf9",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association-end/1657559683393-4537-ba42-b782": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559683393-4537-ba42-b782",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559683349-fe19-993b-8811",
+        "pimCardinalityMin": 1,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657559683449-d857-0668-b980": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559683449-d857-0668-b980",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/má-datum-zařazení-do-kategorie",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má datum zařazení do kategorie"
+        },
+        "pimHumanDescription": {
+            "cs": "Datum, ke kterému byl nebo bude orgán veřejné moci nebo soukromoprávní uživatel údajů  do kategorie zařazen."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559665657-a237-2787-acf9",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657559683497-5242-07bf-8717": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559683497-5242-07bf-8717",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/má-datum-vyřazení-z-kategorie",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má datum vyřazení z kategorie"
+        },
+        "pimHumanDescription": {
+            "cs": "Datum, ke kterému byl nebo bude orgán veřejné moci nebo soukromoprávní uživatel údajů z kategorie vyřazen."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559665657-a237-2787-acf9",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/class/1657559753016-bb75-0de5-a5a3": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559753016-bb75-0de5-a5a3",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresní-místo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "adresní místo"
+        },
+        "pimHumanDescription": {
+            "cs": "Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/association/1657559753059-72e2-fe6a-b245": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559753059-72e2-fe6a-b245",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-místa-pobytu-orgánu-veřejné-moci",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má adresu místa pobytu orgánu veřejné moci"
+        },
+        "pimHumanDescription": {
+            "cs": "Adresa místa pobytu orgánu veřejné moci, pokud takovou adresu má. Adresa místa pobytu je referenční údaj. Je vyjádřena referencí do Registru územní identifikace, adres a nemovitostí. Je převzata z registru osob nebo z registru obyvatel. Jeden orgán veřejné moci může mít nejvýše jednu adresu místa pobytu."
+        },
+        "pimIsOriented": true,
+        "pimEnd": [
+            "https://ofn.gov.cz/association-end/1657559753059-eee2-990a-9f04",
+            "https://ofn.gov.cz/association-end/1657559753059-a782-e4bb-8561"
+        ]
+    },
+    "https://ofn.gov.cz/association-end/1657559753059-eee2-990a-9f04": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559753059-eee2-990a-9f04",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association-end/1657559753059-a782-e4bb-8561": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559753059-a782-e4bb-8561",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559753016-bb75-0de5-a5a3",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/association/1657559753162-56e5-492a-be9a": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559753162-56e5-492a-be9a",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-sídla-orgánu-veřejné-moci",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má adresu sídla orgánu veřejné moci"
+        },
+        "pimHumanDescription": {
+            "cs": "Adresa sídla orgánu veřejné moci, pokud takovou adresu má. Adresa sídla je referenční údaj. Je vyjádřena referencí do Registru územní identifikace, adres a nemovitostí. Je převzata z registru osob nebo z registru obyvatel. Jeden orgán veřejné moci může mít nejvýše jednu adresu sídla."
+        },
+        "pimIsOriented": true,
+        "pimEnd": [
+            "https://ofn.gov.cz/association-end/1657559753162-7b90-71c6-9912",
+            "https://ofn.gov.cz/association-end/1657559753162-e3d9-9eb3-83ad"
+        ]
+    },
+    "https://ofn.gov.cz/association-end/1657559753162-7b90-71c6-9912": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559753162-7b90-71c6-9912",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association-end/1657559753162-e3d9-9eb3-83ad": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559753162-e3d9-9eb3-83ad",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559753016-bb75-0de5-a5a3",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/class/1657559796267-5d59-fcbd-b6e4": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559796267-5d59-fcbd-b6e4",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/osoba-stojící-v-čele-orgánu-veřejné-moci",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Osoba stojící v čele orgánu veřejné moci"
+        },
+        "pimHumanDescription": {
+            "cs": "Osoba stojící v čele orgánu veřejné moci."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/association/1657559796302-6807-07a2-a49a": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559796302-6807-07a2-a49a",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/stojí-v-čele-orgánu-veřejné-moci",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Stojí v čele orgánu veřejné moci"
+        },
+        "pimHumanDescription": {
+            "cs": "Určuje osobu stojící v čele orgánu veřejné moci, pokud lze pro daný orgán veřejné moci takový údaj zveřejnit. Pro každý orgán veřejné moci je zveřejněna nejvýše jedna osoba."
+        },
+        "pimIsOriented": true,
+        "pimEnd": [
+            "https://ofn.gov.cz/association-end/1657559796302-6e26-ebe0-99fd",
+            "https://ofn.gov.cz/association-end/1657559796302-c4b3-84ac-9c9f"
+        ]
+    },
+    "https://ofn.gov.cz/association-end/1657559796302-6e26-ebe0-99fd": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559796302-6e26-ebe0-99fd",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association-end/1657559796302-c4b3-84ac-9c9f": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559796302-c4b3-84ac-9c9f",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559796267-5d59-fcbd-b6e4",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657559823964-89ac-f77f-bd43": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559823964-89ac-f77f-bd43",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má jméno a příjmení osoby stojící v čele orgánu veřejné moci"
+        },
+        "pimHumanDescription": {
+            "cs": "Plné jméno osoby stojicí v čele orgánu veřejné moci převzaté z registru obyvatel."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559796267-5d59-fcbd-b6e4",
+        "pimCardinalityMin": 1,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657559883263-7165-4c40-a32a": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559883263-7165-4c40-a32a",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má datum zahájení výkonu působnosti orgánu veřejné moci"
+        },
+        "pimHumanDescription": {
+            "cs": "Datum, od kterého orgán veřejné moci vykonává působnost"
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657559883327-5bca-9041-a781": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559883327-5bca-9041-a781",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má datum ukončení výkonu působnosti orgánu veřejné moci"
+        },
+        "pimHumanDescription": {
+            "cs": "Datum, do kterého orgán veřejné moci vykonává působnost"
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657559883386-7d93-4e3e-8193": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559883386-7d93-4e3e-8193",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má pozastavený výkon působnosti orgánu veřejné moci od"
+        },
+        "pimHumanDescription": {
+            "cs": "Datum, od kterého má nebo měl orgán veřejné moci pozastaven výkon působnosti."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657559883443-5f94-cd6a-a1f3": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559883443-5f94-cd6a-a1f3",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má pozastavený výkon působnosti orgánu veřejné moci do"
+        },
+        "pimHumanDescription": {
+            "cs": "Datum, do kterého má nebo měl orgán veřejné moci pozastaven výkon působnosti."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657559883499-9d12-038b-94eb": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559883499-9d12-038b-94eb",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má přerušený výkon působnosti orgánu veřejné moci od"
+        },
+        "pimHumanDescription": {
+            "cs": "Datum, od kterého má nebo měl orgán veřejné moci přerušen výkon působnosti."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657559883564-4d28-f2b4-ba39": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559883564-4d28-f2b4-ba39",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má přerušený výkon působnosti orgánu veřejné moci do"
+        },
+        "pimHumanDescription": {
+            "cs": "Datum, do kterého má nebo měl orgán veřejné moci přerušen výkon působnosti."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/class/1657559972920-74a4-d514-9e87": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559972920-74a4-d514-9e87",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/pracoviště",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Pracoviště"
+        },
+        "pimHumanDescription": {
+            "cs": "Pracoviště, na kterém orgán veřejné moci vykonává úkony."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/association/1657559972962-250f-9129-9ab6": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559972962-250f-9129-9ab6",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pracoviště-vykonávající-úkon",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má pracoviště vykonávající úkon"
+        },
+        "pimHumanDescription": {
+            "cs": "Přiřazuje orgánu veřejné moci pracoviště, na kterém vykonává úkony. K danému orgánu veřejné moci může být uvedeno více pracovišť. Jedno pracoviště patří k právě jednomu orgánu veřejné moci."
+        },
+        "pimIsOriented": true,
+        "pimEnd": [
+            "https://ofn.gov.cz/association-end/1657559972962-775b-abb6-bd72",
+            "https://ofn.gov.cz/association-end/1657559972962-ec0c-5471-9e1d"
+        ]
+    },
+    "https://ofn.gov.cz/association-end/1657559972962-775b-abb6-bd72": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559972962-775b-abb6-bd72",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association-end/1657559972962-ec0c-5471-9e1d": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559972962-ec0c-5471-9e1d",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559972920-74a4-d514-9e87",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association/1657560003411-98de-dc15-8768": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657560003411-98de-dc15-8768",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-pracoviště",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má adresu pracoviště"
+        },
+        "pimHumanDescription": {
+            "cs": "Přiřazuje pracovišti orgánu veřejné moci jeho adresu v podobě reference na adresní místo vedené v registru územní identifikace, adres a nemovitostí."
+        },
+        "pimIsOriented": true,
+        "pimEnd": [
+            "https://ofn.gov.cz/association-end/1657560003411-9195-f588-86eb",
+            "https://ofn.gov.cz/association-end/1657560003411-33bf-28b2-865e"
+        ]
+    },
+    "https://ofn.gov.cz/association-end/1657560003411-9195-f588-86eb": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657560003411-9195-f588-86eb",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559972920-74a4-d514-9e87",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association-end/1657560003411-33bf-28b2-865e": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657560003411-33bf-28b2-865e",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559753016-bb75-0de5-a5a3",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/attribute/1657560003577-212c-7834-9670": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657560003577-212c-7834-9670",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/má-adresu-pracoviště-neevidovanou-v-rúian",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má adresu pracoviště neevidovanou v RÚIAN"
+        },
+        "pimHumanDescription": {
+            "cs": "Adresa pracoviště orgánu veřejné moci v textové podobě v případě, že adresa není evidována v registru územní identifikace, adres a nemovitostí."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559972920-74a4-d514-9e87",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/class/1657560003635-6e4c-8675-94ba": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657560003635-6e4c-8675-94ba",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/stát",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Stát"
+        },
+        "pimHumanDescription": {
+            "cs": "Stát z číselníku států."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/association/1657560003679-c382-09c7-8da0": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657560003679-c382-09c7-8da0",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/má-stát-pracoviště",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má stát pracoviště"
+        },
+        "pimHumanDescription": {
+            "cs": "Přiřazuje pracovišti orgánu veřejné moci jeho stát z číselníku států."
+        },
+        "pimIsOriented": true,
+        "pimEnd": [
+            "https://ofn.gov.cz/association-end/1657560003679-5b77-b39d-b3e3",
+            "https://ofn.gov.cz/association-end/1657560003679-5159-9d33-9137"
+        ]
+    },
+    "https://ofn.gov.cz/association-end/1657560003679-5b77-b39d-b3e3": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657560003679-5b77-b39d-b3e3",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559972920-74a4-d514-9e87",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association-end/1657560003679-5159-9d33-9137": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657560003679-5159-9d33-9137",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657560003635-6e4c-8675-94ba",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/attribute/1657560003740-8f45-bc2f-85cb": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657560003740-8f45-bc2f-85cb",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/má-datum-otevření-pracoviště",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má datum otevření pracoviště"
+        },
+        "pimHumanDescription": {
+            "cs": "Datum, ke kterému bylo nebo bude otevřeno pracoviště orgánu veřejné moci."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559972920-74a4-d514-9e87",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/attribute/1657560003797-0fc7-aa7d-af12": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657560003797-0fc7-aa7d-af12",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/má-datum-uzavření-pracoviště",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má datum uzavření pracoviště"
+        },
+        "pimHumanDescription": {
+            "cs": "Datum, ke kterému bylo nebo bude uzavřeno pracoviště orgánu veřejné moci."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559972920-74a4-d514-9e87",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/class/1657561791194-3e3a-4a5f-9161": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657561791194-3e3a-4a5f-9161",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Právnická osoba se svěřenou působností v oblasti veřejné správy"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+            "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+            "https://ofn.gov.cz/class/1665471782593-d5b6-9ec6-ad39"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/class/1665471782578-cc87-6625-95cd": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1665471782578-cc87-6625-95cd",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/osoba",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Osoba"
+        },
+        "pimHumanDescription": {
+            "cs": "Subjekty, o nichž se vedou v registru osob údaje (dále jen „osoba“), jsou a) právnická osoba, b) organizační složka a organizační jednotka právnické osoby, c) organizační složka státu, d) vnitřní organizační jednotka organizační složky státu, pokud je této vnitřní organizační jednotce zákonem svěřena vlastní působnost, e) podnikající fyzická osoba, f) zahraniční osoba a organizační složka zahraniční osoby, g) svěřenský fond, pokud jsou zapsány do evidence podle tohoto zákona nebo jiného právního předpisu."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/class/1665471782593-d5b6-9ec6-ad39": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1665471782593-d5b6-9ec6-ad39",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/právnická-osoba",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Právnická osoba"
+        },
+        "pimHumanDescription": {
+            "cs": "Právnická osoba je typ osoby, o níž se vedou v registru osob údaje."
+        },
+        "pimExtends": [
+            "https://ofn.gov.cz/class/1665471782578-cc87-6625-95cd"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/class/1665471782988-dd50-ee6f-b927": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1665471782988-dd50-ee6f-b927",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/právní-forma",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Právní forma"
+        },
+        "pimHumanDescription": {
+            "cs": "Právní forma osoby z číselníku právních forem."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/association/1665471783120-7ec9-c5c5-b748": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://ofn.gov.cz/association/1665471783120-7ec9-c5c5-b748",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-právní-formu-osoby",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má právní formu osoby"
+        },
+        "pimHumanDescription": {
+            "cs": "Určuje právní formu osoby z číselníku právních forem."
+        },
+        "pimIsOriented": true,
+        "pimEnd": [
+            "https://ofn.gov.cz/association-end/1665471783119-e84b-7ad8-8448",
+            "https://ofn.gov.cz/association-end/1665471783120-e548-5c7e-b124"
+        ]
+    },
+    "https://ofn.gov.cz/association-end/1665471783119-e84b-7ad8-8448": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1665471783119-e84b-7ad8-8448",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1665471782578-cc87-6625-95cd",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association-end/1665471783120-e548-5c7e-b124": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1665471783120-e548-5c7e-b124",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1665471782988-dd50-ee6f-b927",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/attribute/1677840077893-12f4-1e6d-82cf": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1677840077893-12f4-1e6d-82cf",
+        "pimInterpretation": "https://slovník.gov.cz/generický/adresy/pojem/kód-adresního-místa",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "kód adresního místa"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559753016-bb75-0de5-a5a3",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null
+    },
+    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Schema"
+        ],
+        "iri": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445",
+        "dataPsmHumanLabel": {
+            "cs": "Orgán veřejné moci",
+            "en": "Orgán veřejné moci"
+        },
+        "dataPsmHumanDescription": {
+            "cs": "Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.",
+            "en": "Data structure for Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy."
+        },
+        "dataPsmTechnicalLabel": null,
+        "dataPsmRoots": [
+            "https://ofn.gov.cz/or/1665471765816-1b72-c00e-94f6"
+        ],
+        "dataPsmParts": [
+            "https://ofn.gov.cz/class/1657559419870-0fbe-aa7c-b6fd",
+            "https://ofn.gov.cz/attribute/1657559470032-5653-9b8b-a2e8",
+            "https://ofn.gov.cz/attribute/1657559470088-c83a-1142-b1c7",
+            "https://ofn.gov.cz/attribute/1657559470143-2cd2-6b46-bc62",
+            "https://ofn.gov.cz/attribute/1657559470201-0677-cf47-8694",
+            "https://ofn.gov.cz/association/1657559559335-cc95-bfbc-a16f",
+            "https://ofn.gov.cz/class-reference/1657559589217-7b6a-aafc-99c3",
+            "https://ofn.gov.cz/association/1657559607829-0793-98fb-a979",
+            "https://ofn.gov.cz/class-reference/1657559634058-7e69-2d07-929e",
+            "https://ofn.gov.cz/class/1657559665658-7ee1-7aa7-a6e5",
+            "https://ofn.gov.cz/association/1657559665717-be1a-d9f9-b040",
+            "https://ofn.gov.cz/class/1657559683351-771d-0f7f-a9ff",
+            "https://ofn.gov.cz/association/1657559683394-6f0a-d8cf-91ac",
+            "https://ofn.gov.cz/attribute/1657559683450-9815-4b96-8587",
+            "https://ofn.gov.cz/attribute/1657559683497-9024-08b0-8151",
+            "https://ofn.gov.cz/class/1657559753017-c544-9c6a-abbd",
+            "https://ofn.gov.cz/association/1657559753061-3b7e-21af-971d",
+            "https://ofn.gov.cz/class/1657559753119-bbb1-2a03-a15e",
+            "https://ofn.gov.cz/association/1657559753163-3aaa-3658-b957",
+            "https://ofn.gov.cz/class/1657559796268-8b50-672b-9536",
+            "https://ofn.gov.cz/association/1657559796302-eebf-c76b-9d1b",
+            "https://ofn.gov.cz/attribute/1657559823965-66b0-c391-8486",
+            "https://ofn.gov.cz/attribute/1657559883265-7c56-2af0-852a",
+            "https://ofn.gov.cz/attribute/1657559883327-001d-7abc-befb",
+            "https://ofn.gov.cz/attribute/1657559883386-d094-227b-a416",
+            "https://ofn.gov.cz/attribute/1657559883443-f1a6-7032-9925",
+            "https://ofn.gov.cz/attribute/1657559883499-5bce-a5aa-848b",
+            "https://ofn.gov.cz/attribute/1657559883565-8dbd-e16b-859f",
+            "https://ofn.gov.cz/association/1657559972963-eefc-3c2e-9d24",
+            "https://ofn.gov.cz/class-reference/1657560207393-87a5-e9a5-93b4",
+            "https://ofn.gov.cz/or/1665471765816-1b72-c00e-94f6",
+            "https://ofn.gov.cz/class/1665471766114-9669-dd70-be42",
+            "https://ofn.gov.cz/include/1665471766229-6c62-1c66-8f05",
+            "https://ofn.gov.cz/class/1665471782991-9a6f-f47a-bb23",
+            "https://ofn.gov.cz/association/1665471783132-2b6f-6fc8-a704",
+            "https://ofn.gov.cz/attribute/1677840077894-891e-587f-a356"
+        ]
+    },
+    "https://ofn.gov.cz/class/1657559419870-0fbe-aa7c-b6fd": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559419870-0fbe-aa7c-b6fd",
+        "dataPsmHumanLabel": {},
+        "dataPsmHumanDescription": {},
+        "dataPsmTechnicalLabel": "orgán-veřejné-moci",
+        "dataPsmInterpretation": "https://ofn.gov.cz/class/1657559419868-6fbf-d87c-b33f",
+        "dataPsmExtends": [],
+        "dataPsmParts": [
+            "https://ofn.gov.cz/attribute/1657559470032-5653-9b8b-a2e8",
+            "https://ofn.gov.cz/attribute/1657559470088-c83a-1142-b1c7",
+            "https://ofn.gov.cz/attribute/1657559470143-2cd2-6b46-bc62",
+            "https://ofn.gov.cz/attribute/1657559470201-0677-cf47-8694",
+            "https://ofn.gov.cz/association/1657559559335-cc95-bfbc-a16f",
+            "https://ofn.gov.cz/association/1657559607829-0793-98fb-a979",
+            "https://ofn.gov.cz/association/1657559665717-be1a-d9f9-b040",
+            "https://ofn.gov.cz/association/1657559753061-3b7e-21af-971d",
+            "https://ofn.gov.cz/association/1657559753163-3aaa-3658-b957",
+            "https://ofn.gov.cz/association/1657559796302-eebf-c76b-9d1b",
+            "https://ofn.gov.cz/attribute/1657559883265-7c56-2af0-852a",
+            "https://ofn.gov.cz/attribute/1657559883327-001d-7abc-befb",
+            "https://ofn.gov.cz/attribute/1657559883386-d094-227b-a416",
+            "https://ofn.gov.cz/attribute/1657559883443-f1a6-7032-9925",
+            "https://ofn.gov.cz/attribute/1657559883499-5bce-a5aa-848b",
+            "https://ofn.gov.cz/attribute/1657559883565-8dbd-e16b-859f",
+            "https://ofn.gov.cz/association/1657559972963-eefc-3c2e-9d24"
+        ]
+    },
+    "https://ofn.gov.cz/attribute/1657559470032-5653-9b8b-a2e8": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559470032-5653-9b8b-a2e8",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "identifikátor",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559470029-3242-f4ad-a7c6",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec"
+    },
+    "https://ofn.gov.cz/attribute/1657559470088-c83a-1142-b1c7": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559470088-c83a-1142-b1c7",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "název",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559470087-4fae-1ec3-ab5a",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text"
+    },
+    "https://ofn.gov.cz/attribute/1657559470143-2cd2-6b46-bc62": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559470143-2cd2-6b46-bc62",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "vnitřní-organizační-jednotka",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559470143-81f6-3130-9da2",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/boolean"
+    },
+    "https://ofn.gov.cz/attribute/1657559470201-0677-cf47-8694": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559470201-0677-cf47-8694",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "ičo",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559470200-bcd4-9b8a-a82c",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec"
+    },
+    "https://ofn.gov.cz/association/1657559559335-cc95-bfbc-a16f": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559559335-cc95-bfbc-a16f",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "datové-schránky",
+        "dataPsmInterpretation": "https://ofn.gov.cz/association-end/1657559559333-dcbd-a0d7-8db1",
+        "dataPsmPart": "https://ofn.gov.cz/class-reference/1657559589217-7b6a-aafc-99c3",
+        "dataPsmIsDematerialize": null
+    },
+    "https://ofn.gov.cz/class-reference/1657559589217-7b6a-aafc-99c3": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/ClassReference"
+        ],
+        "iri": "https://ofn.gov.cz/class-reference/1657559589217-7b6a-aafc-99c3",
+        "dataPsmSpecification": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8",
+        "dataPsmClass": "https://ofn.gov.cz/class/1657559128500-ff58-4916-90ae"
+    },
+    "https://ofn.gov.cz/association/1657559607829-0793-98fb-a979": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559607829-0793-98fb-a979",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "ustanovení",
+        "dataPsmInterpretation": "https://ofn.gov.cz/association-end/1657559607828-e622-ffc1-a19d",
+        "dataPsmPart": "https://ofn.gov.cz/class-reference/1657559634058-7e69-2d07-929e",
+        "dataPsmIsDematerialize": null
+    },
+    "https://ofn.gov.cz/class-reference/1657559634058-7e69-2d07-929e": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/ClassReference"
+        ],
+        "iri": "https://ofn.gov.cz/class-reference/1657559634058-7e69-2d07-929e",
+        "dataPsmSpecification": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9",
+        "dataPsmClass": "https://ofn.gov.cz/class/1657544512440-5565-5801-8edb"
+    },
+    "https://ofn.gov.cz/class/1657559665658-7ee1-7aa7-a6e5": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559665658-7ee1-7aa7-a6e5",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "zařazení_do_kategorie",
+        "dataPsmInterpretation": "https://ofn.gov.cz/class/1657559665657-a237-2787-acf9",
+        "dataPsmExtends": [],
+        "dataPsmParts": [
+            "https://ofn.gov.cz/association/1657559683394-6f0a-d8cf-91ac",
+            "https://ofn.gov.cz/attribute/1657559683450-9815-4b96-8587",
+            "https://ofn.gov.cz/attribute/1657559683497-9024-08b0-8151"
+        ]
+    },
+    "https://ofn.gov.cz/association/1657559665717-be1a-d9f9-b040": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559665717-be1a-d9f9-b040",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "seznam-kategorií",
+        "dataPsmInterpretation": "https://ofn.gov.cz/association-end/1657559665715-02f3-a560-bc39",
+        "dataPsmPart": "https://ofn.gov.cz/class/1657559665658-7ee1-7aa7-a6e5",
+        "dataPsmIsDematerialize": null
+    },
+    "https://ofn.gov.cz/class/1657559683351-771d-0f7f-a9ff": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559683351-771d-0f7f-a9ff",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "kategorie",
+        "dataPsmInterpretation": "https://ofn.gov.cz/class/1657559683349-fe19-993b-8811",
+        "dataPsmExtends": [],
+        "dataPsmParts": []
+    },
+    "https://ofn.gov.cz/association/1657559683394-6f0a-d8cf-91ac": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559683394-6f0a-d8cf-91ac",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "kategorie",
+        "dataPsmInterpretation": "https://ofn.gov.cz/association-end/1657559683393-4537-ba42-b782",
+        "dataPsmPart": "https://ofn.gov.cz/class/1657559683351-771d-0f7f-a9ff",
+        "dataPsmIsDematerialize": null
+    },
+    "https://ofn.gov.cz/attribute/1657559683450-9815-4b96-8587": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559683450-9815-4b96-8587",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "zařazení-od",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559683449-d857-0668-b980",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum"
+    },
+    "https://ofn.gov.cz/attribute/1657559683497-9024-08b0-8151": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559683497-9024-08b0-8151",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "zařazení-do",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559683497-5242-07bf-8717",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum"
+    },
+    "https://ofn.gov.cz/class/1657559753017-c544-9c6a-abbd": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559753017-c544-9c6a-abbd",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "adresní_místo",
+        "dataPsmInterpretation": "https://ofn.gov.cz/class/1657559753016-bb75-0de5-a5a3",
+        "dataPsmExtends": [],
+        "dataPsmParts": []
+    },
+    "https://ofn.gov.cz/association/1657559753061-3b7e-21af-971d": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559753061-3b7e-21af-971d",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "adresa-místa-pobytu",
+        "dataPsmInterpretation": "https://ofn.gov.cz/association-end/1657559753059-a782-e4bb-8561",
+        "dataPsmPart": "https://ofn.gov.cz/class/1657559753017-c544-9c6a-abbd",
+        "dataPsmIsDematerialize": null
+    },
+    "https://ofn.gov.cz/class/1657559753119-bbb1-2a03-a15e": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559753119-bbb1-2a03-a15e",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "adresní_místo",
+        "dataPsmInterpretation": "https://ofn.gov.cz/class/1657559753016-bb75-0de5-a5a3",
+        "dataPsmExtends": [],
+        "dataPsmParts": [
+            "https://ofn.gov.cz/attribute/1677840077894-891e-587f-a356"
+        ]
+    },
+    "https://ofn.gov.cz/association/1657559753163-3aaa-3658-b957": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559753163-3aaa-3658-b957",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "adresa-sídla",
+        "dataPsmInterpretation": "https://ofn.gov.cz/association-end/1657559753162-e3d9-9eb3-83ad",
+        "dataPsmPart": "https://ofn.gov.cz/class/1657559753119-bbb1-2a03-a15e",
+        "dataPsmIsDematerialize": null
+    },
+    "https://ofn.gov.cz/class/1657559796268-8b50-672b-9536": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559796268-8b50-672b-9536",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "osoba",
+        "dataPsmInterpretation": "https://ofn.gov.cz/class/1657559796267-5d59-fcbd-b6e4",
+        "dataPsmExtends": [],
+        "dataPsmParts": [
+            "https://ofn.gov.cz/attribute/1657559823965-66b0-c391-8486"
+        ]
+    },
+    "https://ofn.gov.cz/association/1657559796302-eebf-c76b-9d1b": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559796302-eebf-c76b-9d1b",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "osoba-v-čele",
+        "dataPsmInterpretation": "https://ofn.gov.cz/association-end/1657559796302-c4b3-84ac-9c9f",
+        "dataPsmPart": "https://ofn.gov.cz/class/1657559796268-8b50-672b-9536",
+        "dataPsmIsDematerialize": null
+    },
+    "https://ofn.gov.cz/attribute/1657559823965-66b0-c391-8486": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559823965-66b0-c391-8486",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "jméno",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559823964-89ac-f77f-bd43",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec"
+    },
+    "https://ofn.gov.cz/attribute/1657559883265-7c56-2af0-852a": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559883265-7c56-2af0-852a",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "zahájení",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559883263-7165-4c40-a32a",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum"
+    },
+    "https://ofn.gov.cz/attribute/1657559883327-001d-7abc-befb": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559883327-001d-7abc-befb",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "ukončení",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559883327-5bca-9041-a781",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum"
+    },
+    "https://ofn.gov.cz/attribute/1657559883386-d094-227b-a416": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559883386-d094-227b-a416",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "pozastavení-od",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559883386-7d93-4e3e-8193",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum"
+    },
+    "https://ofn.gov.cz/attribute/1657559883443-f1a6-7032-9925": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559883443-f1a6-7032-9925",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "pozastavení-do",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559883443-5f94-cd6a-a1f3",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum"
+    },
+    "https://ofn.gov.cz/attribute/1657559883499-5bce-a5aa-848b": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559883499-5bce-a5aa-848b",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "přerušení-od",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559883499-9d12-038b-94eb",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum"
+    },
+    "https://ofn.gov.cz/attribute/1657559883565-8dbd-e16b-859f": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559883565-8dbd-e16b-859f",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "přerušení-do",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559883564-4d28-f2b4-ba39",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum"
+    },
+    "https://ofn.gov.cz/association/1657559972963-eefc-3c2e-9d24": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559972963-eefc-3c2e-9d24",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "pracoviště-ovm",
+        "dataPsmInterpretation": "https://ofn.gov.cz/association-end/1657559972962-ec0c-5471-9e1d",
+        "dataPsmPart": "https://ofn.gov.cz/class-reference/1657560207393-87a5-e9a5-93b4",
+        "dataPsmIsDematerialize": null
+    },
+    "https://ofn.gov.cz/class-reference/1657560207393-87a5-e9a5-93b4": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/ClassReference"
+        ],
+        "iri": "https://ofn.gov.cz/class-reference/1657560207393-87a5-e9a5-93b4",
+        "dataPsmSpecification": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c",
+        "dataPsmClass": "https://ofn.gov.cz/class/1657560056054-d880-7f9a-b210"
+    },
+    "https://ofn.gov.cz/or/1665471765816-1b72-c00e-94f6": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Or"
+        ],
+        "iri": "https://ofn.gov.cz/or/1665471765816-1b72-c00e-94f6",
+        "dataPsmChoices": [
+            "https://ofn.gov.cz/class/1657559419870-0fbe-aa7c-b6fd",
+            "https://ofn.gov.cz/class/1665471766114-9669-dd70-be42"
+        ]
+    },
+    "https://ofn.gov.cz/class/1665471766114-9669-dd70-be42": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1665471766114-9669-dd70-be42",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "právnická_osoba_se_svěřenou_působností_v_oblasti_veřejné_správy",
+        "dataPsmInterpretation": "https://ofn.gov.cz/class/1657561791194-3e3a-4a5f-9161",
+        "dataPsmExtends": [],
+        "dataPsmParts": [
+            "https://ofn.gov.cz/include/1665471766229-6c62-1c66-8f05",
+            "https://ofn.gov.cz/association/1665471783132-2b6f-6fc8-a704"
+        ]
+    },
+    "https://ofn.gov.cz/include/1665471766229-6c62-1c66-8f05": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Include"
+        ],
+        "iri": "https://ofn.gov.cz/include/1665471766229-6c62-1c66-8f05",
+        "dataPsmIncludes": "https://ofn.gov.cz/class/1657559419870-0fbe-aa7c-b6fd"
+    },
+    "https://ofn.gov.cz/class/1665471782991-9a6f-f47a-bb23": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1665471782991-9a6f-f47a-bb23",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "právní_forma",
+        "dataPsmInterpretation": "https://ofn.gov.cz/class/1665471782988-dd50-ee6f-b927",
+        "dataPsmExtends": [],
+        "dataPsmParts": []
+    },
+    "https://ofn.gov.cz/association/1665471783132-2b6f-6fc8-a704": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association/1665471783132-2b6f-6fc8-a704",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "má_právní_formu_osoby",
+        "dataPsmInterpretation": "https://ofn.gov.cz/association-end/1665471783120-e548-5c7e-b124",
+        "dataPsmPart": "https://ofn.gov.cz/class/1665471782991-9a6f-f47a-bb23",
+        "dataPsmIsDematerialize": null
+    },
+    "https://ofn.gov.cz/attribute/1677840077894-891e-587f-a356": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1677840077894-891e-587f-a356",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "kód_adresního_místa",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1677840077893-12f4-1e6d-82cf",
+        "dataPsmDatatype": null
+    },
+    "https://ofn.gov.cz/schema/1657544499738-0633-cc06-9abd": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Schema"
+        ],
+        "iri": "https://ofn.gov.cz/schema/1657544499738-0633-cc06-9abd",
+        "pimHumanLabel": {
+            "en": "Ustanovení právního předpisu"
+        },
+        "pimHumanDescription": {},
+        "pimParts": [
+            "https://ofn.gov.cz/class/1657544512438-25c4-c7a3-8187",
+            "https://ofn.gov.cz/attribute/1657544517684-22ce-e203-8301"
+        ]
+    },
+    "https://ofn.gov.cz/class/1657544512438-25c4-c7a3-8187": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657544512438-25c4-c7a3-8187",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/ustanovení-právního-předpisu",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Ustanovení právního předpisu"
+        },
+        "pimHumanDescription": {
+            "cs": "Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/attribute/1657544517684-22ce-e203-8301": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657544517684-22ce-e203-8301",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-úplné-označení-ustanovení-včetně-označení-právního-předpisu",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má úplné označení ustanovení včetně označení právního předpisu"
+        },
+        "pimHumanDescription": {
+            "cs": "Úplné označení ustanovení je řetězec, který obsahuje označení samotného předpisu dle jeho označení ve Sbírce zákonů a dále označení samotného ustanovení v rámci předpisu. Jeho vnitřní struktura není nijak předepsána."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657544512438-25c4-c7a3-8187",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Schema"
+        ],
+        "iri": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9",
+        "dataPsmHumanLabel": {
+            "cs": "Ustanovení právního předpisu",
+            "en": "Ustanovení právního předpisu"
+        },
+        "dataPsmHumanDescription": {
+            "cs": "Datová struktura pro Ustanovení právního předpisu. Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno.",
+            "en": "Data structure for Ustanovení právního předpisu. Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno."
+        },
+        "dataPsmTechnicalLabel": null,
+        "dataPsmRoots": [
+            "https://ofn.gov.cz/class/1657544512440-5565-5801-8edb"
+        ],
+        "dataPsmParts": [
+            "https://ofn.gov.cz/class/1657544512440-5565-5801-8edb",
+            "https://ofn.gov.cz/attribute/1657544517685-41f1-b828-aa14"
+        ]
+    },
+    "https://ofn.gov.cz/class/1657544512440-5565-5801-8edb": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657544512440-5565-5801-8edb",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "ustanovení_právního_předpisu",
+        "dataPsmInterpretation": "https://ofn.gov.cz/class/1657544512438-25c4-c7a3-8187",
+        "dataPsmExtends": [],
+        "dataPsmParts": [
+            "https://ofn.gov.cz/attribute/1657544517685-41f1-b828-aa14"
+        ]
+    },
+    "https://ofn.gov.cz/attribute/1657544517685-41f1-b828-aa14": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657544517685-41f1-b828-aa14",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "označení",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657544517684-22ce-e203-8301",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec"
+    },
+    "https://ofn.gov.cz/schema/1657559316465-65dc-bb57-9dde": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Schema"
+        ],
+        "iri": "https://ofn.gov.cz/schema/1657559316465-65dc-bb57-9dde",
+        "pimHumanLabel": {
+            "en": "Adresní místo"
+        },
+        "pimHumanDescription": {},
+        "pimParts": [
+            "https://ofn.gov.cz/class/1657559334421-7ccb-5222-aad8",
+            "https://ofn.gov.cz/attribute/1657559351373-0331-75f8-9d35"
+        ]
+    },
+    "https://ofn.gov.cz/class/1657559334421-7ccb-5222-aad8": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559334421-7ccb-5222-aad8",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresní-místo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "adresní místo"
+        },
+        "pimHumanDescription": {
+            "cs": "Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/attribute/1657559351373-0331-75f8-9d35": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559351373-0331-75f8-9d35",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-kód-adresního-místa",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má kód adresního místa"
+        },
+        "pimHumanDescription": {
+            "cs": "Referenční vazba na referenční údaj o adrese v registru územní identifikace."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559334421-7ccb-5222-aad8",
+        "pimCardinalityMin": 1,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Schema"
+        ],
+        "iri": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f",
+        "dataPsmHumanLabel": {
+            "cs": "adresní místo",
+            "en": "adresní místo"
+        },
+        "dataPsmHumanDescription": {
+            "cs": "Datová struktura pro adresní místo. Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.",
+            "en": "Data structure for adresní místo. Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu."
+        },
+        "dataPsmTechnicalLabel": null,
+        "dataPsmRoots": [
+            "https://ofn.gov.cz/class/1657559334424-059d-9a4b-9c94"
+        ],
+        "dataPsmParts": [
+            "https://ofn.gov.cz/class/1657559334424-059d-9a4b-9c94",
+            "https://ofn.gov.cz/attribute/1657559351374-bbc7-bed9-8b0c"
+        ]
+    },
+    "https://ofn.gov.cz/class/1657559334424-059d-9a4b-9c94": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559334424-059d-9a4b-9c94",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "adresní_místo",
+        "dataPsmInterpretation": "https://ofn.gov.cz/class/1657559334421-7ccb-5222-aad8",
+        "dataPsmExtends": [],
+        "dataPsmParts": [
+            "https://ofn.gov.cz/attribute/1657559351374-bbc7-bed9-8b0c"
+        ]
+    },
+    "https://ofn.gov.cz/attribute/1657559351374-bbc7-bed9-8b0c": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559351374-bbc7-bed9-8b0c",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "kód",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559351373-0331-75f8-9d35",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec"
+    },
+    "https://ofn.gov.cz/schema/1657559111291-3eab-f57f-95b7": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Schema"
+        ],
+        "iri": "https://ofn.gov.cz/schema/1657559111291-3eab-f57f-95b7",
+        "pimHumanLabel": {
+            "en": "Datová schránka"
+        },
+        "pimHumanDescription": {},
+        "pimParts": [
+            "https://ofn.gov.cz/class/1657559128494-374c-12bd-9cb2",
+            "https://ofn.gov.cz/class/1657559136850-f792-b72e-9cc0",
+            "https://ofn.gov.cz/association/1657559136916-cdf6-1eff-90a1",
+            "https://ofn.gov.cz/association-end/1657559136915-ba33-fb54-b99b",
+            "https://ofn.gov.cz/association-end/1657559136916-c0dd-bda1-9e9d",
+            "https://ofn.gov.cz/attribute/1657559137006-8918-e63f-b303"
+        ]
+    },
+    "https://ofn.gov.cz/class/1657559128494-374c-12bd-9cb2": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559128494-374c-12bd-9cb2",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/datová-schránka",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Datová schránka"
+        },
+        "pimHumanDescription": {
+            "cs": "Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/class/1657559136850-f792-b72e-9cc0": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559136850-f792-b72e-9cc0",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/typ-datové-schránky",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Typ datové schránky"
+        },
+        "pimHumanDescription": {
+            "cs": "Typ datové schránky z číselníku typů datových schránek."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": true,
+        "pimCodelistUrl": [
+            "https://data.gov.cz/zdroj/datové-sady/00007064/af2fe6b148e4e3ff510d9251c0d9f9f8"
+        ]
+    },
+    "https://ofn.gov.cz/association/1657559136916-cdf6-1eff-90a1": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559136916-cdf6-1eff-90a1",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-typ-datové-schránky",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má typ datové schránky"
+        },
+        "pimHumanDescription": {
+            "cs": "Určuje typ datové schránky z číselníku typů datových schránek."
+        },
+        "pimIsOriented": true,
+        "pimEnd": [
+            "https://ofn.gov.cz/association-end/1657559136915-ba33-fb54-b99b",
+            "https://ofn.gov.cz/association-end/1657559136916-c0dd-bda1-9e9d"
+        ]
+    },
+    "https://ofn.gov.cz/association-end/1657559136915-ba33-fb54-b99b": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559136915-ba33-fb54-b99b",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559128494-374c-12bd-9cb2",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association-end/1657559136916-c0dd-bda1-9e9d": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657559136916-c0dd-bda1-9e9d",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657559136850-f792-b72e-9cc0",
+        "pimCardinalityMin": 1,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657559137006-8918-e63f-b303": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559137006-8918-e63f-b303",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikátor-datové-schránky",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má identifikátor datové schránky"
+        },
+        "pimHumanDescription": {
+            "cs": "Jednoznačný identifikátor datové schránky."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657559128494-374c-12bd-9cb2",
+        "pimCardinalityMin": 1,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Schema"
+        ],
+        "iri": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8",
+        "dataPsmHumanLabel": {
+            "cs": "Datová schránka",
+            "en": "Datová schránka"
+        },
+        "dataPsmHumanDescription": {
+            "cs": "Datová struktura pro Datová schránka. Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.",
+            "en": "Data structure for Datová schránka. Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb."
+        },
+        "dataPsmTechnicalLabel": null,
+        "dataPsmRoots": [
+            "https://ofn.gov.cz/class/1657559128500-ff58-4916-90ae"
+        ],
+        "dataPsmParts": [
+            "https://ofn.gov.cz/class/1657559128500-ff58-4916-90ae",
+            "https://ofn.gov.cz/class/1657559136850-6b0b-2f5a-8217",
+            "https://ofn.gov.cz/association/1657559136918-363b-9a4e-a66b",
+            "https://ofn.gov.cz/attribute/1657559137007-dede-083a-a7ed"
+        ]
+    },
+    "https://ofn.gov.cz/class/1657559128500-ff58-4916-90ae": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559128500-ff58-4916-90ae",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "datová_schránka",
+        "dataPsmInterpretation": "https://ofn.gov.cz/class/1657559128494-374c-12bd-9cb2",
+        "dataPsmExtends": [],
+        "dataPsmParts": [
+            "https://ofn.gov.cz/association/1657559136918-363b-9a4e-a66b",
+            "https://ofn.gov.cz/attribute/1657559137007-dede-083a-a7ed"
+        ]
+    },
+    "https://ofn.gov.cz/class/1657559136850-6b0b-2f5a-8217": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657559136850-6b0b-2f5a-8217",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "typ_datové_schránky",
+        "dataPsmInterpretation": "https://ofn.gov.cz/class/1657559136850-f792-b72e-9cc0",
+        "dataPsmExtends": [],
+        "dataPsmParts": []
+    },
+    "https://ofn.gov.cz/association/1657559136918-363b-9a4e-a66b": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657559136918-363b-9a4e-a66b",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "typ-ds",
+        "dataPsmInterpretation": "https://ofn.gov.cz/association-end/1657559136916-c0dd-bda1-9e9d",
+        "dataPsmPart": "https://ofn.gov.cz/class/1657559136850-6b0b-2f5a-8217",
+        "dataPsmIsDematerialize": null
+    },
+    "https://ofn.gov.cz/attribute/1657559137007-dede-083a-a7ed": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657559137007-dede-083a-a7ed",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "identifikátor-ds",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657559137006-8918-e63f-b303",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec"
+    },
+    "https://ofn.gov.cz/schema/1657560036697-2b84-a19a-92df": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Schema"
+        ],
+        "iri": "https://ofn.gov.cz/schema/1657560036697-2b84-a19a-92df",
+        "pimHumanLabel": {
+            "en": "Pracoviště"
+        },
+        "pimHumanDescription": {},
+        "pimParts": [
+            "https://ofn.gov.cz/class/1657560056052-5ff6-39d5-9739",
+            "https://ofn.gov.cz/class/1657560068535-3e0a-666c-a8ff",
+            "https://ofn.gov.cz/association/1657560068605-6219-ad0a-bbfe",
+            "https://ofn.gov.cz/association-end/1657560068605-5eaf-1ce5-89b1",
+            "https://ofn.gov.cz/association-end/1657560068605-b98f-5782-a1e4",
+            "https://ofn.gov.cz/attribute/1657560068683-3c22-0f76-9278",
+            "https://ofn.gov.cz/class/1657560068740-52c2-24c5-bddf",
+            "https://ofn.gov.cz/association/1657560068788-9560-095a-83a7",
+            "https://ofn.gov.cz/association-end/1657560068788-1789-d55e-8256",
+            "https://ofn.gov.cz/association-end/1657560068788-850a-1f87-b05d",
+            "https://ofn.gov.cz/attribute/1657560068842-e984-542e-8a61",
+            "https://ofn.gov.cz/attribute/1657560068903-02ed-0280-9923"
+        ]
+    },
+    "https://ofn.gov.cz/class/1657560056052-5ff6-39d5-9739": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657560056052-5ff6-39d5-9739",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/pracoviště",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Pracoviště"
+        },
+        "pimHumanDescription": {
+            "cs": "Pracoviště, na kterém orgán veřejné moci vykonává úkony."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/class/1657560068535-3e0a-666c-a8ff": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657560068535-3e0a-666c-a8ff",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresní-místo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "adresní místo"
+        },
+        "pimHumanDescription": {
+            "cs": "Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": []
+    },
+    "https://ofn.gov.cz/association/1657560068605-6219-ad0a-bbfe": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657560068605-6219-ad0a-bbfe",
+        "pimInterpretation": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-pracoviště",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má adresu pracoviště"
+        },
+        "pimHumanDescription": {
+            "cs": "Přiřazuje pracovišti orgánu veřejné moci jeho adresu v podobě reference na adresní místo vedené v registru územní identifikace, adres a nemovitostí."
+        },
+        "pimIsOriented": true,
+        "pimEnd": [
+            "https://ofn.gov.cz/association-end/1657560068605-5eaf-1ce5-89b1",
+            "https://ofn.gov.cz/association-end/1657560068605-b98f-5782-a1e4"
+        ]
+    },
+    "https://ofn.gov.cz/association-end/1657560068605-5eaf-1ce5-89b1": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657560068605-5eaf-1ce5-89b1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657560056052-5ff6-39d5-9739",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association-end/1657560068605-b98f-5782-a1e4": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657560068605-b98f-5782-a1e4",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657560068535-3e0a-666c-a8ff",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657560068683-3c22-0f76-9278": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657560068683-3c22-0f76-9278",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/má-adresu-pracoviště-neevidovanou-v-rúian",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má adresu pracoviště neevidovanou v RÚIAN"
+        },
+        "pimHumanDescription": {
+            "cs": "Adresa pracoviště orgánu veřejné moci v textové podobě v případě, že adresa není evidována v registru územní identifikace, adres a nemovitostí."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657560056052-5ff6-39d5-9739",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/class/1657560068740-52c2-24c5-bddf": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657560068740-52c2-24c5-bddf",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/stát",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Stát"
+        },
+        "pimHumanDescription": {
+            "cs": "Stát z číselníku států."
+        },
+        "pimExtends": [],
+        "pimIsCodelist": true,
+        "pimCodelistUrl": [
+            "https://data.gov.cz/zdroj/datové-sady/00007064/33f8a75fb7dcf5d2314ce667827d1350"
+        ]
+    },
+    "https://ofn.gov.cz/association/1657560068788-9560-095a-83a7": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657560068788-9560-095a-83a7",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/má-stát-pracoviště",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má stát pracoviště"
+        },
+        "pimHumanDescription": {
+            "cs": "Přiřazuje pracovišti orgánu veřejné moci jeho stát z číselníku států."
+        },
+        "pimIsOriented": true,
+        "pimEnd": [
+            "https://ofn.gov.cz/association-end/1657560068788-1789-d55e-8256",
+            "https://ofn.gov.cz/association-end/1657560068788-850a-1f87-b05d"
+        ]
+    },
+    "https://ofn.gov.cz/association-end/1657560068788-1789-d55e-8256": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657560068788-1789-d55e-8256",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657560056052-5ff6-39d5-9739",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+    },
+    "https://ofn.gov.cz/association-end/1657560068788-850a-1f87-b05d": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association-end/1657560068788-850a-1f87-b05d",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://ofn.gov.cz/class/1657560068740-52c2-24c5-bddf",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657560068842-e984-542e-8a61": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657560068842-e984-542e-8a61",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/má-datum-otevření-pracoviště",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má datum otevření pracoviště"
+        },
+        "pimHumanDescription": {
+            "cs": "Datum, ke kterému bylo nebo bude otevřeno pracoviště orgánu veřejné moci."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657560056052-5ff6-39d5-9739",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/attribute/1657560068903-02ed-0280-9923": {
+        "types": [
+            "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657560068903-02ed-0280-9923",
+        "pimInterpretation": "https://slovník.gov.cz/agendový/104/pojem/má-datum-uzavření-pracoviště",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+            "cs": "Má datum uzavření pracoviště"
+        },
+        "pimHumanDescription": {
+            "cs": "Datum, ke kterému bylo nebo bude uzavřeno pracoviště orgánu veřejné moci."
+        },
+        "pimDatatype": null,
+        "pimOwnerClass": "https://ofn.gov.cz/class/1657560056052-5ff6-39d5-9739",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": 1
+    },
+    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Schema"
+        ],
+        "iri": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c",
+        "dataPsmHumanLabel": {
+            "cs": "Pracoviště",
+            "en": "Pracoviště"
+        },
+        "dataPsmHumanDescription": {
+            "cs": "Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.",
+            "en": "Data structure for Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony."
+        },
+        "dataPsmTechnicalLabel": null,
+        "dataPsmRoots": [
+            "https://ofn.gov.cz/class/1657560056054-d880-7f9a-b210"
+        ],
+        "dataPsmParts": [
+            "https://ofn.gov.cz/class/1657560056054-d880-7f9a-b210",
+            "https://ofn.gov.cz/association/1657560068606-346d-bda9-811f",
+            "https://ofn.gov.cz/attribute/1657560068684-b1b3-df63-a29c",
+            "https://ofn.gov.cz/class/1657560068741-de8a-34bd-8531",
+            "https://ofn.gov.cz/association/1657560068788-e53d-0e5d-96f0",
+            "https://ofn.gov.cz/attribute/1657560068842-1f9e-5520-9d27",
+            "https://ofn.gov.cz/attribute/1657560068904-6b00-1d7c-93f3",
+            "https://ofn.gov.cz/class-reference/1657560096028-9efd-95cd-8e73"
+        ]
+    },
+    "https://ofn.gov.cz/class/1657560056054-d880-7f9a-b210": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657560056054-d880-7f9a-b210",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "pracoviště",
+        "dataPsmInterpretation": "https://ofn.gov.cz/class/1657560056052-5ff6-39d5-9739",
+        "dataPsmExtends": [],
+        "dataPsmParts": [
+            "https://ofn.gov.cz/association/1657560068606-346d-bda9-811f",
+            "https://ofn.gov.cz/attribute/1657560068684-b1b3-df63-a29c",
+            "https://ofn.gov.cz/association/1657560068788-e53d-0e5d-96f0",
+            "https://ofn.gov.cz/attribute/1657560068842-1f9e-5520-9d27",
+            "https://ofn.gov.cz/attribute/1657560068904-6b00-1d7c-93f3"
+        ]
+    },
+    "https://ofn.gov.cz/association/1657560068606-346d-bda9-811f": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657560068606-346d-bda9-811f",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "adresa-pr",
+        "dataPsmInterpretation": "https://ofn.gov.cz/association-end/1657560068605-b98f-5782-a1e4",
+        "dataPsmPart": "https://ofn.gov.cz/class-reference/1657560096028-9efd-95cd-8e73",
+        "dataPsmIsDematerialize": null
+    },
+    "https://ofn.gov.cz/attribute/1657560068684-b1b3-df63-a29c": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657560068684-b1b3-df63-a29c",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "adresa-pr-txt",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657560068683-3c22-0f76-9278",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec"
+    },
+    "https://ofn.gov.cz/class/1657560068741-de8a-34bd-8531": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Class"
+        ],
+        "iri": "https://ofn.gov.cz/class/1657560068741-de8a-34bd-8531",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "stát",
+        "dataPsmInterpretation": "https://ofn.gov.cz/class/1657560068740-52c2-24c5-bddf",
+        "dataPsmExtends": [],
+        "dataPsmParts": []
+    },
+    "https://ofn.gov.cz/association/1657560068788-e53d-0e5d-96f0": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+        ],
+        "iri": "https://ofn.gov.cz/association/1657560068788-e53d-0e5d-96f0",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "stát-pr",
+        "dataPsmInterpretation": "https://ofn.gov.cz/association-end/1657560068788-850a-1f87-b05d",
+        "dataPsmPart": "https://ofn.gov.cz/class/1657560068741-de8a-34bd-8531",
+        "dataPsmIsDematerialize": null
+    },
+    "https://ofn.gov.cz/attribute/1657560068842-1f9e-5520-9d27": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657560068842-1f9e-5520-9d27",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "otevření",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657560068842-e984-542e-8a61",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum"
+    },
+    "https://ofn.gov.cz/attribute/1657560068904-6b00-1d7c-93f3": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/Attribute"
+        ],
+        "iri": "https://ofn.gov.cz/attribute/1657560068904-6b00-1d7c-93f3",
+        "dataPsmHumanLabel": null,
+        "dataPsmHumanDescription": null,
+        "dataPsmTechnicalLabel": "uzavření",
+        "dataPsmInterpretation": "https://ofn.gov.cz/attribute/1657560068903-02ed-0280-9923",
+        "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum"
+    },
+    "https://ofn.gov.cz/class-reference/1657560096028-9efd-95cd-8e73": {
+        "types": [
+            "https://ofn.gov.cz/slovník/psm/ClassReference"
+        ],
+        "iri": "https://ofn.gov.cz/class-reference/1657560096028-9efd-95cd-8e73",
+        "dataPsmSpecification": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f",
+        "dataPsmClass": "https://ofn.gov.cz/class/1657559334424-059d-9a4b-9c94"
+    }
+}

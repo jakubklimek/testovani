@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1" elementFormDefault="unqualified" xmlns:c="https://schemas.dataspecer.com/xsd/core/" xmlns:sawsdl="http://www.w3.org/ns/sawsdl">
+  <xs:import namespace="https://schemas.dataspecer.com/xsd/core/" schemaLocation="./2022-07.xsd"/>
+  <xs:import schemaLocation="../../adresni-misto/adresni-misto/schema.xsd"/>
+  <xs:element name="pracoviště">
+    <xs:complexType sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/pracoviště">
+      <xs:annotation>
+        <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/pracoviště
+Název (cs): Pracoviště
+Popis (cs): Pracoviště, na kterém orgán veřejné moci vykonává úkony.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="c:iri"/>
+        <xs:element minOccurs="0" name="adresa-pr" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-pracoviště">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-pracoviště
+Název (cs): Má adresu pracoviště
+Popis (cs): Přiřazuje pracovišti orgánu veřejné moci jeho adresu v podobě reference na adresní místo vedené v registru územní identifikace, adres a nemovitostí.</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" ref="c:iri"/>
+              <xs:group ref="adresní_místo"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="adresa-pr-txt" type="xs:string" sawsdl:modelReference="https://slovník.gov.cz/agendový/104/pojem/má-adresu-pracoviště-neevidovanou-v-rúian">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/agendový/104/pojem/má-adresu-pracoviště-neevidovanou-v-rúian
+Název (cs): Má adresu pracoviště neevidovanou v RÚIAN
+Popis (cs): Adresa pracoviště orgánu veřejné moci v textové podobě v případě, že adresa není evidována v registru územní identifikace, adres a nemovitostí.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" name="stát-pr" type="xs:anyURI" sawsdl:modelReference="https://slovník.gov.cz/agendový/104/pojem/má-stát-pracoviště">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/agendový/104/pojem/má-stát-pracoviště
+Název (cs): Má stát pracoviště
+Popis (cs): Přiřazuje pracovišti orgánu veřejné moci jeho stát z číselníku států.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" name="otevření" type="xs:date" sawsdl:modelReference="https://slovník.gov.cz/agendový/104/pojem/má-datum-otevření-pracoviště">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/agendový/104/pojem/má-datum-otevření-pracoviště
+Název (cs): Má datum otevření pracoviště
+Popis (cs): Datum, ke kterému bylo nebo bude otevřeno pracoviště orgánu veřejné moci.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" name="uzavření" type="xs:date" sawsdl:modelReference="https://slovník.gov.cz/agendový/104/pojem/má-datum-uzavření-pracoviště">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/agendový/104/pojem/má-datum-uzavření-pracoviště
+Název (cs): Má datum uzavření pracoviště
+Popis (cs): Datum, ke kterému bylo nebo bude uzavřeno pracoviště orgánu veřejné moci.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

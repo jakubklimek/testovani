@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Datová schránka",
+  "description": "Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.",
+  "type": "object",
+  "required": [
+    "typ-ds",
+    "identifikátor-ds"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "type": {
+      "oneOf": [
+        {
+          "const": "Datová schránka"
+        },
+        {
+          "type": "array",
+          "contains": {
+            "const": "Datová schránka"
+          },
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "typ-ds": {
+      "title": "Má typ datové schránky",
+      "description": "Určuje typ datové schránky z číselníku typů datových schránek.",
+      "type": "string",
+      "format": "iri"
+    },
+    "identifikátor-ds": {
+      "title": "Má identifikátor datové schránky",
+      "description": "Jednoznačný identifikátor datové schránky.",
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "Ustanovení právního předpisu": {
+      "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/ustanovení-právního-předpisu",
+      "@context": {
+        "označení": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-úplné-označení-ustanovení-včetně-označení-právního-předpisu",
+          "@type": "xsd:string"
+        }
+      }
+    }
+  }
+}

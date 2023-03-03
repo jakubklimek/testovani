@@ -1,0 +1,12 @@
+@startuml
+set namespaceSeparator none
+skinparam dpi 200
+class "Datová schránka" {
+  Má identifikátor datové schránky
+}
+
+class "Typ datové schránky" {
+}
+
+"Datová schránka" -- "1..1" "Typ datové schránky" :  "Má typ datové schránky"
+@enduml

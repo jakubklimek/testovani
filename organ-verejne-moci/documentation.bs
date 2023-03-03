@@ -1,0 +1,2601 @@
+<pre class='metadata'>
+Title : Orgán veřejné moci 
+Shortname : Orgán veřejné moci 
+Status : LS 
+Editor : Dataspecer editor, https://slovník.gov.cz/generujeme 
+Boilerplate : conformance no, copyright no 
+Abstract : This document was generated automatically by [Dataspecer](https://dataspecer.com/). 
+Markup Shorthands : markdown yes 
+Logo : https://ofn.gov.cz/static/images/logo.png 
+</pre>
+
+# Konceptuální model # {#konceptualni-model}
+V této sekci je definován konceptuální model.
+
+<figure><img src="./conceptual-model.png"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
+
+## Orgán veřejné moci ## {#konceptuální-třída-orgán-veřejné-moci}
+: Popis
+:: Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Význam
+:: Typ Orgán veřejné moci je definován v sémantickém slovníku pojmů jako [Orgán veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/orgán-veřejné-moci).
+
+### Má identifikátor orgánu veřejné moci ### {#konceptuální-třída-orgán-veřejné-moci-má-identifikátor-orgánu-veřejné-moci}
+: Jméno
+:: Má identifikátor orgánu veřejné moci
+: Popis
+:: Jednoznačný identifikátor orgánu veřejné moci v rámci všech orgánů veřejné moci. Identifikátor je referenčním údajem.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Význam
+:: Vlastnost Má identifikátor orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Má identifikátor orgánu veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikátor-orgánu-veřejné-moci).
+
+### Má název orgánu veřejné moci ### {#konceptuální-třída-orgán-veřejné-moci-má-název-orgánu-veřejné-moci}
+: Jméno
+:: Má název orgánu veřejné moci
+: Popis
+:: Pojmenovává orgán veřejné moci názvem, který je oficiálním názvem orgánu veřejné moci. Název je referenčním údajem převzatým z registru obyvatel nebo z registru osob.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Význam
+:: Vlastnost Má název orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Má název orgánu veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-název-orgánu-veřejné-moci).
+
+### Je vnitřní organizační jednotkou ### {#konceptuální-třída-orgán-veřejné-moci-je-vnitřní-organizační-jednotkou}
+: Jméno
+:: Je vnitřní organizační jednotkou
+: Popis
+:: Údaj o tom, zda je orgán veřejné moci vnitřní organizační jednotkou organizační složky státu, které byla zákonem svěřena vlastní působnost. Jedná se o referenční údaj.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Význam
+:: Vlastnost Je vnitřní organizační jednotkou je definován v sémantickém slovníku pojmů jako [Je vnitřní organizační jednotkou](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/je-vnitřní-organizační-jednotkou).
+
+### Má identifikační číslo osoby orgánu veřejné moci ### {#konceptuální-třída-orgán-veřejné-moci-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
+: Jméno
+:: Má identifikační číslo osoby orgánu veřejné moci
+: Popis
+:: Identifikační číslo osoby orgánu veřejné moci, bylo-li přiděleno. Identifikační číslo je referenčním údajem.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Význam
+:: Vlastnost Má identifikační číslo osoby orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Má identifikační číslo osoby orgánu veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikační-číslo-osoby-orgánu-veřejné-moci).
+
+### Má datum zahájení výkonu působnosti orgánu veřejné moci ### {#konceptuální-třída-orgán-veřejné-moci-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
+: Jméno
+:: Má datum zahájení výkonu působnosti orgánu veřejné moci
+: Popis
+:: Datum, od kterého orgán veřejné moci vykonává působnost
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Význam
+:: Vlastnost Má datum zahájení výkonu působnosti orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Má datum zahájení výkonu působnosti orgánu veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci).
+
+### Má datum ukončení výkonu působnosti orgánu veřejné moci ### {#konceptuální-třída-orgán-veřejné-moci-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
+: Jméno
+:: Má datum ukončení výkonu působnosti orgánu veřejné moci
+: Popis
+:: Datum, do kterého orgán veřejné moci vykonává působnost
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Význam
+:: Vlastnost Má datum ukončení výkonu působnosti orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Má datum ukončení výkonu působnosti orgánu veřejné moci](https://slovník.gov.cz/agendový/104/pojem/má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci).
+
+### Má pozastavený výkon působnosti orgánu veřejné moci od ### {#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
+: Jméno
+:: Má pozastavený výkon působnosti orgánu veřejné moci od
+: Popis
+:: Datum, od kterého má nebo měl orgán veřejné moci pozastaven výkon působnosti.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Význam
+:: Vlastnost Má pozastavený výkon působnosti orgánu veřejné moci od je definován v sémantickém slovníku pojmů jako [Má pozastavený výkon působnosti orgánu veřejné moci od](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od).
+
+### Má pozastavený výkon působnosti orgánu veřejné moci do ### {#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
+: Jméno
+:: Má pozastavený výkon působnosti orgánu veřejné moci do
+: Popis
+:: Datum, do kterého má nebo měl orgán veřejné moci pozastaven výkon působnosti.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Význam
+:: Vlastnost Má pozastavený výkon působnosti orgánu veřejné moci do je definován v sémantickém slovníku pojmů jako [Má pozastavený výkon působnosti orgánu veřejné moci do](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do).
+
+### Má přerušený výkon působnosti orgánu veřejné moci od ### {#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
+: Jméno
+:: Má přerušený výkon působnosti orgánu veřejné moci od
+: Popis
+:: Datum, od kterého má nebo měl orgán veřejné moci přerušen výkon působnosti.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Význam
+:: Vlastnost Má přerušený výkon působnosti orgánu veřejné moci od je definován v sémantickém slovníku pojmů jako [Má přerušený výkon působnosti orgánu veřejné moci od](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od).
+
+### Má přerušený výkon působnosti orgánu veřejné moci do ### {#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
+: Jméno
+:: Má přerušený výkon působnosti orgánu veřejné moci do
+: Popis
+:: Datum, do kterého má nebo měl orgán veřejné moci přerušen výkon působnosti.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Význam
+:: Vlastnost Má přerušený výkon působnosti orgánu veřejné moci do je definován v sémantickém slovníku pojmů jako [Má přerušený výkon působnosti orgánu veřejné moci do](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do).
+
+### Vztah (asociace): Má datovou schránku orgánu veřejné moci ### {#konceptuální-třída-orgán-veřejné-moci-má-datovou-schránku-orgánu-veřejné-moci}
+: Jméno
+:: Má datovou schránku orgánu veřejné moci
+: Popis
+:: Určuje datovou schránku orgánu veřejné moci. Datová schránka orgánu veřejné moci vedená v Registru práv a povinností je referenčním údajem a je převzata z registru obyvatel nebo registru osob. Orgán veřejné moci může mít více datových schránek a má alespoň jednu. Jedna datová schránka patří nejvýše jednomu orgánu veřejné moci.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Datová schránka](#konceptuální-třída-datová-schránka)
+: Význam
+:: Vlastnost Má datovou schránku orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Má datovou schránku orgánu veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-datovou-schránku-orgánu-veřejné-moci).
+
+### Vztah (asociace): Vykonává působnost na základě ustanovení ### {#konceptuální-třída-orgán-veřejné-moci-vykonává-působnost-na-základě-ustanovení}
+: Jméno
+:: Vykonává působnost na základě ustanovení
+: Popis
+:: Určuje právní předpis a označení jeho ustanovení, na jehož základě orgán veřejné moci vykonává svoji působnost.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Ustanovení právního předpisu](#konceptuální-třída-ustanovení-právního-předpisu)
+: Význam
+:: Vlastnost Vykonává působnost na základě ustanovení je definován v sémantickém slovníku pojmů jako [Vykonává působnost na základě ustanovení](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/vykonává-působnost-na-základě-ustanovení).
+
+### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci ### {#konceptuální-třída-orgán-veřejné-moci-má-adresu-místa-pobytu-orgánu-veřejné-moci}
+: Jméno
+:: Má adresu místa pobytu orgánu veřejné moci
+: Popis
+:: Adresa místa pobytu orgánu veřejné moci, pokud takovou adresu má. Adresa místa pobytu je referenční údaj. Je vyjádřena referencí do Registru územní identifikace, adres a nemovitostí. Je převzata z registru osob nebo z registru obyvatel. Jeden orgán veřejné moci může mít nejvýše jednu adresu místa pobytu.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#konceptuální-třída-adresní-místo)
+: Význam
+:: Vlastnost Má adresu místa pobytu orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Má adresu místa pobytu orgánu veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-místa-pobytu-orgánu-veřejné-moci).
+
+### Vztah (asociace): Má adresu sídla orgánu veřejné moci ### {#konceptuální-třída-orgán-veřejné-moci-má-adresu-sídla-orgánu-veřejné-moci}
+: Jméno
+:: Má adresu sídla orgánu veřejné moci
+: Popis
+:: Adresa sídla orgánu veřejné moci, pokud takovou adresu má. Adresa sídla je referenční údaj. Je vyjádřena referencí do Registru územní identifikace, adres a nemovitostí. Je převzata z registru osob nebo z registru obyvatel. Jeden orgán veřejné moci může mít nejvýše jednu adresu sídla.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#konceptuální-třída-adresní-místo)
+: Význam
+:: Vlastnost Má adresu sídla orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Má adresu sídla orgánu veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-sídla-orgánu-veřejné-moci).
+
+### Vztah (asociace): Stojí v čele orgánu veřejné moci ### {#konceptuální-třída-orgán-veřejné-moci-stojí-v-čele-orgánu-veřejné-moci}
+: Jméno
+:: Stojí v čele orgánu veřejné moci
+: Popis
+:: Určuje osobu stojící v čele orgánu veřejné moci, pokud lze pro daný orgán veřejné moci takový údaj zveřejnit. Pro každý orgán veřejné moci je zveřejněna nejvýše jedna osoba.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Osoba stojící v čele orgánu veřejné moci](#konceptuální-třída-osoba-stojící-v-čele-orgánu-veřejné-moci)
+: Význam
+:: Vlastnost Stojí v čele orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Stojí v čele orgánu veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/stojí-v-čele-orgánu-veřejné-moci).
+
+### Vztah (asociace): Má pracoviště vykonávající úkon ### {#konceptuální-třída-orgán-veřejné-moci-má-pracoviště-vykonávající-úkon}
+: Jméno
+:: Má pracoviště vykonávající úkon
+: Popis
+:: Přiřazuje orgánu veřejné moci pracoviště, na kterém vykonává úkony. K danému orgánu veřejné moci může být uvedeno více pracovišť. Jedno pracoviště patří k právě jednomu orgánu veřejné moci.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Pracoviště](#konceptuální-třída-pracoviště)
+: Význam
+:: Vlastnost Má pracoviště vykonávající úkon je definován v sémantickém slovníku pojmů jako [Má pracoviště vykonávající úkon](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pracoviště-vykonávající-úkon).
+
+## Orgán veřejné moci nebo soukromoprávní uživatel údajů ## {#konceptuální-třída-orgán-veřejné-moci-nebo-soukromoprávní-uživatel-údajů}
+: Popis
+:: Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy. Soukromoprávním uživatelem údajů se rozumí podnikající fyzická osoba nebo právnická osoba, která není orgánem veřejné moci a je podle jiného právního předpisu oprávněna využívat údaje ze základního registru nebo z agendového informačního systém.
+: Význam
+:: Typ Orgán veřejné moci nebo soukromoprávní uživatel údajů je definován v sémantickém slovníku pojmů jako [Orgán veřejné moci nebo soukromoprávní uživatel údajů](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/orgán-veřejné-moci-nebo-soukromoprávní-uživatel-údajů).
+
+### Vztah (asociace): Má zařazený subjekt ### {#konceptuální-třída-orgán-veřejné-moci-nebo-soukromoprávní-uživatel-údajů-má-zařazený-subjekt}
+: Jméno
+:: Má zařazený subjekt
+: Popis
+:: Určuje orgán veřejné moci nebo soukromoprávního uživatele údajů zařazený do kategorie.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Zařazení do kategorie](#konceptuální-třída-zařazení-do-kategorie)
+: Význam
+:: Vlastnost Má zařazený subjekt je definován v sémantickém slovníku pojmů jako [Má zařazený subjekt](https://slovník.gov.cz/agendový/104/pojem/má-zařazený-subjekt).
+
+## Datová schránka ## {#konceptuální-třída-datová-schránka}
+: Popis
+:: Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.
+: Význam
+:: Typ Datová schránka je definován v sémantickém slovníku pojmů jako [Datová schránka](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/datová-schránka).
+
+### Vztah (asociace): Má datovou schránku orgánu veřejné moci ### {#konceptuální-třída-datová-schránka-má-datovou-schránku-orgánu-veřejné-moci}
+: Jméno
+:: Má datovou schránku orgánu veřejné moci
+: Popis
+:: Určuje datovou schránku orgánu veřejné moci. Datová schránka orgánu veřejné moci vedená v Registru práv a povinností je referenčním údajem a je převzata z registru obyvatel nebo registru osob. Orgán veřejné moci může mít více datových schránek a má alespoň jednu. Jedna datová schránka patří nejvýše jednomu orgánu veřejné moci.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Orgán veřejné moci](#konceptuální-třída-orgán-veřejné-moci)
+: Význam
+:: Vlastnost Má datovou schránku orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Má datovou schránku orgánu veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-datovou-schránku-orgánu-veřejné-moci).
+
+## Ustanovení právního předpisu ## {#konceptuální-třída-ustanovení-právního-předpisu}
+: Popis
+:: Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno.
+: Význam
+:: Typ Ustanovení právního předpisu je definován v sémantickém slovníku pojmů jako [Ustanovení právního předpisu](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/ustanovení-právního-předpisu).
+
+### Vztah (asociace): Vykonává působnost na základě ustanovení ### {#konceptuální-třída-ustanovení-právního-předpisu-vykonává-působnost-na-základě-ustanovení}
+: Jméno
+:: Vykonává působnost na základě ustanovení
+: Popis
+:: Určuje právní předpis a označení jeho ustanovení, na jehož základě orgán veřejné moci vykonává svoji působnost.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Orgán veřejné moci](#konceptuální-třída-orgán-veřejné-moci)
+: Význam
+:: Vlastnost Vykonává působnost na základě ustanovení je definován v sémantickém slovníku pojmů jako [Vykonává působnost na základě ustanovení](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/vykonává-působnost-na-základě-ustanovení).
+
+## Zařazení do kategorie ## {#konceptuální-třída-zařazení-do-kategorie}
+: Popis
+:: b32_b521813
+: Význam
+:: Typ Zařazení do kategorie je definován v sémantickém slovníku pojmů jako [Zařazení do kategorie](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/zařazení-do-kategorie).
+
+### Má datum zařazení do kategorie ### {#konceptuální-třída-zařazení-do-kategorie-má-datum-zařazení-do-kategorie}
+: Jméno
+:: Má datum zařazení do kategorie
+: Popis
+:: Datum, ke kterému byl nebo bude orgán veřejné moci nebo soukromoprávní uživatel údajů  do kategorie zařazen.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Význam
+:: Vlastnost Má datum zařazení do kategorie je definován v sémantickém slovníku pojmů jako [Má datum zařazení do kategorie](https://slovník.gov.cz/agendový/104/pojem/má-datum-zařazení-do-kategorie).
+
+### Má datum vyřazení z kategorie ### {#konceptuální-třída-zařazení-do-kategorie-má-datum-vyřazení-z-kategorie}
+: Jméno
+:: Má datum vyřazení z kategorie
+: Popis
+:: Datum, ke kterému byl nebo bude orgán veřejné moci nebo soukromoprávní uživatel údajů z kategorie vyřazen.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Význam
+:: Vlastnost Má datum vyřazení z kategorie je definován v sémantickém slovníku pojmů jako [Má datum vyřazení z kategorie](https://slovník.gov.cz/agendový/104/pojem/má-datum-vyřazení-z-kategorie).
+
+### Vztah (asociace): Má zařazený subjekt ### {#konceptuální-třída-zařazení-do-kategorie-má-zařazený-subjekt}
+: Jméno
+:: Má zařazený subjekt
+: Popis
+:: Určuje orgán veřejné moci nebo soukromoprávního uživatele údajů zařazený do kategorie.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Orgán veřejné moci nebo soukromoprávní uživatel údajů](#konceptuální-třída-orgán-veřejné-moci-nebo-soukromoprávní-uživatel-údajů)
+: Význam
+:: Vlastnost Má zařazený subjekt je definován v sémantickém slovníku pojmů jako [Má zařazený subjekt](https://slovník.gov.cz/agendový/104/pojem/má-zařazený-subjekt).
+
+### Vztah (asociace): Zařazuje do kategorie ### {#konceptuální-třída-zařazení-do-kategorie-zařazuje-do-kategorie}
+: Jméno
+:: Zařazuje do kategorie
+: Popis
+:: Určuje kategorii, do které je orgán veřejné moci nebo soukromoprávní uživatel údajů zařazen.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Kategorie](#konceptuální-třída-kategorie)
+: Význam
+:: Vlastnost Zařazuje do kategorie je definován v sémantickém slovníku pojmů jako [Zařazuje do kategorie](https://slovník.gov.cz/agendový/104/pojem/zařazuje-do-kategorie).
+
+## Kategorie ## {#konceptuální-třída-kategorie}
+: Popis
+:: Kategorií se rozumí skupina orgánů veřejné moci nebo soukromoprávních uživatelů údajů, kteří vykonávají stejné činnosti.
+: Význam
+:: Typ Kategorie je definován v sémantickém slovníku pojmů jako [Kategorie](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/kategorie).
+
+### Vztah (asociace): Zařazuje do kategorie ### {#konceptuální-třída-kategorie-zařazuje-do-kategorie}
+: Jméno
+:: Zařazuje do kategorie
+: Popis
+:: Určuje kategorii, do které je orgán veřejné moci nebo soukromoprávní uživatel údajů zařazen.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Zařazení do kategorie](#konceptuální-třída-zařazení-do-kategorie)
+: Význam
+:: Vlastnost Zařazuje do kategorie je definován v sémantickém slovníku pojmů jako [Zařazuje do kategorie](https://slovník.gov.cz/agendový/104/pojem/zařazuje-do-kategorie).
+
+## adresní místo ## {#konceptuální-třída-adresní-místo}
+: Popis
+:: Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Význam
+:: Typ adresní místo je definován v sémantickém slovníku pojmů jako [adresní místo](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresní-místo).
+
+### kód adresního místa ### {#konceptuální-třída-adresní-místo-kód-adresního-místa}
+: Jméno
+:: kód adresního místa
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Význam
+:: Vlastnost kód adresního místa je definován v sémantickém slovníku pojmů jako [kód adresního místa](https://slovník.gov.cz/generický/adresy/pojem/kód-adresního-místa).
+
+### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci ### {#konceptuální-třída-adresní-místo-má-adresu-místa-pobytu-orgánu-veřejné-moci}
+: Jméno
+:: Má adresu místa pobytu orgánu veřejné moci
+: Popis
+:: Adresa místa pobytu orgánu veřejné moci, pokud takovou adresu má. Adresa místa pobytu je referenční údaj. Je vyjádřena referencí do Registru územní identifikace, adres a nemovitostí. Je převzata z registru osob nebo z registru obyvatel. Jeden orgán veřejné moci může mít nejvýše jednu adresu místa pobytu.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Orgán veřejné moci](#konceptuální-třída-orgán-veřejné-moci)
+: Význam
+:: Vlastnost Má adresu místa pobytu orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Má adresu místa pobytu orgánu veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-místa-pobytu-orgánu-veřejné-moci).
+
+### Vztah (asociace): Má adresu sídla orgánu veřejné moci ### {#konceptuální-třída-adresní-místo-má-adresu-sídla-orgánu-veřejné-moci}
+: Jméno
+:: Má adresu sídla orgánu veřejné moci
+: Popis
+:: Adresa sídla orgánu veřejné moci, pokud takovou adresu má. Adresa sídla je referenční údaj. Je vyjádřena referencí do Registru územní identifikace, adres a nemovitostí. Je převzata z registru osob nebo z registru obyvatel. Jeden orgán veřejné moci může mít nejvýše jednu adresu sídla.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Orgán veřejné moci](#konceptuální-třída-orgán-veřejné-moci)
+: Význam
+:: Vlastnost Má adresu sídla orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Má adresu sídla orgánu veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-sídla-orgánu-veřejné-moci).
+
+### Vztah (asociace): Má adresu pracoviště ### {#konceptuální-třída-adresní-místo-má-adresu-pracoviště}
+: Jméno
+:: Má adresu pracoviště
+: Popis
+:: Přiřazuje pracovišti orgánu veřejné moci jeho adresu v podobě reference na adresní místo vedené v registru územní identifikace, adres a nemovitostí.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Pracoviště](#konceptuální-třída-pracoviště)
+: Význam
+:: Vlastnost Má adresu pracoviště je definován v sémantickém slovníku pojmů jako [Má adresu pracoviště](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-pracoviště).
+
+## Osoba stojící v čele orgánu veřejné moci ## {#konceptuální-třída-osoba-stojící-v-čele-orgánu-veřejné-moci}
+: Popis
+:: Osoba stojící v čele orgánu veřejné moci.
+: Význam
+:: Typ Osoba stojící v čele orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Osoba stojící v čele orgánu veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/osoba-stojící-v-čele-orgánu-veřejné-moci).
+
+### Má jméno a příjmení osoby stojící v čele orgánu veřejné moci ### {#konceptuální-třída-osoba-stojící-v-čele-orgánu-veřejné-moci-má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci}
+: Jméno
+:: Má jméno a příjmení osoby stojící v čele orgánu veřejné moci
+: Popis
+:: Plné jméno osoby stojicí v čele orgánu veřejné moci převzaté z registru obyvatel.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Význam
+:: Vlastnost Má jméno a příjmení osoby stojící v čele orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Má jméno a příjmení osoby stojící v čele orgánu veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci).
+
+### Vztah (asociace): Stojí v čele orgánu veřejné moci ### {#konceptuální-třída-osoba-stojící-v-čele-orgánu-veřejné-moci-stojí-v-čele-orgánu-veřejné-moci}
+: Jméno
+:: Stojí v čele orgánu veřejné moci
+: Popis
+:: Určuje osobu stojící v čele orgánu veřejné moci, pokud lze pro daný orgán veřejné moci takový údaj zveřejnit. Pro každý orgán veřejné moci je zveřejněna nejvýše jedna osoba.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Orgán veřejné moci](#konceptuální-třída-orgán-veřejné-moci)
+: Význam
+:: Vlastnost Stojí v čele orgánu veřejné moci je definován v sémantickém slovníku pojmů jako [Stojí v čele orgánu veřejné moci](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/stojí-v-čele-orgánu-veřejné-moci).
+
+## Pracoviště ## {#konceptuální-třída-pracoviště}
+: Popis
+:: Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Význam
+:: Typ Pracoviště je definován v sémantickém slovníku pojmů jako [Pracoviště](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/pracoviště).
+
+### Vztah (asociace): Má pracoviště vykonávající úkon ### {#konceptuální-třída-pracoviště-má-pracoviště-vykonávající-úkon}
+: Jméno
+:: Má pracoviště vykonávající úkon
+: Popis
+:: Přiřazuje orgánu veřejné moci pracoviště, na kterém vykonává úkony. K danému orgánu veřejné moci může být uvedeno více pracovišť. Jedno pracoviště patří k právě jednomu orgánu veřejné moci.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Orgán veřejné moci](#konceptuální-třída-orgán-veřejné-moci)
+: Význam
+:: Vlastnost Má pracoviště vykonávající úkon je definován v sémantickém slovníku pojmů jako [Má pracoviště vykonávající úkon](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pracoviště-vykonávající-úkon).
+
+### Vztah (asociace): Má adresu pracoviště ### {#konceptuální-třída-pracoviště-má-adresu-pracoviště}
+: Jméno
+:: Má adresu pracoviště
+: Popis
+:: Přiřazuje pracovišti orgánu veřejné moci jeho adresu v podobě reference na adresní místo vedené v registru územní identifikace, adres a nemovitostí.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [adresní místo](#konceptuální-třída-adresní-místo)
+: Význam
+:: Vlastnost Má adresu pracoviště je definován v sémantickém slovníku pojmů jako [Má adresu pracoviště](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-pracoviště).
+
+## Právnická osoba se svěřenou působností v oblasti veřejné správy ## {#konceptuální-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy}
+: Význam
+:: Typ Právnická osoba se svěřenou působností v oblasti veřejné správy je definován v sémantickém slovníku pojmů jako [Právnická osoba se svěřenou působností v oblasti veřejné správy](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy).
+
+## Právnická osoba ## {#konceptuální-třída-právnická-osoba}
+: Popis
+:: Právnická osoba je typ osoby, o níž se vedou v registru osob údaje.
+: Význam
+:: Typ Právnická osoba je definován v sémantickém slovníku pojmů jako [Právnická osoba](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/právnická-osoba).
+
+## Osoba ## {#konceptuální-třída-osoba}
+: Popis
+:: Subjekty, o nichž se vedou v registru osob údaje (dále jen „osoba“), jsou a) právnická osoba, b) organizační složka a organizační jednotka právnické osoby, c) organizační složka státu, d) vnitřní organizační jednotka organizační složky státu, pokud je této vnitřní organizační jednotce zákonem svěřena vlastní působnost, e) podnikající fyzická osoba, f) zahraniční osoba a organizační složka zahraniční osoby, g) svěřenský fond, pokud jsou zapsány do evidence podle tohoto zákona nebo jiného právního předpisu.
+: Význam
+:: Typ Osoba je definován v sémantickém slovníku pojmů jako [Osoba](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/osoba).
+
+### Vztah (asociace): Má právní formu osoby ### {#konceptuální-třída-osoba-má-právní-formu-osoby}
+: Jméno
+:: Má právní formu osoby
+: Popis
+:: Určuje právní formu osoby z číselníku právních forem.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Právní forma](#konceptuální-třída-právní-forma)
+: Význam
+:: Vlastnost Má právní formu osoby je definován v sémantickém slovníku pojmů jako [Má právní formu osoby](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-právní-formu-osoby).
+
+## Právní forma ## {#konceptuální-třída-právní-forma}
+: Popis
+:: Právní forma osoby z číselníku právních forem.
+: Význam
+:: Typ Právní forma je definován v sémantickém slovníku pojmů jako [Právní forma](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/právní-forma).
+
+### Vztah (asociace): Má právní formu osoby ### {#konceptuální-třída-právní-forma-má-právní-formu-osoby}
+: Jméno
+:: Má právní formu osoby
+: Popis
+:: Určuje právní formu osoby z číselníku právních forem.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Osoba](#konceptuální-třída-osoba)
+: Význam
+:: Vlastnost Má právní formu osoby je definován v sémantickém slovníku pojmů jako [Má právní formu osoby](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-právní-formu-osoby).
+
+# Orgán veřejné moci
+Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+
+## Orgán veřejné moci JSON
+V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne-moci/schema.json).
+
+### nedefinováno ### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno}
+: Interpretace
+:: [Orgán veřejné moci](#konceptuální-třída-orgán-veřejné-moci)
+
+#### Má identifikátor orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-identifikátor-orgánu-veřejné-moci}
+: Klíč
+:: identifikátor
+: Jméno
+:: Má identifikátor orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikátor orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikátor-orgánu-veřejné-moci)
+
+#### Má název orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-název-orgánu-veřejné-moci}
+: Klíč
+:: název
+: Jméno
+:: Má název orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Text](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text)
+: Interpretace
+:: [Má název orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-název-orgánu-veřejné-moci)
+
+#### Je vnitřní organizační jednotkou #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-je-vnitřní-organizační-jednotkou}
+: Klíč
+:: vnitřní-organizační-jednotka
+: Jméno
+:: Je vnitřní organizační jednotkou
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Booleovská hodnota - Ano či ne](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/boolean)
+: Interpretace
+:: [Je vnitřní organizační jednotkou](#konceptuální-třída-orgán-veřejné-moci-je-vnitřní-organizační-jednotkou)
+
+#### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
+: Klíč
+:: ičo
+: Jméno
+:: Má identifikační číslo osoby orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikační číslo osoby orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikační-číslo-osoby-orgánu-veřejné-moci)
+
+#### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
+: Klíč
+:: zahájení
+: Jméno
+:: Má datum zahájení výkonu působnosti orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum zahájení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci)
+
+#### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
+: Klíč
+:: ukončení
+: Jméno
+:: Má datum ukončení výkonu působnosti orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum ukončení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci)
+
+#### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
+: Klíč
+:: pozastavení-od
+: Jméno
+:: Má pozastavený výkon působnosti orgánu veřejné moci od
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má pozastavený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od)
+
+#### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
+: Klíč
+:: pozastavení-do
+: Jméno
+:: Má pozastavený výkon působnosti orgánu veřejné moci do
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má pozastavený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do)
+
+#### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
+: Klíč
+:: přerušení-od
+: Jméno
+:: Má přerušený výkon působnosti orgánu veřejné moci od
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má přerušený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od)
+
+#### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
+: Klíč
+:: přerušení-do
+: Jméno
+:: Má přerušený výkon působnosti orgánu veřejné moci do
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má přerušený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do)
+
+#### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-datovou-schránku-orgánu-veřejné-moci}
+: Klíč
+:: datové-schránky
+: Jméno
+:: Má datovou schránku orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Datová schránka](/datova-schranka/conceptual-model.plantuml#strukturální-json-datová-schránka-třída-datová-schránka)
+: Interpretace
+:: [Má datovou schránku orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datovou-schránku-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-vykonává-působnost-na-základě-ustanovení}
+: Klíč
+:: ustanovení
+: Jméno
+:: Vykonává působnost na základě ustanovení
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Ustanovení právního předpisu](/ustanoveni-pravniho-predpisu/conceptual-model.plantuml#strukturální-json-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu)
+: Interpretace
+:: [Vykonává působnost na základě ustanovení](#konceptuální-třída-orgán-veřejné-moci-vykonává-působnost-na-základě-ustanovení)
+
+#### Vztah (asociace): Má zařazený subjekt #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-zařazený-subjekt}
+: Klíč
+:: seznam-kategorií
+: Jméno
+:: Má zařazený subjekt
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Zařazení do kategorie](#strukturální-json-orgán-veřejné-moci-třída-zařazení-do-kategorie)
+: Interpretace
+:: [Má zařazený subjekt](#konceptuální-třída-orgán-veřejné-moci-nebo-soukromoprávní-uživatel-údajů-má-zařazený-subjekt)
+
+#### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-adresu-místa-pobytu-orgánu-veřejné-moci}
+: Klíč
+:: adresa-místa-pobytu
+: Jméno
+:: Má adresu místa pobytu orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#strukturální-json-orgán-veřejné-moci-třída-adresní-místo)
+: Interpretace
+:: [Má adresu místa pobytu orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-místa-pobytu-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-adresu-sídla-orgánu-veřejné-moci}
+: Klíč
+:: adresa-sídla
+: Jméno
+:: Má adresu sídla orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#strukturální-json-orgán-veřejné-moci-třída-adresní-místo)
+: Interpretace
+:: [Má adresu sídla orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-sídla-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-stojí-v-čele-orgánu-veřejné-moci}
+: Klíč
+:: osoba-v-čele
+: Jméno
+:: Stojí v čele orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Osoba stojící v čele orgánu veřejné moci](#strukturální-json-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci)
+: Interpretace
+:: [Stojí v čele orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-stojí-v-čele-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-pracoviště-vykonávající-úkon}
+: Klíč
+:: pracoviště-ovm
+: Jméno
+:: Má pracoviště vykonávající úkon
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Pracoviště](/pracoviste/conceptual-model.plantuml#strukturální-json-pracoviště-třída-pracoviště)
+: Interpretace
+:: [Má pracoviště vykonávající úkon](#konceptuální-třída-orgán-veřejné-moci-má-pracoviště-vykonávající-úkon)
+
+### Právnická osoba se svěřenou působností v oblasti veřejné správy ### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy}
+: Interpretace
+:: [Právnická osoba se svěřenou působností v oblasti veřejné správy](#konceptuální-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy)
+
+#### Má identifikátor orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-identifikátor-orgánu-veřejné-moci}
+: Klíč
+:: identifikátor
+: Jméno
+:: Má identifikátor orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikátor orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikátor-orgánu-veřejné-moci)
+
+#### Má název orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-název-orgánu-veřejné-moci}
+: Klíč
+:: název
+: Jméno
+:: Má název orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Text](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text)
+: Interpretace
+:: [Má název orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-název-orgánu-veřejné-moci)
+
+#### Je vnitřní organizační jednotkou #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-je-vnitřní-organizační-jednotkou}
+: Klíč
+:: vnitřní-organizační-jednotka
+: Jméno
+:: Je vnitřní organizační jednotkou
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Booleovská hodnota - Ano či ne](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/boolean)
+: Interpretace
+:: [Je vnitřní organizační jednotkou](#konceptuální-třída-orgán-veřejné-moci-je-vnitřní-organizační-jednotkou)
+
+#### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
+: Klíč
+:: ičo
+: Jméno
+:: Má identifikační číslo osoby orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikační číslo osoby orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikační-číslo-osoby-orgánu-veřejné-moci)
+
+#### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
+: Klíč
+:: zahájení
+: Jméno
+:: Má datum zahájení výkonu působnosti orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum zahájení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci)
+
+#### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
+: Klíč
+:: ukončení
+: Jméno
+:: Má datum ukončení výkonu působnosti orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum ukončení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci)
+
+#### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
+: Klíč
+:: pozastavení-od
+: Jméno
+:: Má pozastavený výkon působnosti orgánu veřejné moci od
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má pozastavený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od)
+
+#### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
+: Klíč
+:: pozastavení-do
+: Jméno
+:: Má pozastavený výkon působnosti orgánu veřejné moci do
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má pozastavený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do)
+
+#### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
+: Klíč
+:: přerušení-od
+: Jméno
+:: Má přerušený výkon působnosti orgánu veřejné moci od
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má přerušený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od)
+
+#### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
+: Klíč
+:: přerušení-do
+: Jméno
+:: Má přerušený výkon působnosti orgánu veřejné moci do
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má přerušený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do)
+
+#### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datovou-schránku-orgánu-veřejné-moci}
+: Klíč
+:: datové-schránky
+: Jméno
+:: Má datovou schránku orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Datová schránka](/datova-schranka/conceptual-model.plantuml#strukturální-json-datová-schránka-třída-datová-schránka)
+: Interpretace
+:: [Má datovou schránku orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datovou-schránku-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-vykonává-působnost-na-základě-ustanovení}
+: Klíč
+:: ustanovení
+: Jméno
+:: Vykonává působnost na základě ustanovení
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Ustanovení právního předpisu](/ustanoveni-pravniho-predpisu/conceptual-model.plantuml#strukturální-json-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu)
+: Interpretace
+:: [Vykonává působnost na základě ustanovení](#konceptuální-třída-orgán-veřejné-moci-vykonává-působnost-na-základě-ustanovení)
+
+#### Vztah (asociace): Má zařazený subjekt #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-zařazený-subjekt}
+: Klíč
+:: seznam-kategorií
+: Jméno
+:: Má zařazený subjekt
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Zařazení do kategorie](#strukturální-json-orgán-veřejné-moci-třída-zařazení-do-kategorie)
+: Interpretace
+:: [Má zařazený subjekt](#konceptuální-třída-orgán-veřejné-moci-nebo-soukromoprávní-uživatel-údajů-má-zařazený-subjekt)
+
+#### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-adresu-místa-pobytu-orgánu-veřejné-moci}
+: Klíč
+:: adresa-místa-pobytu
+: Jméno
+:: Má adresu místa pobytu orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#strukturální-json-orgán-veřejné-moci-třída-adresní-místo)
+: Interpretace
+:: [Má adresu místa pobytu orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-místa-pobytu-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-adresu-sídla-orgánu-veřejné-moci}
+: Klíč
+:: adresa-sídla
+: Jméno
+:: Má adresu sídla orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#strukturální-json-orgán-veřejné-moci-třída-adresní-místo)
+: Interpretace
+:: [Má adresu sídla orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-sídla-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-stojí-v-čele-orgánu-veřejné-moci}
+: Klíč
+:: osoba-v-čele
+: Jméno
+:: Stojí v čele orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Osoba stojící v čele orgánu veřejné moci](#strukturální-json-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci)
+: Interpretace
+:: [Stojí v čele orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-stojí-v-čele-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pracoviště-vykonávající-úkon}
+: Klíč
+:: pracoviště-ovm
+: Jméno
+:: Má pracoviště vykonávající úkon
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Pracoviště](/pracoviste/conceptual-model.plantuml#strukturální-json-pracoviště-třída-pracoviště)
+: Interpretace
+:: [Má pracoviště vykonávající úkon](#konceptuální-třída-orgán-veřejné-moci-má-pracoviště-vykonávající-úkon)
+
+#### Vztah (asociace): Má právní formu osoby #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-právní-formu-osoby}
+: Klíč
+:: má_právní_formu_osoby
+: Jméno
+:: Má právní formu osoby
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Právní forma](#strukturální-json-orgán-veřejné-moci-třída-právní-forma)
+: Interpretace
+:: [Má právní formu osoby](#konceptuální-třída-osoba-má-právní-formu-osoby)
+
+### Zařazení do kategorie ### {#strukturální-json-orgán-veřejné-moci-třída-zařazení-do-kategorie}
+: Popis
+:: b32_b521813
+: Interpretace
+:: [Zařazení do kategorie](#konceptuální-třída-zařazení-do-kategorie)
+
+#### Má datum zařazení do kategorie #### {#strukturální-json-orgán-veřejné-moci-třída-zařazení-do-kategorie-má-datum-zařazení-do-kategorie}
+: Klíč
+:: zařazení-od
+: Jméno
+:: Má datum zařazení do kategorie
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum zařazení do kategorie](#konceptuální-třída-zařazení-do-kategorie-má-datum-zařazení-do-kategorie)
+
+#### Má datum vyřazení z kategorie #### {#strukturální-json-orgán-veřejné-moci-třída-zařazení-do-kategorie-má-datum-vyřazení-z-kategorie}
+: Klíč
+:: zařazení-do
+: Jméno
+:: Má datum vyřazení z kategorie
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum vyřazení z kategorie](#konceptuální-třída-zařazení-do-kategorie-má-datum-vyřazení-z-kategorie)
+
+#### Vztah (asociace): Zařazuje do kategorie #### {#strukturální-json-orgán-veřejné-moci-třída-zařazení-do-kategorie-zařazuje-do-kategorie}
+: Klíč
+:: kategorie
+: Jméno
+:: Zařazuje do kategorie
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Kategorie](#strukturální-json-orgán-veřejné-moci-třída-kategorie)
+: Interpretace
+:: [Zařazuje do kategorie](#konceptuální-třída-zařazení-do-kategorie-zařazuje-do-kategorie)
+
+### adresní místo ### {#strukturální-json-orgán-veřejné-moci-třída-adresní-místo}
+: Popis
+:: Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Interpretace
+:: [adresní místo](#konceptuální-třída-adresní-místo)
+
+### adresní místo ### {#strukturální-json-orgán-veřejné-moci-třída-adresní-místo}
+: Popis
+:: Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Interpretace
+:: [adresní místo](#konceptuální-třída-adresní-místo)
+
+#### kód adresního místa #### {#strukturální-json-orgán-veřejné-moci-třída-adresní-místo-kód-adresního-místa}
+: Klíč
+:: kód_adresního_místa
+: Jméno
+:: kód adresního místa
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [null](null)
+: Interpretace
+:: [kód adresního místa](#konceptuální-třída-adresní-místo-kód-adresního-místa)
+
+### Osoba stojící v čele orgánu veřejné moci ### {#strukturální-json-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci}
+: Popis
+:: Osoba stojící v čele orgánu veřejné moci.
+: Interpretace
+:: [Osoba stojící v čele orgánu veřejné moci](#konceptuální-třída-osoba-stojící-v-čele-orgánu-veřejné-moci)
+
+#### Má jméno a příjmení osoby stojící v čele orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci-má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci}
+: Klíč
+:: jméno
+: Jméno
+:: Má jméno a příjmení osoby stojící v čele orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má jméno a příjmení osoby stojící v čele orgánu veřejné moci](#konceptuální-třída-osoba-stojící-v-čele-orgánu-veřejné-moci-má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci)
+
+### Právní forma ### {#strukturální-json-orgán-veřejné-moci-třída-právní-forma}
+: Popis
+:: Právní forma osoby z číselníku právních forem.
+: Interpretace
+:: [Právní forma](#konceptuální-třída-právní-forma)
+
+### Kategorie ### {#strukturální-json-orgán-veřejné-moci-třída-kategorie}
+: Popis
+:: Kategorií se rozumí skupina orgánů veřejné moci nebo soukromoprávních uživatelů údajů, kteří vykonávají stejné činnosti.
+: Interpretace
+:: [Kategorie](#konceptuální-třída-kategorie)
+
+## Orgán veřejné moci XML
+V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-moci/schema.xsd).
+
+### nedefinováno ### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno}
+: Interpretace
+:: [Orgán veřejné moci](#konceptuální-třída-orgán-veřejné-moci)
+
+#### Má identifikátor orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-identifikátor-orgánu-veřejné-moci}
+: Klíč
+:: identifikátor
+: Jméno
+:: Má identifikátor orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikátor orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikátor-orgánu-veřejné-moci)
+
+#### Má název orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-název-orgánu-veřejné-moci}
+: Klíč
+:: název
+: Jméno
+:: Má název orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Text](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text)
+: Interpretace
+:: [Má název orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-název-orgánu-veřejné-moci)
+
+#### Je vnitřní organizační jednotkou #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-je-vnitřní-organizační-jednotkou}
+: Klíč
+:: vnitřní-organizační-jednotka
+: Jméno
+:: Je vnitřní organizační jednotkou
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Booleovská hodnota - Ano či ne](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/boolean)
+: Interpretace
+:: [Je vnitřní organizační jednotkou](#konceptuální-třída-orgán-veřejné-moci-je-vnitřní-organizační-jednotkou)
+
+#### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
+: Klíč
+:: ičo
+: Jméno
+:: Má identifikační číslo osoby orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikační číslo osoby orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikační-číslo-osoby-orgánu-veřejné-moci)
+
+#### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
+: Klíč
+:: zahájení
+: Jméno
+:: Má datum zahájení výkonu působnosti orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum zahájení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci)
+
+#### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
+: Klíč
+:: ukončení
+: Jméno
+:: Má datum ukončení výkonu působnosti orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum ukončení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci)
+
+#### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
+: Klíč
+:: pozastavení-od
+: Jméno
+:: Má pozastavený výkon působnosti orgánu veřejné moci od
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má pozastavený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od)
+
+#### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
+: Klíč
+:: pozastavení-do
+: Jméno
+:: Má pozastavený výkon působnosti orgánu veřejné moci do
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má pozastavený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do)
+
+#### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
+: Klíč
+:: přerušení-od
+: Jméno
+:: Má přerušený výkon působnosti orgánu veřejné moci od
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má přerušený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od)
+
+#### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
+: Klíč
+:: přerušení-do
+: Jméno
+:: Má přerušený výkon působnosti orgánu veřejné moci do
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má přerušený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do)
+
+#### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-datovou-schránku-orgánu-veřejné-moci}
+: Klíč
+:: datové-schránky
+: Jméno
+:: Má datovou schránku orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Datová schránka](/datova-schranka/conceptual-model.plantuml#strukturální-xml-datová-schránka-třída-datová-schránka)
+: Interpretace
+:: [Má datovou schránku orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datovou-schránku-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-vykonává-působnost-na-základě-ustanovení}
+: Klíč
+:: ustanovení
+: Jméno
+:: Vykonává působnost na základě ustanovení
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Ustanovení právního předpisu](/ustanoveni-pravniho-predpisu/conceptual-model.plantuml#strukturální-xml-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu)
+: Interpretace
+:: [Vykonává působnost na základě ustanovení](#konceptuální-třída-orgán-veřejné-moci-vykonává-působnost-na-základě-ustanovení)
+
+#### Vztah (asociace): Má zařazený subjekt #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-zařazený-subjekt}
+: Klíč
+:: seznam-kategorií
+: Jméno
+:: Má zařazený subjekt
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Zařazení do kategorie](#strukturální-xml-orgán-veřejné-moci-třída-zařazení-do-kategorie)
+: Interpretace
+:: [Má zařazený subjekt](#konceptuální-třída-orgán-veřejné-moci-nebo-soukromoprávní-uživatel-údajů-má-zařazený-subjekt)
+
+#### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-adresu-místa-pobytu-orgánu-veřejné-moci}
+: Klíč
+:: adresa-místa-pobytu
+: Jméno
+:: Má adresu místa pobytu orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#strukturální-xml-orgán-veřejné-moci-třída-adresní-místo)
+: Interpretace
+:: [Má adresu místa pobytu orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-místa-pobytu-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-adresu-sídla-orgánu-veřejné-moci}
+: Klíč
+:: adresa-sídla
+: Jméno
+:: Má adresu sídla orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#strukturální-xml-orgán-veřejné-moci-třída-adresní-místo)
+: Interpretace
+:: [Má adresu sídla orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-sídla-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-stojí-v-čele-orgánu-veřejné-moci}
+: Klíč
+:: osoba-v-čele
+: Jméno
+:: Stojí v čele orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Osoba stojící v čele orgánu veřejné moci](#strukturální-xml-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci)
+: Interpretace
+:: [Stojí v čele orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-stojí-v-čele-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-pracoviště-vykonávající-úkon}
+: Klíč
+:: pracoviště-ovm
+: Jméno
+:: Má pracoviště vykonávající úkon
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Pracoviště](/pracoviste/conceptual-model.plantuml#strukturální-xml-pracoviště-třída-pracoviště)
+: Interpretace
+:: [Má pracoviště vykonávající úkon](#konceptuální-třída-orgán-veřejné-moci-má-pracoviště-vykonávající-úkon)
+
+### Právnická osoba se svěřenou působností v oblasti veřejné správy ### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy}
+: Interpretace
+:: [Právnická osoba se svěřenou působností v oblasti veřejné správy](#konceptuální-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy)
+
+#### Má identifikátor orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-identifikátor-orgánu-veřejné-moci}
+: Klíč
+:: identifikátor
+: Jméno
+:: Má identifikátor orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikátor orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikátor-orgánu-veřejné-moci)
+
+#### Má název orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-název-orgánu-veřejné-moci}
+: Klíč
+:: název
+: Jméno
+:: Má název orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Text](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text)
+: Interpretace
+:: [Má název orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-název-orgánu-veřejné-moci)
+
+#### Je vnitřní organizační jednotkou #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-je-vnitřní-organizační-jednotkou}
+: Klíč
+:: vnitřní-organizační-jednotka
+: Jméno
+:: Je vnitřní organizační jednotkou
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Booleovská hodnota - Ano či ne](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/boolean)
+: Interpretace
+:: [Je vnitřní organizační jednotkou](#konceptuální-třída-orgán-veřejné-moci-je-vnitřní-organizační-jednotkou)
+
+#### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
+: Klíč
+:: ičo
+: Jméno
+:: Má identifikační číslo osoby orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikační číslo osoby orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikační-číslo-osoby-orgánu-veřejné-moci)
+
+#### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
+: Klíč
+:: zahájení
+: Jméno
+:: Má datum zahájení výkonu působnosti orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum zahájení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci)
+
+#### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
+: Klíč
+:: ukončení
+: Jméno
+:: Má datum ukončení výkonu působnosti orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum ukončení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci)
+
+#### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
+: Klíč
+:: pozastavení-od
+: Jméno
+:: Má pozastavený výkon působnosti orgánu veřejné moci od
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má pozastavený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od)
+
+#### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
+: Klíč
+:: pozastavení-do
+: Jméno
+:: Má pozastavený výkon působnosti orgánu veřejné moci do
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má pozastavený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do)
+
+#### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
+: Klíč
+:: přerušení-od
+: Jméno
+:: Má přerušený výkon působnosti orgánu veřejné moci od
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má přerušený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od)
+
+#### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
+: Klíč
+:: přerušení-do
+: Jméno
+:: Má přerušený výkon působnosti orgánu veřejné moci do
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má přerušený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do)
+
+#### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datovou-schránku-orgánu-veřejné-moci}
+: Klíč
+:: datové-schránky
+: Jméno
+:: Má datovou schránku orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Datová schránka](/datova-schranka/conceptual-model.plantuml#strukturální-xml-datová-schránka-třída-datová-schránka)
+: Interpretace
+:: [Má datovou schránku orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datovou-schránku-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-vykonává-působnost-na-základě-ustanovení}
+: Klíč
+:: ustanovení
+: Jméno
+:: Vykonává působnost na základě ustanovení
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Ustanovení právního předpisu](/ustanoveni-pravniho-predpisu/conceptual-model.plantuml#strukturální-xml-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu)
+: Interpretace
+:: [Vykonává působnost na základě ustanovení](#konceptuální-třída-orgán-veřejné-moci-vykonává-působnost-na-základě-ustanovení)
+
+#### Vztah (asociace): Má zařazený subjekt #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-zařazený-subjekt}
+: Klíč
+:: seznam-kategorií
+: Jméno
+:: Má zařazený subjekt
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Zařazení do kategorie](#strukturální-xml-orgán-veřejné-moci-třída-zařazení-do-kategorie)
+: Interpretace
+:: [Má zařazený subjekt](#konceptuální-třída-orgán-veřejné-moci-nebo-soukromoprávní-uživatel-údajů-má-zařazený-subjekt)
+
+#### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-adresu-místa-pobytu-orgánu-veřejné-moci}
+: Klíč
+:: adresa-místa-pobytu
+: Jméno
+:: Má adresu místa pobytu orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#strukturální-xml-orgán-veřejné-moci-třída-adresní-místo)
+: Interpretace
+:: [Má adresu místa pobytu orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-místa-pobytu-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-adresu-sídla-orgánu-veřejné-moci}
+: Klíč
+:: adresa-sídla
+: Jméno
+:: Má adresu sídla orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#strukturální-xml-orgán-veřejné-moci-třída-adresní-místo)
+: Interpretace
+:: [Má adresu sídla orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-sídla-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-stojí-v-čele-orgánu-veřejné-moci}
+: Klíč
+:: osoba-v-čele
+: Jméno
+:: Stojí v čele orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Osoba stojící v čele orgánu veřejné moci](#strukturální-xml-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci)
+: Interpretace
+:: [Stojí v čele orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-stojí-v-čele-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pracoviště-vykonávající-úkon}
+: Klíč
+:: pracoviště-ovm
+: Jméno
+:: Má pracoviště vykonávající úkon
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Pracoviště](/pracoviste/conceptual-model.plantuml#strukturální-xml-pracoviště-třída-pracoviště)
+: Interpretace
+:: [Má pracoviště vykonávající úkon](#konceptuální-třída-orgán-veřejné-moci-má-pracoviště-vykonávající-úkon)
+
+#### Vztah (asociace): Má právní formu osoby #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-právní-formu-osoby}
+: Klíč
+:: má_právní_formu_osoby
+: Jméno
+:: Má právní formu osoby
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Právní forma](#strukturální-xml-orgán-veřejné-moci-třída-právní-forma)
+: Interpretace
+:: [Má právní formu osoby](#konceptuální-třída-osoba-má-právní-formu-osoby)
+
+### Zařazení do kategorie ### {#strukturální-xml-orgán-veřejné-moci-třída-zařazení-do-kategorie}
+: Popis
+:: b32_b521813
+: Interpretace
+:: [Zařazení do kategorie](#konceptuální-třída-zařazení-do-kategorie)
+
+#### Má datum zařazení do kategorie #### {#strukturální-xml-orgán-veřejné-moci-třída-zařazení-do-kategorie-má-datum-zařazení-do-kategorie}
+: Klíč
+:: zařazení-od
+: Jméno
+:: Má datum zařazení do kategorie
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum zařazení do kategorie](#konceptuální-třída-zařazení-do-kategorie-má-datum-zařazení-do-kategorie)
+
+#### Má datum vyřazení z kategorie #### {#strukturální-xml-orgán-veřejné-moci-třída-zařazení-do-kategorie-má-datum-vyřazení-z-kategorie}
+: Klíč
+:: zařazení-do
+: Jméno
+:: Má datum vyřazení z kategorie
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum vyřazení z kategorie](#konceptuální-třída-zařazení-do-kategorie-má-datum-vyřazení-z-kategorie)
+
+#### Vztah (asociace): Zařazuje do kategorie #### {#strukturální-xml-orgán-veřejné-moci-třída-zařazení-do-kategorie-zařazuje-do-kategorie}
+: Klíč
+:: kategorie
+: Jméno
+:: Zařazuje do kategorie
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Kategorie](#strukturální-xml-orgán-veřejné-moci-třída-kategorie)
+: Interpretace
+:: [Zařazuje do kategorie](#konceptuální-třída-zařazení-do-kategorie-zařazuje-do-kategorie)
+
+### adresní místo ### {#strukturální-xml-orgán-veřejné-moci-třída-adresní-místo}
+: Popis
+:: Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Interpretace
+:: [adresní místo](#konceptuální-třída-adresní-místo)
+
+### adresní místo ### {#strukturální-xml-orgán-veřejné-moci-třída-adresní-místo}
+: Popis
+:: Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Interpretace
+:: [adresní místo](#konceptuální-třída-adresní-místo)
+
+#### kód adresního místa #### {#strukturální-xml-orgán-veřejné-moci-třída-adresní-místo-kód-adresního-místa}
+: Klíč
+:: kód_adresního_místa
+: Jméno
+:: kód adresního místa
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [null](null)
+: Interpretace
+:: [kód adresního místa](#konceptuální-třída-adresní-místo-kód-adresního-místa)
+
+### Osoba stojící v čele orgánu veřejné moci ### {#strukturální-xml-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci}
+: Popis
+:: Osoba stojící v čele orgánu veřejné moci.
+: Interpretace
+:: [Osoba stojící v čele orgánu veřejné moci](#konceptuální-třída-osoba-stojící-v-čele-orgánu-veřejné-moci)
+
+#### Má jméno a příjmení osoby stojící v čele orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci-má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci}
+: Klíč
+:: jméno
+: Jméno
+:: Má jméno a příjmení osoby stojící v čele orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má jméno a příjmení osoby stojící v čele orgánu veřejné moci](#konceptuální-třída-osoba-stojící-v-čele-orgánu-veřejné-moci-má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci)
+
+### Právní forma ### {#strukturální-xml-orgán-veřejné-moci-třída-právní-forma}
+: Popis
+:: Právní forma osoby z číselníku právních forem.
+: Interpretace
+:: [Právní forma](#konceptuální-třída-právní-forma)
+
+### Kategorie ### {#strukturální-xml-orgán-veřejné-moci-třída-kategorie}
+: Popis
+:: Kategorií se rozumí skupina orgánů veřejné moci nebo soukromoprávních uživatelů údajů, kteří vykonávají stejné činnosti.
+: Interpretace
+:: [Kategorie](#konceptuální-třída-kategorie)
+
+## Orgán veřejné moci CSV
+V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-moci/schema.csv-metadata.json).
+
+### nedefinováno ### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno}
+: Interpretace
+:: [Orgán veřejné moci](#konceptuální-třída-orgán-veřejné-moci)
+
+#### Má identifikátor orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-identifikátor-orgánu-veřejné-moci}
+: Klíč
+:: identifikátor
+: Jméno
+:: Má identifikátor orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikátor orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikátor-orgánu-veřejné-moci)
+
+#### Má název orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-název-orgánu-veřejné-moci}
+: Klíč
+:: název
+: Jméno
+:: Má název orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Text](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text)
+: Interpretace
+:: [Má název orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-název-orgánu-veřejné-moci)
+
+#### Je vnitřní organizační jednotkou #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-je-vnitřní-organizační-jednotkou}
+: Klíč
+:: vnitřní-organizační-jednotka
+: Jméno
+:: Je vnitřní organizační jednotkou
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Booleovská hodnota - Ano či ne](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/boolean)
+: Interpretace
+:: [Je vnitřní organizační jednotkou](#konceptuální-třída-orgán-veřejné-moci-je-vnitřní-organizační-jednotkou)
+
+#### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
+: Klíč
+:: ičo
+: Jméno
+:: Má identifikační číslo osoby orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikační číslo osoby orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikační-číslo-osoby-orgánu-veřejné-moci)
+
+#### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
+: Klíč
+:: zahájení
+: Jméno
+:: Má datum zahájení výkonu působnosti orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum zahájení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci)
+
+#### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
+: Klíč
+:: ukončení
+: Jméno
+:: Má datum ukončení výkonu působnosti orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum ukončení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci)
+
+#### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
+: Klíč
+:: pozastavení-od
+: Jméno
+:: Má pozastavený výkon působnosti orgánu veřejné moci od
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má pozastavený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od)
+
+#### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
+: Klíč
+:: pozastavení-do
+: Jméno
+:: Má pozastavený výkon působnosti orgánu veřejné moci do
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má pozastavený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do)
+
+#### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
+: Klíč
+:: přerušení-od
+: Jméno
+:: Má přerušený výkon působnosti orgánu veřejné moci od
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má přerušený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od)
+
+#### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
+: Klíč
+:: přerušení-do
+: Jméno
+:: Má přerušený výkon působnosti orgánu veřejné moci do
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má přerušený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do)
+
+#### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-datovou-schránku-orgánu-veřejné-moci}
+: Klíč
+:: datové-schránky
+: Jméno
+:: Má datovou schránku orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Datová schránka](/datova-schranka/conceptual-model.plantuml#strukturální-csv-datová-schránka-třída-datová-schránka)
+: Interpretace
+:: [Má datovou schránku orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datovou-schránku-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-vykonává-působnost-na-základě-ustanovení}
+: Klíč
+:: ustanovení
+: Jméno
+:: Vykonává působnost na základě ustanovení
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Ustanovení právního předpisu](/ustanoveni-pravniho-predpisu/conceptual-model.plantuml#strukturální-csv-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu)
+: Interpretace
+:: [Vykonává působnost na základě ustanovení](#konceptuální-třída-orgán-veřejné-moci-vykonává-působnost-na-základě-ustanovení)
+
+#### Vztah (asociace): Má zařazený subjekt #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-zařazený-subjekt}
+: Klíč
+:: seznam-kategorií
+: Jméno
+:: Má zařazený subjekt
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Zařazení do kategorie](#strukturální-csv-orgán-veřejné-moci-třída-zařazení-do-kategorie)
+: Interpretace
+:: [Má zařazený subjekt](#konceptuální-třída-orgán-veřejné-moci-nebo-soukromoprávní-uživatel-údajů-má-zařazený-subjekt)
+
+#### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-adresu-místa-pobytu-orgánu-veřejné-moci}
+: Klíč
+:: adresa-místa-pobytu
+: Jméno
+:: Má adresu místa pobytu orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#strukturální-csv-orgán-veřejné-moci-třída-adresní-místo)
+: Interpretace
+:: [Má adresu místa pobytu orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-místa-pobytu-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-adresu-sídla-orgánu-veřejné-moci}
+: Klíč
+:: adresa-sídla
+: Jméno
+:: Má adresu sídla orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#strukturální-csv-orgán-veřejné-moci-třída-adresní-místo)
+: Interpretace
+:: [Má adresu sídla orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-sídla-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-stojí-v-čele-orgánu-veřejné-moci}
+: Klíč
+:: osoba-v-čele
+: Jméno
+:: Stojí v čele orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Osoba stojící v čele orgánu veřejné moci](#strukturální-csv-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci)
+: Interpretace
+:: [Stojí v čele orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-stojí-v-čele-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-pracoviště-vykonávající-úkon}
+: Klíč
+:: pracoviště-ovm
+: Jméno
+:: Má pracoviště vykonávající úkon
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Pracoviště](/pracoviste/conceptual-model.plantuml#strukturální-csv-pracoviště-třída-pracoviště)
+: Interpretace
+:: [Má pracoviště vykonávající úkon](#konceptuální-třída-orgán-veřejné-moci-má-pracoviště-vykonávající-úkon)
+
+### Právnická osoba se svěřenou působností v oblasti veřejné správy ### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy}
+: Interpretace
+:: [Právnická osoba se svěřenou působností v oblasti veřejné správy](#konceptuální-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy)
+
+#### Má identifikátor orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-identifikátor-orgánu-veřejné-moci}
+: Klíč
+:: identifikátor
+: Jméno
+:: Má identifikátor orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikátor orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikátor-orgánu-veřejné-moci)
+
+#### Má název orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-název-orgánu-veřejné-moci}
+: Klíč
+:: název
+: Jméno
+:: Má název orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Text](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text)
+: Interpretace
+:: [Má název orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-název-orgánu-veřejné-moci)
+
+#### Je vnitřní organizační jednotkou #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-je-vnitřní-organizační-jednotkou}
+: Klíč
+:: vnitřní-organizační-jednotka
+: Jméno
+:: Je vnitřní organizační jednotkou
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Booleovská hodnota - Ano či ne](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/boolean)
+: Interpretace
+:: [Je vnitřní organizační jednotkou](#konceptuální-třída-orgán-veřejné-moci-je-vnitřní-organizační-jednotkou)
+
+#### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
+: Klíč
+:: ičo
+: Jméno
+:: Má identifikační číslo osoby orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikační číslo osoby orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikační-číslo-osoby-orgánu-veřejné-moci)
+
+#### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
+: Klíč
+:: zahájení
+: Jméno
+:: Má datum zahájení výkonu působnosti orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum zahájení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci)
+
+#### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
+: Klíč
+:: ukončení
+: Jméno
+:: Má datum ukončení výkonu působnosti orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum ukončení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci)
+
+#### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
+: Klíč
+:: pozastavení-od
+: Jméno
+:: Má pozastavený výkon působnosti orgánu veřejné moci od
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má pozastavený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od)
+
+#### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
+: Klíč
+:: pozastavení-do
+: Jméno
+:: Má pozastavený výkon působnosti orgánu veřejné moci do
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má pozastavený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do)
+
+#### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
+: Klíč
+:: přerušení-od
+: Jméno
+:: Má přerušený výkon působnosti orgánu veřejné moci od
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má přerušený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od)
+
+#### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
+: Klíč
+:: přerušení-do
+: Jméno
+:: Má přerušený výkon působnosti orgánu veřejné moci do
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má přerušený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do)
+
+#### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datovou-schránku-orgánu-veřejné-moci}
+: Klíč
+:: datové-schránky
+: Jméno
+:: Má datovou schránku orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Datová schránka](/datova-schranka/conceptual-model.plantuml#strukturální-csv-datová-schránka-třída-datová-schránka)
+: Interpretace
+:: [Má datovou schránku orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datovou-schránku-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-vykonává-působnost-na-základě-ustanovení}
+: Klíč
+:: ustanovení
+: Jméno
+:: Vykonává působnost na základě ustanovení
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Ustanovení právního předpisu](/ustanoveni-pravniho-predpisu/conceptual-model.plantuml#strukturální-csv-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu)
+: Interpretace
+:: [Vykonává působnost na základě ustanovení](#konceptuální-třída-orgán-veřejné-moci-vykonává-působnost-na-základě-ustanovení)
+
+#### Vztah (asociace): Má zařazený subjekt #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-zařazený-subjekt}
+: Klíč
+:: seznam-kategorií
+: Jméno
+:: Má zařazený subjekt
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Zařazení do kategorie](#strukturální-csv-orgán-veřejné-moci-třída-zařazení-do-kategorie)
+: Interpretace
+:: [Má zařazený subjekt](#konceptuální-třída-orgán-veřejné-moci-nebo-soukromoprávní-uživatel-údajů-má-zařazený-subjekt)
+
+#### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-adresu-místa-pobytu-orgánu-veřejné-moci}
+: Klíč
+:: adresa-místa-pobytu
+: Jméno
+:: Má adresu místa pobytu orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#strukturální-csv-orgán-veřejné-moci-třída-adresní-místo)
+: Interpretace
+:: [Má adresu místa pobytu orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-místa-pobytu-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-adresu-sídla-orgánu-veřejné-moci}
+: Klíč
+:: adresa-sídla
+: Jméno
+:: Má adresu sídla orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#strukturální-csv-orgán-veřejné-moci-třída-adresní-místo)
+: Interpretace
+:: [Má adresu sídla orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-sídla-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-stojí-v-čele-orgánu-veřejné-moci}
+: Klíč
+:: osoba-v-čele
+: Jméno
+:: Stojí v čele orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Osoba stojící v čele orgánu veřejné moci](#strukturální-csv-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci)
+: Interpretace
+:: [Stojí v čele orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-stojí-v-čele-orgánu-veřejné-moci)
+
+#### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pracoviště-vykonávající-úkon}
+: Klíč
+:: pracoviště-ovm
+: Jméno
+:: Má pracoviště vykonávající úkon
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Pracoviště](/pracoviste/conceptual-model.plantuml#strukturální-csv-pracoviště-třída-pracoviště)
+: Interpretace
+:: [Má pracoviště vykonávající úkon](#konceptuální-třída-orgán-veřejné-moci-má-pracoviště-vykonávající-úkon)
+
+#### Vztah (asociace): Má právní formu osoby #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-právní-formu-osoby}
+: Klíč
+:: má_právní_formu_osoby
+: Jméno
+:: Má právní formu osoby
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Právní forma](#strukturální-csv-orgán-veřejné-moci-třída-právní-forma)
+: Interpretace
+:: [Má právní formu osoby](#konceptuální-třída-osoba-má-právní-formu-osoby)
+
+### Zařazení do kategorie ### {#strukturální-csv-orgán-veřejné-moci-třída-zařazení-do-kategorie}
+: Popis
+:: b32_b521813
+: Interpretace
+:: [Zařazení do kategorie](#konceptuální-třída-zařazení-do-kategorie)
+
+#### Má datum zařazení do kategorie #### {#strukturální-csv-orgán-veřejné-moci-třída-zařazení-do-kategorie-má-datum-zařazení-do-kategorie}
+: Klíč
+:: zařazení-od
+: Jméno
+:: Má datum zařazení do kategorie
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum zařazení do kategorie](#konceptuální-třída-zařazení-do-kategorie-má-datum-zařazení-do-kategorie)
+
+#### Má datum vyřazení z kategorie #### {#strukturální-csv-orgán-veřejné-moci-třída-zařazení-do-kategorie-má-datum-vyřazení-z-kategorie}
+: Klíč
+:: zařazení-do
+: Jméno
+:: Má datum vyřazení z kategorie
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum vyřazení z kategorie](#konceptuální-třída-zařazení-do-kategorie-má-datum-vyřazení-z-kategorie)
+
+#### Vztah (asociace): Zařazuje do kategorie #### {#strukturální-csv-orgán-veřejné-moci-třída-zařazení-do-kategorie-zařazuje-do-kategorie}
+: Klíč
+:: kategorie
+: Jméno
+:: Zařazuje do kategorie
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Kategorie](#strukturální-csv-orgán-veřejné-moci-třída-kategorie)
+: Interpretace
+:: [Zařazuje do kategorie](#konceptuální-třída-zařazení-do-kategorie-zařazuje-do-kategorie)
+
+### adresní místo ### {#strukturální-csv-orgán-veřejné-moci-třída-adresní-místo}
+: Popis
+:: Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Interpretace
+:: [adresní místo](#konceptuální-třída-adresní-místo)
+
+### adresní místo ### {#strukturální-csv-orgán-veřejné-moci-třída-adresní-místo}
+: Popis
+:: Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Interpretace
+:: [adresní místo](#konceptuální-třída-adresní-místo)
+
+#### kód adresního místa #### {#strukturální-csv-orgán-veřejné-moci-třída-adresní-místo-kód-adresního-místa}
+: Klíč
+:: kód_adresního_místa
+: Jméno
+:: kód adresního místa
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [null](null)
+: Interpretace
+:: [kód adresního místa](#konceptuální-třída-adresní-místo-kód-adresního-místa)
+
+### Osoba stojící v čele orgánu veřejné moci ### {#strukturální-csv-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci}
+: Popis
+:: Osoba stojící v čele orgánu veřejné moci.
+: Interpretace
+:: [Osoba stojící v čele orgánu veřejné moci](#konceptuální-třída-osoba-stojící-v-čele-orgánu-veřejné-moci)
+
+#### Má jméno a příjmení osoby stojící v čele orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci-má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci}
+: Klíč
+:: jméno
+: Jméno
+:: Má jméno a příjmení osoby stojící v čele orgánu veřejné moci
+: Popis
+:: Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má jméno a příjmení osoby stojící v čele orgánu veřejné moci](#konceptuální-třída-osoba-stojící-v-čele-orgánu-veřejné-moci-má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci)
+
+### Právní forma ### {#strukturální-csv-orgán-veřejné-moci-třída-právní-forma}
+: Popis
+:: Právní forma osoby z číselníku právních forem.
+: Interpretace
+:: [Právní forma](#konceptuální-třída-právní-forma)
+
+### Kategorie ### {#strukturální-csv-orgán-veřejné-moci-třída-kategorie}
+: Popis
+:: Kategorií se rozumí skupina orgánů veřejné moci nebo soukromoprávních uživatelů údajů, kteří vykonávají stejné činnosti.
+: Interpretace
+:: [Kategorie](#konceptuální-třída-kategorie)

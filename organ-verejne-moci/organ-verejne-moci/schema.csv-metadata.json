@@ -1,0 +1,316 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "cs"
+        }
+    ],
+    "@id": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445/table.csv-metadata.json",
+    "@type": "Table",
+    "url": "table.csv",
+    "tableSchema": {
+        "@type": "Schema",
+        "columns": [
+            {
+                "@type": "Column",
+                "name": "identifik%C3%A1tor",
+                "titles": "identifikátor",
+                "dc:title": {
+                    "@value": "Má identifikátor orgánu veřejné moci",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Jednoznačný identifikátor orgánu veřejné moci v rámci všech orgánů veřejné moci. Identifikátor je referenčním údajem.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikátor-orgánu-veřejné-moci",
+                "datatype": "string",
+                "required": true
+            },
+            {
+                "@type": "Column",
+                "name": "n%C3%A1zev",
+                "titles": "název",
+                "dc:title": {
+                    "@value": "Má název orgánu veřejné moci",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Pojmenovává orgán veřejné moci názvem, který je oficiálním názvem orgánu veřejné moci. Název je referenčním údajem převzatým z registru obyvatel nebo z registru osob.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-název-orgánu-veřejné-moci",
+                "datatype": "string",
+                "lang": "cs",
+                "required": true
+            },
+            {
+                "@type": "Column",
+                "name": "vnit%C5%99n%C3%AD-organiza%C4%8Dn%C3%AD-jednotka",
+                "titles": "vnitřní-organizační-jednotka",
+                "dc:title": {
+                    "@value": "Je vnitřní organizační jednotkou",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Údaj o tom, zda je orgán veřejné moci vnitřní organizační jednotkou organizační složky státu, které byla zákonem svěřena vlastní působnost. Jedná se o referenční údaj.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/je-vnitřní-organizační-jednotkou",
+                "datatype": "boolean"
+            },
+            {
+                "@type": "Column",
+                "name": "i%C4%8Do",
+                "titles": "ičo",
+                "dc:title": {
+                    "@value": "Má identifikační číslo osoby orgánu veřejné moci",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Identifikační číslo osoby orgánu veřejné moci, bylo-li přiděleno. Identifikační číslo je referenčním údajem.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikační-číslo-osoby-orgánu-veřejné-moci",
+                "datatype": "string"
+            },
+            {
+                "@type": "Column",
+                "name": "datov%C3%A9-schr%C3%A1nky_typ-ds",
+                "titles": "datové-schránky_typ-ds",
+                "propertyUrl": null,
+                "datatype": "string"
+            },
+            {
+                "@type": "Column",
+                "name": "datov%C3%A9-schr%C3%A1nky_identifik%C3%A1tor-ds",
+                "titles": "datové-schránky_identifikátor-ds",
+                "propertyUrl": null,
+                "datatype": "string"
+            },
+            {
+                "@type": "Column",
+                "name": "ustanoven%C3%AD_ozna%C4%8Den%C3%AD",
+                "titles": "ustanovení_označení",
+                "propertyUrl": null,
+                "datatype": "string"
+            },
+            {
+                "@type": "Column",
+                "name": "seznam-kategori%C3%AD_kategorie",
+                "titles": "seznam-kategorií_kategorie",
+                "dc:title": {
+                    "@value": "Zařazuje do kategorie",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Určuje kategorii, do které je orgán veřejné moci nebo soukromoprávní uživatel údajů zařazen.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/agendový/104/pojem/zařazuje-do-kategorie",
+                "datatype": "string"
+            },
+            {
+                "@type": "Column",
+                "name": "seznam-kategori%C3%AD_za%C5%99azen%C3%AD-od",
+                "titles": "seznam-kategorií_zařazení-od",
+                "dc:title": {
+                    "@value": "Má datum zařazení do kategorie",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Datum, ke kterému byl nebo bude orgán veřejné moci nebo soukromoprávní uživatel údajů  do kategorie zařazen.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/agendový/104/pojem/má-datum-zařazení-do-kategorie",
+                "datatype": "date"
+            },
+            {
+                "@type": "Column",
+                "name": "seznam-kategori%C3%AD_za%C5%99azen%C3%AD-do",
+                "titles": "seznam-kategorií_zařazení-do",
+                "dc:title": {
+                    "@value": "Má datum vyřazení z kategorie",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Datum, ke kterému byl nebo bude orgán veřejné moci nebo soukromoprávní uživatel údajů z kategorie vyřazen.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/agendový/104/pojem/má-datum-vyřazení-z-kategorie",
+                "datatype": "date"
+            },
+            {
+                "@type": "Column",
+                "name": "adresa-m%C3%ADsta-pobytu",
+                "titles": "adresa-místa-pobytu",
+                "dc:title": {
+                    "@value": "Má adresu místa pobytu orgánu veřejné moci",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Adresa místa pobytu orgánu veřejné moci, pokud takovou adresu má. Adresa místa pobytu je referenční údaj. Je vyjádřena referencí do Registru územní identifikace, adres a nemovitostí. Je převzata z registru osob nebo z registru obyvatel. Jeden orgán veřejné moci může mít nejvýše jednu adresu místa pobytu.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-místa-pobytu-orgánu-veřejné-moci",
+                "datatype": "string"
+            },
+            {
+                "@type": "Column",
+                "name": "adresa-s%C3%ADdla_k%C3%B3d_adresn%C3%ADho_m%C3%ADsta",
+                "titles": "adresa-sídla_kód_adresního_místa",
+                "dc:title": {
+                    "@value": "kód adresního místa",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/generický/adresy/pojem/kód-adresního-místa"
+            },
+            {
+                "@type": "Column",
+                "name": "osoba-v-%C4%8Dele_jm%C3%A9no",
+                "titles": "osoba-v-čele_jméno",
+                "dc:title": {
+                    "@value": "Má jméno a příjmení osoby stojící v čele orgánu veřejné moci",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Plné jméno osoby stojicí v čele orgánu veřejné moci převzaté z registru obyvatel.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci",
+                "datatype": "string"
+            },
+            {
+                "@type": "Column",
+                "name": "zah%C3%A1jen%C3%AD",
+                "titles": "zahájení",
+                "dc:title": {
+                    "@value": "Má datum zahájení výkonu působnosti orgánu veřejné moci",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Datum, od kterého orgán veřejné moci vykonává působnost",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci",
+                "datatype": "date"
+            },
+            {
+                "@type": "Column",
+                "name": "ukon%C4%8Den%C3%AD",
+                "titles": "ukončení",
+                "dc:title": {
+                    "@value": "Má datum ukončení výkonu působnosti orgánu veřejné moci",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Datum, do kterého orgán veřejné moci vykonává působnost",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/agendový/104/pojem/má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci",
+                "datatype": "date"
+            },
+            {
+                "@type": "Column",
+                "name": "pozastaven%C3%AD-od",
+                "titles": "pozastavení-od",
+                "dc:title": {
+                    "@value": "Má pozastavený výkon působnosti orgánu veřejné moci od",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Datum, od kterého má nebo měl orgán veřejné moci pozastaven výkon působnosti.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od",
+                "datatype": "date"
+            },
+            {
+                "@type": "Column",
+                "name": "pozastaven%C3%AD-do",
+                "titles": "pozastavení-do",
+                "dc:title": {
+                    "@value": "Má pozastavený výkon působnosti orgánu veřejné moci do",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Datum, do kterého má nebo měl orgán veřejné moci pozastaven výkon působnosti.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do",
+                "datatype": "date"
+            },
+            {
+                "@type": "Column",
+                "name": "p%C5%99eru%C5%A1en%C3%AD-od",
+                "titles": "přerušení-od",
+                "dc:title": {
+                    "@value": "Má přerušený výkon působnosti orgánu veřejné moci od",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Datum, od kterého má nebo měl orgán veřejné moci přerušen výkon působnosti.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od",
+                "datatype": "date"
+            },
+            {
+                "@type": "Column",
+                "name": "p%C5%99eru%C5%A1en%C3%AD-do",
+                "titles": "přerušení-do",
+                "dc:title": {
+                    "@value": "Má přerušený výkon působnosti orgánu veřejné moci do",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Datum, do kterého má nebo měl orgán veřejné moci přerušen výkon působnosti.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do",
+                "datatype": "date"
+            },
+            {
+                "@type": "Column",
+                "name": "pracovi%C5%A1t%C4%9B-ovm_adresa-pr_k%C3%B3d",
+                "titles": "pracoviště-ovm_adresa-pr_kód",
+                "propertyUrl": null,
+                "datatype": "string"
+            },
+            {
+                "@type": "Column",
+                "name": "pracovi%C5%A1t%C4%9B-ovm_adresa-pr-txt",
+                "titles": "pracoviště-ovm_adresa-pr-txt",
+                "propertyUrl": null,
+                "datatype": "string"
+            },
+            {
+                "@type": "Column",
+                "name": "pracovi%C5%A1t%C4%9B-ovm_st%C3%A1t-pr",
+                "titles": "pracoviště-ovm_stát-pr",
+                "propertyUrl": null,
+                "datatype": "string"
+            },
+            {
+                "@type": "Column",
+                "name": "pracovi%C5%A1t%C4%9B-ovm_otev%C5%99en%C3%AD",
+                "titles": "pracoviště-ovm_otevření",
+                "propertyUrl": null,
+                "datatype": "date"
+            },
+            {
+                "@type": "Column",
+                "name": "pracovi%C5%A1t%C4%9B-ovm_uzav%C5%99en%C3%AD",
+                "titles": "pracoviště-ovm_uzavření",
+                "propertyUrl": null,
+                "datatype": "date"
+            },
+            {
+                "@type": "Column",
+                "propertyUrl": "rdf:type",
+                "valueUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/orgán-veřejné-moci",
+                "virtual": true
+            }
+        ]
+    }
+}

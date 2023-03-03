@@ -1,0 +1,15 @@
+PREFIX ns0: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>
+CONSTRUCT {
+  ?v0 a ns0:datová-schránka .
+  ?v0 ns0:má-typ-datové-schránky ?v1 .
+  ?v1 a ns0:typ-datové-schránky .
+  ?v0 ns0:má-identifikátor-datové-schránky ?v2 .
+}
+WHERE {
+  ?v0 a ns0:datová-schránka .
+  ?v0 ns0:má-typ-datové-schránky ?v1 .
+  OPTIONAL {
+    ?v1 a ns0:typ-datové-schránky .
+  }
+  ?v0 ns0:má-identifikátor-datové-schránky ?v2 .
+}

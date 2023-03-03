@@ -1,0 +1,8 @@
+PREFIX ns1: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>
+SELECT (?v2 AS ?označení)
+WHERE {
+  ?v1 a ns1:ustanovení-právního-předpisu .
+  OPTIONAL {
+    ?v1 ns1:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v2 .
+  }
+}

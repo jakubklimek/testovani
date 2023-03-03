@@ -1,0 +1,8 @@
+@startuml
+set namespaceSeparator none
+skinparam dpi 200
+class "adresní místo" {
+  Má kód adresního místa
+}
+
+@enduml

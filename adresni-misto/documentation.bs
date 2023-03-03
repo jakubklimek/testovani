@@ -1,0 +1,111 @@
+<pre class='metadata'>
+Title : Adresní místo 
+Shortname : Adresní místo 
+Status : LS 
+Editor : Dataspecer editor, https://slovník.gov.cz/generujeme 
+Boilerplate : conformance no, copyright no 
+Abstract : This document was generated automatically by [Dataspecer](https://dataspecer.com/). 
+Markup Shorthands : markdown yes 
+Logo : https://ofn.gov.cz/static/images/logo.png 
+</pre>
+
+# Konceptuální model # {#konceptualni-model}
+V této sekci je definován konceptuální model.
+
+<figure><img src="./conceptual-model.png"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
+
+## adresní místo ## {#konceptuální-třída-adresní-místo}
+: Popis
+:: Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Význam
+:: Typ adresní místo je definován v sémantickém slovníku pojmů jako [adresní místo](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresní-místo).
+
+### Má kód adresního místa ### {#konceptuální-třída-adresní-místo-má-kód-adresního-místa}
+: Jméno
+:: Má kód adresního místa
+: Popis
+:: Referenční vazba na referenční údaj o adrese v registru územní identifikace.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Význam
+:: Vlastnost Má kód adresního místa je definován v sémantickém slovníku pojmů jako [Má kód adresního místa](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-kód-adresního-místa).
+
+# adresní místo
+Datová struktura pro adresní místo. Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+
+## adresní místo JSON
+V této sekci je definován strukturní model pro [JSON schéma](./adresni-misto/schema.json).
+
+### adresní místo ### {#strukturální-json-adresní-místo-třída-adresní-místo}
+: Popis
+:: Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Interpretace
+:: [adresní místo](#konceptuální-třída-adresní-místo)
+
+#### Má kód adresního místa #### {#strukturální-json-adresní-místo-třída-adresní-místo-má-kód-adresního-místa}
+: Klíč
+:: kód
+: Jméno
+:: Má kód adresního místa
+: Popis
+:: Datová struktura pro adresní místo. Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má kód adresního místa](#konceptuální-třída-adresní-místo-má-kód-adresního-místa)
+
+## adresní místo XML
+V této sekci je definován strukturní model pro [XML schéma](./adresni-misto/schema.xsd).
+
+### adresní místo ### {#strukturální-xml-adresní-místo-třída-adresní-místo}
+: Popis
+:: Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Interpretace
+:: [adresní místo](#konceptuální-třída-adresní-místo)
+
+#### Má kód adresního místa #### {#strukturální-xml-adresní-místo-třída-adresní-místo-má-kód-adresního-místa}
+: Klíč
+:: kód
+: Jméno
+:: Má kód adresního místa
+: Popis
+:: Datová struktura pro adresní místo. Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má kód adresního místa](#konceptuální-třída-adresní-místo-má-kód-adresního-místa)
+
+## adresní místo CSV
+V této sekci je definován strukturní model pro [CSV schéma](./adresni-misto/schema.csv-metadata.json).
+
+### adresní místo ### {#strukturální-csv-adresní-místo-třída-adresní-místo}
+: Popis
+:: Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Interpretace
+:: [adresní místo](#konceptuální-třída-adresní-místo)
+
+#### Má kód adresního místa #### {#strukturální-csv-adresní-místo-třída-adresní-místo-má-kód-adresního-místa}
+: Klíč
+:: kód
+: Jméno
+:: Má kód adresního místa
+: Popis
+:: Datová struktura pro adresní místo. Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má kód adresního místa](#konceptuální-třída-adresní-místo-má-kód-adresního-místa)

@@ -1,0 +1,3335 @@
+{
+    "https://ofn.gov.cz/data-specification/3efaf255-aec8-45d2-872e-5033cbabc354": {
+        "iri": "https://ofn.gov.cz/data-specification/3efaf255-aec8-45d2-872e-5033cbabc354",
+        "pim": "https://ofn.gov.cz/schema/1657559394201-1a50-85b0-a52c",
+        "psms": [
+            "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445"
+        ],
+        "importsDataSpecifications": [
+            "https://ofn.gov.cz/data-specification/0287d578-22ae-44be-8dae-903d12d8572a",
+            "https://ofn.gov.cz/data-specification/26ca6ed6-8d6e-4c27-9b83-3269c3a4a811",
+            "https://ofn.gov.cz/data-specification/a0a0b81c-e443-44e5-b38b-f6c6fac97488",
+            "https://ofn.gov.cz/data-specification/d3d0b0f2-3c7b-48f2-baf1-145ca7d51d65"
+        ],
+        "artefacts": [
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#jsonschema",
+                "name": null,
+                "outputPath": "organ-verejne-moci/organ-verejne-moci/schema.json",
+                "publicUrl": "/organ-verejne-moci/organ-verejne-moci/schema.json",
+                "generator": "http://example.com/generator/json-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+                        "jsonRootCardinality": "object-with-array",
+                        "jsonRootCardinalityObjectKey": "položky",
+                        "jsonDefaultTypeKeyMapping": "technical-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#jsonLd",
+                "name": null,
+                "outputPath": "organ-verejne-moci/organ-verejne-moci/context.jsonld",
+                "publicUrl": "/organ-verejne-moci/organ-verejne-moci/context.jsonld",
+                "generator": "http://dataspecer.com/generator/json-ld",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+                        "jsonRootCardinality": "object-with-array",
+                        "jsonRootCardinalityObjectKey": "položky",
+                        "jsonDefaultTypeKeyMapping": "technical-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445",
+                "type": "schema"
+            },
+            {
+                "iri": "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                "name": null,
+                "outputPath": "organ-verejne-moci/organ-verejne-moci/2022-07.xsd",
+                "publicUrl": "/organ-verejne-moci/organ-verejne-moci/2022-07.xsd",
+                "generator": "http://example.com/generator/xml-common-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+                        "jsonRootCardinality": "object-with-array",
+                        "jsonRootCardinalityObjectKey": "položky",
+                        "jsonDefaultTypeKeyMapping": "technical-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#xmlschema",
+                "name": null,
+                "outputPath": "organ-verejne-moci/organ-verejne-moci/schema.xsd",
+                "publicUrl": "/organ-verejne-moci/organ-verejne-moci/schema.xsd",
+                "generator": "http://example.com/generator/xml-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+                        "jsonRootCardinality": "object-with-array",
+                        "jsonRootCardinalityObjectKey": "položky",
+                        "jsonDefaultTypeKeyMapping": "technical-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#xsltlifting",
+                "name": null,
+                "outputPath": "organ-verejne-moci/organ-verejne-moci/lifting.xslt",
+                "publicUrl": "/organ-verejne-moci/organ-verejne-moci/lifting.xslt",
+                "generator": "http://example.com/generator/xslt-lifting",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+                        "jsonRootCardinality": "object-with-array",
+                        "jsonRootCardinalityObjectKey": "položky",
+                        "jsonDefaultTypeKeyMapping": "technical-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#xsltlowering",
+                "name": null,
+                "outputPath": "organ-verejne-moci/organ-verejne-moci/lowering.xslt",
+                "publicUrl": "/organ-verejne-moci/organ-verejne-moci/lowering.xslt",
+                "generator": "http://example.com/generator/xslt-lowering",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+                        "jsonRootCardinality": "object-with-array",
+                        "jsonRootCardinalityObjectKey": "položky",
+                        "jsonDefaultTypeKeyMapping": "technical-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#csvschema",
+                "name": null,
+                "outputPath": "organ-verejne-moci/organ-verejne-moci/schema.csv-metadata.json",
+                "publicUrl": "/organ-verejne-moci/organ-verejne-moci/schema.csv-metadata.json",
+                "generator": "http://example.com/generator/csv-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+                        "jsonRootCardinality": "object-with-array",
+                        "jsonRootCardinalityObjectKey": "položky",
+                        "jsonDefaultTypeKeyMapping": "technical-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#rdfToCsv",
+                "name": null,
+                "outputPath": "organ-verejne-moci/organ-verejne-moci/rdf-to-csv/",
+                "publicUrl": "/organ-verejne-moci/organ-verejne-moci/rdf-to-csv/",
+                "generator": "http://example.com/generator/rdf-to-csv",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+                        "jsonRootCardinality": "object-with-array",
+                        "jsonRootCardinalityObjectKey": "položky",
+                        "jsonDefaultTypeKeyMapping": "technical-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#sparqlschema",
+                "name": null,
+                "outputPath": "organ-verejne-moci/organ-verejne-moci/query.sparql",
+                "publicUrl": "/organ-verejne-moci/organ-verejne-moci/query.sparql",
+                "generator": "http://example.com/generator/sparql",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+                        "jsonRootCardinality": "object-with-array",
+                        "jsonRootCardinalityObjectKey": "položky",
+                        "jsonDefaultTypeKeyMapping": "technical-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/3efaf255-aec8-45d2-872e-5033cbabc354#plantUml",
+                "name": null,
+                "outputPath": "organ-verejne-moci/conceptual-model.plantuml",
+                "publicUrl": "/organ-verejne-moci/conceptual-model.plantuml",
+                "generator": "plant-uml",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+                        "jsonRootCardinality": "object-with-array",
+                        "jsonRootCardinalityObjectKey": "položky",
+                        "jsonDefaultTypeKeyMapping": "technical-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/3efaf255-aec8-45d2-872e-5033cbabc354#plantUmlImage",
+                "name": null,
+                "outputPath": "organ-verejne-moci/conceptual-model.png",
+                "publicUrl": "/organ-verejne-moci/conceptual-model.png",
+                "generator": "plant-uml/image",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+                        "jsonRootCardinality": "object-with-array",
+                        "jsonRootCardinalityObjectKey": "položky",
+                        "jsonDefaultTypeKeyMapping": "technical-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/3efaf255-aec8-45d2-872e-5033cbabc354#bikeshed",
+                "name": null,
+                "outputPath": "organ-verejne-moci/documentation.bs",
+                "publicUrl": "/organ-verejne-moci/documentation.bs",
+                "generator": "http://example.com/generator/bikeshed",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+                        "jsonRootCardinality": "object-with-array",
+                        "jsonRootCardinalityObjectKey": "položky",
+                        "jsonDefaultTypeKeyMapping": "technical-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#jsonschema",
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#jsonLd",
+                    "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#xmlschema",
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#xsltlifting",
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#xsltlowering",
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#csvschema",
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#rdfToCsv",
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#sparqlschema"
+                ],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/3efaf255-aec8-45d2-872e-5033cbabc354#bikeshedHtml",
+                "name": null,
+                "outputPath": "organ-verejne-moci/documentation.html",
+                "publicUrl": "/organ-verejne-moci/documentation.html",
+                "generator": "http://example.com/generator/bikeshed/html-output",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+                        "jsonRootCardinality": "object-with-array",
+                        "jsonRootCardinalityObjectKey": "položky",
+                        "jsonDefaultTypeKeyMapping": "technical-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#jsonschema",
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#jsonLd",
+                    "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#xmlschema",
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#xsltlifting",
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#xsltlowering",
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#csvschema",
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#rdfToCsv",
+                    "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445#sparqlschema"
+                ],
+                "type": "documentation"
+            }
+        ],
+        "artefactConfiguration": {
+            "json": {
+                "jsonRootCardinality": "object-with-array",
+                "jsonRootCardinalityObjectKey": "položky",
+                "jsonDefaultTypeKeyMapping": "technical-label",
+                "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/"
+            }
+        },
+        "pimStores": [
+            {
+                "type": "https://ofn.gov.cz/store-descriptor/http",
+                "isReadOnly": false,
+                "url": "https://slovník.gov.cz/generujeme/backend/store/cc5c3c46-0b50-4f82-8bf5-d82ff8a1ab8a"
+            }
+        ],
+        "psmStores": {
+            "https://ofn.gov.cz/schema/1657559409737-a488-04a4-a445": [
+                {
+                    "type": "https://ofn.gov.cz/store-descriptor/http",
+                    "isReadOnly": false,
+                    "url": "https://slovník.gov.cz/generujeme/backend/store/5f4351af-c032-43d0-91e5-88e022f24463"
+                }
+            ]
+        },
+        "tags": [
+            "RPP"
+        ],
+        "type": "http://dataspecer.com/vocabularies/data-specification/documentation",
+        "cimAdapters": []
+    },
+    "https://ofn.gov.cz/data-specification/0287d578-22ae-44be-8dae-903d12d8572a": {
+        "iri": "https://ofn.gov.cz/data-specification/0287d578-22ae-44be-8dae-903d12d8572a",
+        "pim": "https://ofn.gov.cz/schema/1657544499738-0633-cc06-9abd",
+        "psms": [
+            "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9"
+        ],
+        "importsDataSpecifications": [],
+        "artefacts": [
+            {
+                "iri": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#jsonschema",
+                "name": null,
+                "outputPath": "ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/schema.json",
+                "publicUrl": "/ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/schema.json",
+                "generator": "http://example.com/generator/json-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#jsonLd",
+                "name": null,
+                "outputPath": "ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/context.jsonld",
+                "publicUrl": "/ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/context.jsonld",
+                "generator": "http://dataspecer.com/generator/json-ld",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9",
+                "type": "schema"
+            },
+            {
+                "iri": "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                "name": null,
+                "outputPath": "ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/2022-07.xsd",
+                "publicUrl": "/ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/2022-07.xsd",
+                "generator": "http://example.com/generator/xml-common-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#xmlschema",
+                "name": null,
+                "outputPath": "ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/schema.xsd",
+                "publicUrl": "/ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/schema.xsd",
+                "generator": "http://example.com/generator/xml-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#xsltlifting",
+                "name": null,
+                "outputPath": "ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/lifting.xslt",
+                "publicUrl": "/ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/lifting.xslt",
+                "generator": "http://example.com/generator/xslt-lifting",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#xsltlowering",
+                "name": null,
+                "outputPath": "ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/lowering.xslt",
+                "publicUrl": "/ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/lowering.xslt",
+                "generator": "http://example.com/generator/xslt-lowering",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#csvschema",
+                "name": null,
+                "outputPath": "ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/schema.csv-metadata.json",
+                "publicUrl": "/ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/schema.csv-metadata.json",
+                "generator": "http://example.com/generator/csv-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#rdfToCsv",
+                "name": null,
+                "outputPath": "ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/rdf-to-csv/",
+                "publicUrl": "/ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/rdf-to-csv/",
+                "generator": "http://example.com/generator/rdf-to-csv",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#sparqlschema",
+                "name": null,
+                "outputPath": "ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/query.sparql",
+                "publicUrl": "/ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/query.sparql",
+                "generator": "http://example.com/generator/sparql",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/0287d578-22ae-44be-8dae-903d12d8572a#plantUml",
+                "name": null,
+                "outputPath": "ustanoveni-pravniho-predpisu/conceptual-model.plantuml",
+                "publicUrl": "/ustanoveni-pravniho-predpisu/conceptual-model.plantuml",
+                "generator": "plant-uml",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/0287d578-22ae-44be-8dae-903d12d8572a#plantUmlImage",
+                "name": null,
+                "outputPath": "ustanoveni-pravniho-predpisu/conceptual-model.png",
+                "publicUrl": "/ustanoveni-pravniho-predpisu/conceptual-model.png",
+                "generator": "plant-uml/image",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/0287d578-22ae-44be-8dae-903d12d8572a#bikeshed",
+                "name": null,
+                "outputPath": "ustanoveni-pravniho-predpisu/documentation.bs",
+                "publicUrl": "/ustanoveni-pravniho-predpisu/documentation.bs",
+                "generator": "http://example.com/generator/bikeshed",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#jsonschema",
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#jsonLd",
+                    "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#xmlschema",
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#xsltlifting",
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#xsltlowering",
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#csvschema",
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#rdfToCsv",
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#sparqlschema"
+                ],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/0287d578-22ae-44be-8dae-903d12d8572a#bikeshedHtml",
+                "name": null,
+                "outputPath": "ustanoveni-pravniho-predpisu/documentation.html",
+                "publicUrl": "/ustanoveni-pravniho-predpisu/documentation.html",
+                "generator": "http://example.com/generator/bikeshed/html-output",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#jsonschema",
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#jsonLd",
+                    "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#xmlschema",
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#xsltlifting",
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#xsltlowering",
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#csvschema",
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#rdfToCsv",
+                    "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9#sparqlschema"
+                ],
+                "type": "documentation"
+            }
+        ],
+        "artefactConfiguration": [],
+        "pimStores": [
+            {
+                "type": "https://ofn.gov.cz/store-descriptor/http",
+                "isReadOnly": false,
+                "url": "https://slovník.gov.cz/generujeme/backend/store/dbd1d22e-a2bc-4958-a118-5d3692f244e5"
+            }
+        ],
+        "psmStores": {
+            "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9": [
+                {
+                    "type": "https://ofn.gov.cz/store-descriptor/http",
+                    "isReadOnly": false,
+                    "url": "https://slovník.gov.cz/generujeme/backend/store/f3c59ff9-c12c-48f7-8db3-c8e2ea88d5ba"
+                }
+            ]
+        },
+        "tags": [
+            "RPP"
+        ],
+        "type": "http://dataspecer.com/vocabularies/data-specification/documentation",
+        "cimAdapters": []
+    },
+    "https://ofn.gov.cz/data-specification/26ca6ed6-8d6e-4c27-9b83-3269c3a4a811": {
+        "iri": "https://ofn.gov.cz/data-specification/26ca6ed6-8d6e-4c27-9b83-3269c3a4a811",
+        "pim": "https://ofn.gov.cz/schema/1657559316465-65dc-bb57-9dde",
+        "psms": [
+            "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f"
+        ],
+        "importsDataSpecifications": [],
+        "artefacts": [
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#jsonschema",
+                "name": null,
+                "outputPath": "adresni-misto/adresni-misto/schema.json",
+                "publicUrl": "/adresni-misto/adresni-misto/schema.json",
+                "generator": "http://example.com/generator/json-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#jsonLd",
+                "name": null,
+                "outputPath": "adresni-misto/adresni-misto/context.jsonld",
+                "publicUrl": "/adresni-misto/adresni-misto/context.jsonld",
+                "generator": "http://dataspecer.com/generator/json-ld",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f",
+                "type": "schema"
+            },
+            {
+                "iri": "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                "name": null,
+                "outputPath": "adresni-misto/adresni-misto/2022-07.xsd",
+                "publicUrl": "/adresni-misto/adresni-misto/2022-07.xsd",
+                "generator": "http://example.com/generator/xml-common-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#xmlschema",
+                "name": null,
+                "outputPath": "adresni-misto/adresni-misto/schema.xsd",
+                "publicUrl": "/adresni-misto/adresni-misto/schema.xsd",
+                "generator": "http://example.com/generator/xml-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#xsltlifting",
+                "name": null,
+                "outputPath": "adresni-misto/adresni-misto/lifting.xslt",
+                "publicUrl": "/adresni-misto/adresni-misto/lifting.xslt",
+                "generator": "http://example.com/generator/xslt-lifting",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#xsltlowering",
+                "name": null,
+                "outputPath": "adresni-misto/adresni-misto/lowering.xslt",
+                "publicUrl": "/adresni-misto/adresni-misto/lowering.xslt",
+                "generator": "http://example.com/generator/xslt-lowering",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#csvschema",
+                "name": null,
+                "outputPath": "adresni-misto/adresni-misto/schema.csv-metadata.json",
+                "publicUrl": "/adresni-misto/adresni-misto/schema.csv-metadata.json",
+                "generator": "http://example.com/generator/csv-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#rdfToCsv",
+                "name": null,
+                "outputPath": "adresni-misto/adresni-misto/rdf-to-csv/",
+                "publicUrl": "/adresni-misto/adresni-misto/rdf-to-csv/",
+                "generator": "http://example.com/generator/rdf-to-csv",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#sparqlschema",
+                "name": null,
+                "outputPath": "adresni-misto/adresni-misto/query.sparql",
+                "publicUrl": "/adresni-misto/adresni-misto/query.sparql",
+                "generator": "http://example.com/generator/sparql",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/26ca6ed6-8d6e-4c27-9b83-3269c3a4a811#plantUml",
+                "name": null,
+                "outputPath": "adresni-misto/conceptual-model.plantuml",
+                "publicUrl": "/adresni-misto/conceptual-model.plantuml",
+                "generator": "plant-uml",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/26ca6ed6-8d6e-4c27-9b83-3269c3a4a811#plantUmlImage",
+                "name": null,
+                "outputPath": "adresni-misto/conceptual-model.png",
+                "publicUrl": "/adresni-misto/conceptual-model.png",
+                "generator": "plant-uml/image",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/26ca6ed6-8d6e-4c27-9b83-3269c3a4a811#bikeshed",
+                "name": null,
+                "outputPath": "adresni-misto/documentation.bs",
+                "publicUrl": "/adresni-misto/documentation.bs",
+                "generator": "http://example.com/generator/bikeshed",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#jsonschema",
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#jsonLd",
+                    "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#xmlschema",
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#xsltlifting",
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#xsltlowering",
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#csvschema",
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#rdfToCsv",
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#sparqlschema"
+                ],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/26ca6ed6-8d6e-4c27-9b83-3269c3a4a811#bikeshedHtml",
+                "name": null,
+                "outputPath": "adresni-misto/documentation.html",
+                "publicUrl": "/adresni-misto/documentation.html",
+                "generator": "http://example.com/generator/bikeshed/html-output",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#jsonschema",
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#jsonLd",
+                    "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#xmlschema",
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#xsltlifting",
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#xsltlowering",
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#csvschema",
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#rdfToCsv",
+                    "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f#sparqlschema"
+                ],
+                "type": "documentation"
+            }
+        ],
+        "artefactConfiguration": [],
+        "pimStores": [
+            {
+                "type": "https://ofn.gov.cz/store-descriptor/http",
+                "isReadOnly": false,
+                "url": "https://slovník.gov.cz/generujeme/backend/store/29f32b60-76fd-4431-a83b-f1eabe7d54b4"
+            }
+        ],
+        "psmStores": {
+            "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f": [
+                {
+                    "type": "https://ofn.gov.cz/store-descriptor/http",
+                    "isReadOnly": false,
+                    "url": "https://slovník.gov.cz/generujeme/backend/store/fa2a27dd-6cdd-4156-bb08-d9e3f7a4468c"
+                }
+            ]
+        },
+        "tags": [
+            "RPP"
+        ],
+        "type": "http://dataspecer.com/vocabularies/data-specification/documentation",
+        "cimAdapters": []
+    },
+    "https://ofn.gov.cz/data-specification/a0a0b81c-e443-44e5-b38b-f6c6fac97488": {
+        "iri": "https://ofn.gov.cz/data-specification/a0a0b81c-e443-44e5-b38b-f6c6fac97488",
+        "pim": "https://ofn.gov.cz/schema/1657559111291-3eab-f57f-95b7",
+        "psms": [
+            "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8"
+        ],
+        "importsDataSpecifications": [],
+        "artefacts": [
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#jsonschema",
+                "name": null,
+                "outputPath": "datova-schranka/datova-schranka/schema.json",
+                "publicUrl": "/datova-schranka/datova-schranka/schema.json",
+                "generator": "http://example.com/generator/json-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#jsonLd",
+                "name": null,
+                "outputPath": "datova-schranka/datova-schranka/context.jsonld",
+                "publicUrl": "/datova-schranka/datova-schranka/context.jsonld",
+                "generator": "http://dataspecer.com/generator/json-ld",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8",
+                "type": "schema"
+            },
+            {
+                "iri": "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                "name": null,
+                "outputPath": "datova-schranka/datova-schranka/2022-07.xsd",
+                "publicUrl": "/datova-schranka/datova-schranka/2022-07.xsd",
+                "generator": "http://example.com/generator/xml-common-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#xmlschema",
+                "name": null,
+                "outputPath": "datova-schranka/datova-schranka/schema.xsd",
+                "publicUrl": "/datova-schranka/datova-schranka/schema.xsd",
+                "generator": "http://example.com/generator/xml-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#xsltlifting",
+                "name": null,
+                "outputPath": "datova-schranka/datova-schranka/lifting.xslt",
+                "publicUrl": "/datova-schranka/datova-schranka/lifting.xslt",
+                "generator": "http://example.com/generator/xslt-lifting",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#xsltlowering",
+                "name": null,
+                "outputPath": "datova-schranka/datova-schranka/lowering.xslt",
+                "publicUrl": "/datova-schranka/datova-schranka/lowering.xslt",
+                "generator": "http://example.com/generator/xslt-lowering",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#csvschema",
+                "name": null,
+                "outputPath": "datova-schranka/datova-schranka/schema.csv-metadata.json",
+                "publicUrl": "/datova-schranka/datova-schranka/schema.csv-metadata.json",
+                "generator": "http://example.com/generator/csv-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#rdfToCsv",
+                "name": null,
+                "outputPath": "datova-schranka/datova-schranka/rdf-to-csv/",
+                "publicUrl": "/datova-schranka/datova-schranka/rdf-to-csv/",
+                "generator": "http://example.com/generator/rdf-to-csv",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#sparqlschema",
+                "name": null,
+                "outputPath": "datova-schranka/datova-schranka/query.sparql",
+                "publicUrl": "/datova-schranka/datova-schranka/query.sparql",
+                "generator": "http://example.com/generator/sparql",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/a0a0b81c-e443-44e5-b38b-f6c6fac97488#plantUml",
+                "name": null,
+                "outputPath": "datova-schranka/conceptual-model.plantuml",
+                "publicUrl": "/datova-schranka/conceptual-model.plantuml",
+                "generator": "plant-uml",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/a0a0b81c-e443-44e5-b38b-f6c6fac97488#plantUmlImage",
+                "name": null,
+                "outputPath": "datova-schranka/conceptual-model.png",
+                "publicUrl": "/datova-schranka/conceptual-model.png",
+                "generator": "plant-uml/image",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/a0a0b81c-e443-44e5-b38b-f6c6fac97488#bikeshed",
+                "name": null,
+                "outputPath": "datova-schranka/documentation.bs",
+                "publicUrl": "/datova-schranka/documentation.bs",
+                "generator": "http://example.com/generator/bikeshed",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#jsonschema",
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#jsonLd",
+                    "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#xmlschema",
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#xsltlifting",
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#xsltlowering",
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#csvschema",
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#rdfToCsv",
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#sparqlschema"
+                ],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/a0a0b81c-e443-44e5-b38b-f6c6fac97488#bikeshedHtml",
+                "name": null,
+                "outputPath": "datova-schranka/documentation.html",
+                "publicUrl": "/datova-schranka/documentation.html",
+                "generator": "http://example.com/generator/bikeshed/html-output",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "This document was generated automatically by [Dataspecer](https://dataspecer.com/).",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#jsonschema",
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#jsonLd",
+                    "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#xmlschema",
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#xsltlifting",
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#xsltlowering",
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#csvschema",
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#rdfToCsv",
+                    "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8#sparqlschema"
+                ],
+                "type": "documentation"
+            }
+        ],
+        "artefactConfiguration": [],
+        "pimStores": [
+            {
+                "type": "https://ofn.gov.cz/store-descriptor/http",
+                "isReadOnly": false,
+                "url": "https://slovník.gov.cz/generujeme/backend/store/6149eb70-4b95-4368-8aac-128cfb2277bf"
+            }
+        ],
+        "psmStores": {
+            "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8": [
+                {
+                    "type": "https://ofn.gov.cz/store-descriptor/http",
+                    "isReadOnly": false,
+                    "url": "https://slovník.gov.cz/generujeme/backend/store/052b34dd-72e3-4cb6-a224-96969d189b75"
+                }
+            ]
+        },
+        "tags": [
+            "RPP"
+        ],
+        "type": "http://dataspecer.com/vocabularies/data-specification/documentation",
+        "cimAdapters": []
+    },
+    "https://ofn.gov.cz/data-specification/d3d0b0f2-3c7b-48f2-baf1-145ca7d51d65": {
+        "iri": "https://ofn.gov.cz/data-specification/d3d0b0f2-3c7b-48f2-baf1-145ca7d51d65",
+        "pim": "https://ofn.gov.cz/schema/1657560036697-2b84-a19a-92df",
+        "psms": [
+            "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c"
+        ],
+        "importsDataSpecifications": [
+            "https://ofn.gov.cz/data-specification/26ca6ed6-8d6e-4c27-9b83-3269c3a4a811"
+        ],
+        "artefacts": [
+            {
+                "iri": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#jsonschema",
+                "name": null,
+                "outputPath": "pracoviste/pracoviste/schema.json",
+                "publicUrl": "/pracoviste/pracoviste/schema.json",
+                "generator": "http://example.com/generator/json-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "Tento dokument je otevřenou formální normou ve smyslu <a href=\"https://www.zakonyprolidi.cz/cs/1999-106#p3-9\">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech.",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#jsonLd",
+                "name": null,
+                "outputPath": "pracoviste/pracoviste/context.jsonld",
+                "publicUrl": "/pracoviste/pracoviste/context.jsonld",
+                "generator": "http://dataspecer.com/generator/json-ld",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "Tento dokument je otevřenou formální normou ve smyslu <a href=\"https://www.zakonyprolidi.cz/cs/1999-106#p3-9\">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech.",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c",
+                "type": "schema"
+            },
+            {
+                "iri": "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                "name": null,
+                "outputPath": "pracoviste/pracoviste/2022-07.xsd",
+                "publicUrl": "/pracoviste/pracoviste/2022-07.xsd",
+                "generator": "http://example.com/generator/xml-common-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "Tento dokument je otevřenou formální normou ve smyslu <a href=\"https://www.zakonyprolidi.cz/cs/1999-106#p3-9\">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech.",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#xmlschema",
+                "name": null,
+                "outputPath": "pracoviste/pracoviste/schema.xsd",
+                "publicUrl": "/pracoviste/pracoviste/schema.xsd",
+                "generator": "http://example.com/generator/xml-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "Tento dokument je otevřenou formální normou ve smyslu <a href=\"https://www.zakonyprolidi.cz/cs/1999-106#p3-9\">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech.",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#xsltlifting",
+                "name": null,
+                "outputPath": "pracoviste/pracoviste/lifting.xslt",
+                "publicUrl": "/pracoviste/pracoviste/lifting.xslt",
+                "generator": "http://example.com/generator/xslt-lifting",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "Tento dokument je otevřenou formální normou ve smyslu <a href=\"https://www.zakonyprolidi.cz/cs/1999-106#p3-9\">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech.",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#xsltlowering",
+                "name": null,
+                "outputPath": "pracoviste/pracoviste/lowering.xslt",
+                "publicUrl": "/pracoviste/pracoviste/lowering.xslt",
+                "generator": "http://example.com/generator/xslt-lowering",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "Tento dokument je otevřenou formální normou ve smyslu <a href=\"https://www.zakonyprolidi.cz/cs/1999-106#p3-9\">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech.",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#csvschema",
+                "name": null,
+                "outputPath": "pracoviste/pracoviste/schema.csv-metadata.json",
+                "publicUrl": "/pracoviste/pracoviste/schema.csv-metadata.json",
+                "generator": "http://example.com/generator/csv-schema",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "Tento dokument je otevřenou formální normou ve smyslu <a href=\"https://www.zakonyprolidi.cz/cs/1999-106#p3-9\">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech.",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#rdfToCsv",
+                "name": null,
+                "outputPath": "pracoviste/pracoviste/rdf-to-csv/",
+                "publicUrl": "/pracoviste/pracoviste/rdf-to-csv/",
+                "generator": "http://example.com/generator/rdf-to-csv",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "Tento dokument je otevřenou formální normou ve smyslu <a href=\"https://www.zakonyprolidi.cz/cs/1999-106#p3-9\">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech.",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#sparqlschema",
+                "name": null,
+                "outputPath": "pracoviste/pracoviste/query.sparql",
+                "publicUrl": "/pracoviste/pracoviste/query.sparql",
+                "generator": "http://example.com/generator/sparql",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "Tento dokument je otevřenou formální normou ve smyslu <a href=\"https://www.zakonyprolidi.cz/cs/1999-106#p3-9\">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech.",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "psm": "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c",
+                "type": "schema"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/d3d0b0f2-3c7b-48f2-baf1-145ca7d51d65#plantUml",
+                "name": null,
+                "outputPath": "pracoviste/conceptual-model.plantuml",
+                "publicUrl": "/pracoviste/conceptual-model.plantuml",
+                "generator": "plant-uml",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "Tento dokument je otevřenou formální normou ve smyslu <a href=\"https://www.zakonyprolidi.cz/cs/1999-106#p3-9\">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech.",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/d3d0b0f2-3c7b-48f2-baf1-145ca7d51d65#plantUmlImage",
+                "name": null,
+                "outputPath": "pracoviste/conceptual-model.png",
+                "publicUrl": "/pracoviste/conceptual-model.png",
+                "generator": "plant-uml/image",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "Tento dokument je otevřenou formální normou ve smyslu <a href=\"https://www.zakonyprolidi.cz/cs/1999-106#p3-9\">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech.",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/d3d0b0f2-3c7b-48f2-baf1-145ca7d51d65#bikeshed",
+                "name": null,
+                "outputPath": "pracoviste/documentation.bs",
+                "publicUrl": "/pracoviste/documentation.bs",
+                "generator": "http://example.com/generator/bikeshed",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "Tento dokument je otevřenou formální normou ve smyslu <a href=\"https://www.zakonyprolidi.cz/cs/1999-106#p3-9\">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech.",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#jsonschema",
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#jsonLd",
+                    "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#xmlschema",
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#xsltlifting",
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#xsltlowering",
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#csvschema",
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#rdfToCsv",
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#sparqlschema"
+                ],
+                "type": "documentation"
+            },
+            {
+                "iri": "https://ofn.gov.cz/data-specification/d3d0b0f2-3c7b-48f2-baf1-145ca7d51d65#bikeshedHtml",
+                "name": null,
+                "outputPath": "pracoviste/documentation.html",
+                "publicUrl": "/pracoviste/documentation.html",
+                "generator": "http://example.com/generator/bikeshed/html-output",
+                "configuration": {
+                    "json": {
+                        "jsonIdKeyAlias": "id",
+                        "jsonTypeKeyAlias": "type",
+                        "jsonLdBaseUrl": null,
+                        "jsonRootCardinality": "single",
+                        "jsonRootCardinalityObjectKey": "items",
+                        "jsonDefaultTypeKeyMapping": "human-label",
+                        "jsonDefaultTypeKeyMappingHumanLabelLang": "cs"
+                    },
+                    "csv": {
+                        "enableMultipleTableSchema": false
+                    },
+                    "xml": {
+                        "rootClass": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "otherClasses": {
+                            "extractType": false,
+                            "extractGroup": false
+                        },
+                        "commonXmlSchemaExternalLocation": null
+                    },
+                    "bikeshed": {
+                        "abstract": "Tento dokument je otevřenou formální normou ve smyslu <a href=\"https://www.zakonyprolidi.cz/cs/1999-106#p3-9\">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech.",
+                        "editor": "Dataspecer editor, https://slovník.gov.cz/generujeme",
+                        "otherMetadata": {
+                            "Logo": "https://ofn.gov.cz/static/images/logo.png"
+                        },
+                        "language": "cs"
+                    },
+                    "client": {
+                        "technicalLabelCasingConvention": "snake_case",
+                        "technicalLabelSpecialCharacters": "allow",
+                        "technicalLabelLanguages": "cs"
+                    }
+                },
+                "artefacts": [
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#jsonschema",
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#jsonLd",
+                    "https://schemas.dataspecer.com/xsd/core/2022-07.xsd",
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#xmlschema",
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#xsltlifting",
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#xsltlowering",
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#csvschema",
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#rdfToCsv",
+                    "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c#sparqlschema"
+                ],
+                "type": "documentation"
+            }
+        ],
+        "artefactConfiguration": {
+            "bikeshed": {
+                "abstract": "Tento dokument je otevřenou formální normou ve smyslu <a href=\"https://www.zakonyprolidi.cz/cs/1999-106#p3-9\">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech."
+            }
+        },
+        "pimStores": [
+            {
+                "type": "https://ofn.gov.cz/store-descriptor/http",
+                "isReadOnly": false,
+                "url": "https://slovník.gov.cz/generujeme/backend/store/76403c83-1b75-46a9-a190-b6431499a2c7"
+            }
+        ],
+        "psmStores": {
+            "https://ofn.gov.cz/schema/1657560041434-82ac-5798-a32c": [
+                {
+                    "type": "https://ofn.gov.cz/store-descriptor/http",
+                    "isReadOnly": false,
+                    "url": "https://slovník.gov.cz/generujeme/backend/store/dc72ce7c-297f-4a4d-a706-aa0b1c86ee2a"
+                }
+            ]
+        },
+        "tags": [
+            "RPP"
+        ],
+        "type": "http://dataspecer.com/vocabularies/data-specification/documentation",
+        "cimAdapters": []
+    }
+}

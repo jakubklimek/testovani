@@ -1,0 +1,255 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "položky"
+  ],
+  "properties": {
+    "položky": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "identifikátor",
+          "název",
+          "ustanovení"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "iri"
+          },
+          "type": {
+            "oneOf": [
+              {
+                "const": "orgán-veřejné-moci"
+              },
+              {
+                "type": "array",
+                "contains": {
+                  "const": "orgán-veřejné-moci"
+                },
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "identifikátor": {
+            "title": "Má identifikátor orgánu veřejné moci",
+            "description": "Jednoznačný identifikátor orgánu veřejné moci v rámci všech orgánů veřejné moci. Identifikátor je referenčním údajem.",
+            "type": "string"
+          },
+          "název": {
+            "title": "Má název orgánu veřejné moci",
+            "description": "Pojmenovává orgán veřejné moci názvem, který je oficiálním názvem orgánu veřejné moci. Název je referenčním údajem převzatým z registru obyvatel nebo z registru osob.",
+            "type": "object",
+            "required": [
+
+            ],
+            "properties": {
+              "cs": {
+                "title": "Hodnota v českém jazyce",
+                "type": "string"
+              },
+              "en": {
+                "title": "Hodnota v anglickém jazyce",
+                "type": "string"
+              }
+            }
+          },
+          "vnitřní-organizační-jednotka": {
+            "title": "Je vnitřní organizační jednotkou",
+            "description": "Údaj o tom, zda je orgán veřejné moci vnitřní organizační jednotkou organizační složky státu, které byla zákonem svěřena vlastní působnost. Jedná se o referenční údaj.",
+            "type": "boolean"
+          },
+          "ičo": {
+            "title": "Má identifikační číslo osoby orgánu veřejné moci",
+            "description": "Identifikační číslo osoby orgánu veřejné moci, bylo-li přiděleno. Identifikační číslo je referenčním údajem.",
+            "type": "string"
+          },
+          "datové-schránky": {
+            "type": "array",
+            "items": {
+              "$ref": "/datova-schranka/datova-schranka/schema.json"
+            }
+          },
+          "ustanovení": {
+            "$ref": "/ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/schema.json"
+          },
+          "seznam-kategorií": {
+            "type": "array",
+            "items": {
+              "title": "Má zařazený subjekt",
+              "description": "Určuje orgán veřejné moci nebo soukromoprávního uživatele údajů zařazený do kategorie.",
+              "type": "object",
+              "required": [
+                "kategorie"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "format": "iri"
+                },
+                "type": {
+                  "oneOf": [
+                    {
+                      "const": "zařazení_do_kategorie"
+                    },
+                    {
+                      "type": "array",
+                      "contains": {
+                        "const": "zařazení_do_kategorie"
+                      },
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  ]
+                },
+                "kategorie": {
+                  "title": "Zařazuje do kategorie",
+                  "description": "Určuje kategorii, do které je orgán veřejné moci nebo soukromoprávní uživatel údajů zařazen.",
+                  "type": "string",
+                  "format": "iri"
+                },
+                "zařazení-od": {
+                  "title": "Má datum zařazení do kategorie",
+                  "description": "Datum, ke kterému byl nebo bude orgán veřejné moci nebo soukromoprávní uživatel údajů  do kategorie zařazen.",
+                  "type": "string",
+                  "format": "date"
+                },
+                "zařazení-do": {
+                  "title": "Má datum vyřazení z kategorie",
+                  "description": "Datum, ke kterému byl nebo bude orgán veřejné moci nebo soukromoprávní uživatel údajů z kategorie vyřazen.",
+                  "type": "string",
+                  "format": "date"
+                }
+              }
+            }
+          },
+          "adresa-místa-pobytu": {
+            "title": "Má adresu místa pobytu orgánu veřejné moci",
+            "description": "Adresa místa pobytu orgánu veřejné moci, pokud takovou adresu má. Adresa místa pobytu je referenční údaj. Je vyjádřena referencí do Registru územní identifikace, adres a nemovitostí. Je převzata z registru osob nebo z registru obyvatel. Jeden orgán veřejné moci může mít nejvýše jednu adresu místa pobytu.",
+            "type": "string",
+            "format": "iri"
+          },
+          "adresa-sídla": {
+            "title": "Má adresu sídla orgánu veřejné moci",
+            "description": "Adresa sídla orgánu veřejné moci, pokud takovou adresu má. Adresa sídla je referenční údaj. Je vyjádřena referencí do Registru územní identifikace, adres a nemovitostí. Je převzata z registru osob nebo z registru obyvatel. Jeden orgán veřejné moci může mít nejvýše jednu adresu sídla.",
+            "type": "object",
+            "required": [
+
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "format": "iri"
+              },
+              "type": {
+                "oneOf": [
+                  {
+                    "const": "adresní_místo"
+                  },
+                  {
+                    "type": "array",
+                    "contains": {
+                      "const": "adresní_místo"
+                    },
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                ]
+              },
+              "kód_adresního_místa": {
+                "type": "array",
+                "items": {
+                  "title": "kód adresního místa",
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "osoba-v-čele": {
+            "title": "Stojí v čele orgánu veřejné moci",
+            "description": "Určuje osobu stojící v čele orgánu veřejné moci, pokud lze pro daný orgán veřejné moci takový údaj zveřejnit. Pro každý orgán veřejné moci je zveřejněna nejvýše jedna osoba.",
+            "type": "object",
+            "required": [
+              "jméno"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "format": "iri"
+              },
+              "type": {
+                "oneOf": [
+                  {
+                    "const": "osoba"
+                  },
+                  {
+                    "type": "array",
+                    "contains": {
+                      "const": "osoba"
+                    },
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                ]
+              },
+              "jméno": {
+                "title": "Má jméno a příjmení osoby stojící v čele orgánu veřejné moci",
+                "description": "Plné jméno osoby stojicí v čele orgánu veřejné moci převzaté z registru obyvatel.",
+                "type": "string"
+              }
+            }
+          },
+          "zahájení": {
+            "title": "Má datum zahájení výkonu působnosti orgánu veřejné moci",
+            "description": "Datum, od kterého orgán veřejné moci vykonává působnost",
+            "type": "string",
+            "format": "date"
+          },
+          "ukončení": {
+            "title": "Má datum ukončení výkonu působnosti orgánu veřejné moci",
+            "description": "Datum, do kterého orgán veřejné moci vykonává působnost",
+            "type": "string",
+            "format": "date"
+          },
+          "pozastavení-od": {
+            "title": "Má pozastavený výkon působnosti orgánu veřejné moci od",
+            "description": "Datum, od kterého má nebo měl orgán veřejné moci pozastaven výkon působnosti.",
+            "type": "string",
+            "format": "date"
+          },
+          "pozastavení-do": {
+            "title": "Má pozastavený výkon působnosti orgánu veřejné moci do",
+            "description": "Datum, do kterého má nebo měl orgán veřejné moci pozastaven výkon působnosti.",
+            "type": "string",
+            "format": "date"
+          },
+          "přerušení-od": {
+            "title": "Má přerušený výkon působnosti orgánu veřejné moci od",
+            "description": "Datum, od kterého má nebo měl orgán veřejné moci přerušen výkon působnosti.",
+            "type": "string",
+            "format": "date"
+          },
+          "přerušení-do": {
+            "title": "Má přerušený výkon působnosti orgánu veřejné moci do",
+            "description": "Datum, do kterého má nebo měl orgán veřejné moci přerušen výkon působnosti.",
+            "type": "string",
+            "format": "date"
+          },
+          "pracoviště-ovm": {
+            "type": "array",
+            "items": {
+              "$ref": "/pracoviste/pracoviste/schema.json"
+            }
+          }
+        }
+      }
+    }
+  }
+}

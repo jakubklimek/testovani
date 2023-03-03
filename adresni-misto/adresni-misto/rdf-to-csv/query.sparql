@@ -1,0 +1,6 @@
+PREFIX ns1: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>
+SELECT (?v2 AS ?kód)
+WHERE {
+  ?v1 a ns1:adresní-místo .
+  ?v1 ns1:má-kód-adresního-místa ?v2 .
+}

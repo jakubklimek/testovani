@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ustanovení právního předpisu",
+  "description": "Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno.",
+  "type": "object",
+  "required": [
+
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "type": {
+      "oneOf": [
+        {
+          "const": "Ustanovení právního předpisu"
+        },
+        {
+          "type": "array",
+          "contains": {
+            "const": "Ustanovení právního předpisu"
+          },
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "označení": {
+      "title": "Má úplné označení ustanovení včetně označení právního předpisu",
+      "description": "Úplné označení ustanovení je řetězec, který obsahuje označení samotného předpisu dle jeho označení ve Sbírce zákonů a dále označení samotného ustanovení v rámci předpisu. Jeho vnitřní struktura není nijak předepsána.",
+      "type": "string"
+    }
+  }
+}

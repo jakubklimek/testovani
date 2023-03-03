@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "adresní místo",
+  "description": "Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.",
+  "type": "object",
+  "required": [
+    "kód"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "type": {
+      "oneOf": [
+        {
+          "const": "adresní místo"
+        },
+        {
+          "type": "array",
+          "contains": {
+            "const": "adresní místo"
+          },
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "kód": {
+      "title": "Má kód adresního místa",
+      "description": "Referenční vazba na referenční údaj o adrese v registru územní identifikace.",
+      "type": "string"
+    }
+  }
+}

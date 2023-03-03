@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "Datová schránka": {
+      "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/datová-schránka",
+      "@context": {
+        "typ-ds": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-typ-datové-schránky",
+        "identifikátor-ds": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikátor-datové-schránky",
+          "@type": "xsd:string"
+        }
+      }
+    }
+  }
+}

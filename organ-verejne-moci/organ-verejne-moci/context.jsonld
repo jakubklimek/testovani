@@ -1,0 +1,240 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@base": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+    "položky": "@graph",
+    "orgán-veřejné-moci": {
+      "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/orgán-veřejné-moci",
+      "@context": {
+        "identifikátor": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikátor-orgánu-veřejné-moci",
+          "@type": "xsd:string"
+        },
+        "název": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-název-orgánu-veřejné-moci",
+          "@container": "@language"
+        },
+        "vnitřní-organizační-jednotka": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/je-vnitřní-organizační-jednotkou",
+          "@type": "xsd:boolean"
+        },
+        "ičo": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikační-číslo-osoby-orgánu-veřejné-moci",
+          "@type": "xsd:string"
+        },
+        "datové-schránky": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-datovou-schránku-orgánu-veřejné-moci",
+          "@container": "@set",
+          "@context": "../../datova-schranka/datova-schranka/context.jsonld"
+        },
+        "ustanovení": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/vykonává-působnost-na-základě-ustanovení",
+          "@context": "../../ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/context.jsonld"
+        },
+        "seznam-kategorií": {
+          "@reverse": "https://slovník.gov.cz/agendový/104/pojem/má-zařazený-subjekt",
+          "@container": "@set",
+          "@context": {
+            "zařazení_do_kategorie": {
+              "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/zařazení-do-kategorie",
+              "@context": {
+                "kategorie": {
+                  "@id": "https://slovník.gov.cz/agendový/104/pojem/zařazuje-do-kategorie",
+                  "@type": "@id"
+                },
+                "zařazení-od": {
+                  "@id": "https://slovník.gov.cz/agendový/104/pojem/má-datum-zařazení-do-kategorie",
+                  "@type": "xsd:date"
+                },
+                "zařazení-do": {
+                  "@id": "https://slovník.gov.cz/agendový/104/pojem/má-datum-vyřazení-z-kategorie",
+                  "@type": "xsd:date"
+                }
+              }
+            }
+          }
+        },
+        "adresa-místa-pobytu": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-místa-pobytu-orgánu-veřejné-moci",
+          "@type": "@id"
+        },
+        "adresa-sídla": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-sídla-orgánu-veřejné-moci",
+          "@type": "@id",
+          "@context": {
+            "adresní_místo": {
+              "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresní-místo",
+              "@context": {
+                "kód_adresního_místa": "https://slovník.gov.cz/generický/adresy/pojem/kód-adresního-místa"
+              }
+            }
+          }
+        },
+        "osoba-v-čele": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/stojí-v-čele-orgánu-veřejné-moci",
+          "@type": "@id",
+          "@context": {
+            "osoba": {
+              "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/osoba-stojící-v-čele-orgánu-veřejné-moci",
+              "@context": {
+                "jméno": {
+                  "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci",
+                  "@type": "xsd:string"
+                }
+              }
+            }
+          }
+        },
+        "zahájení": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci",
+          "@type": "xsd:date"
+        },
+        "ukončení": {
+          "@id": "https://slovník.gov.cz/agendový/104/pojem/má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci",
+          "@type": "xsd:date"
+        },
+        "pozastavení-od": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od",
+          "@type": "xsd:date"
+        },
+        "pozastavení-do": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do",
+          "@type": "xsd:date"
+        },
+        "přerušení-od": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od",
+          "@type": "xsd:date"
+        },
+        "přerušení-do": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do",
+          "@type": "xsd:date"
+        },
+        "pracoviště-ovm": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pracoviště-vykonávající-úkon",
+          "@container": "@set",
+          "@context": "../../pracoviste/pracoviste/context.jsonld"
+        }
+      }
+    },
+    "právnická_osoba_se_svěřenou_působností_v_oblasti_veřejné_správy": {
+      "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy",
+      "@context": {
+        "identifikátor": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikátor-orgánu-veřejné-moci",
+          "@type": "xsd:string"
+        },
+        "název": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-název-orgánu-veřejné-moci",
+          "@container": "@language"
+        },
+        "vnitřní-organizační-jednotka": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/je-vnitřní-organizační-jednotkou",
+          "@type": "xsd:boolean"
+        },
+        "ičo": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikační-číslo-osoby-orgánu-veřejné-moci",
+          "@type": "xsd:string"
+        },
+        "datové-schránky": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-datovou-schránku-orgánu-veřejné-moci",
+          "@container": "@set",
+          "@context": "../../datova-schranka/datova-schranka/context.jsonld"
+        },
+        "ustanovení": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/vykonává-působnost-na-základě-ustanovení",
+          "@context": "../../ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/context.jsonld"
+        },
+        "seznam-kategorií": {
+          "@reverse": "https://slovník.gov.cz/agendový/104/pojem/má-zařazený-subjekt",
+          "@container": "@set",
+          "@context": {
+            "zařazení_do_kategorie": {
+              "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/zařazení-do-kategorie",
+              "@context": {
+                "kategorie": {
+                  "@id": "https://slovník.gov.cz/agendový/104/pojem/zařazuje-do-kategorie",
+                  "@type": "@id"
+                },
+                "zařazení-od": {
+                  "@id": "https://slovník.gov.cz/agendový/104/pojem/má-datum-zařazení-do-kategorie",
+                  "@type": "xsd:date"
+                },
+                "zařazení-do": {
+                  "@id": "https://slovník.gov.cz/agendový/104/pojem/má-datum-vyřazení-z-kategorie",
+                  "@type": "xsd:date"
+                }
+              }
+            }
+          }
+        },
+        "adresa-místa-pobytu": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-místa-pobytu-orgánu-veřejné-moci",
+          "@type": "@id"
+        },
+        "adresa-sídla": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-sídla-orgánu-veřejné-moci",
+          "@type": "@id",
+          "@context": {
+            "adresní_místo": {
+              "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresní-místo",
+              "@context": {
+                "kód_adresního_místa": "https://slovník.gov.cz/generický/adresy/pojem/kód-adresního-místa"
+              }
+            }
+          }
+        },
+        "osoba-v-čele": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/stojí-v-čele-orgánu-veřejné-moci",
+          "@type": "@id",
+          "@context": {
+            "osoba": {
+              "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/osoba-stojící-v-čele-orgánu-veřejné-moci",
+              "@context": {
+                "jméno": {
+                  "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci",
+                  "@type": "xsd:string"
+                }
+              }
+            }
+          }
+        },
+        "zahájení": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci",
+          "@type": "xsd:date"
+        },
+        "ukončení": {
+          "@id": "https://slovník.gov.cz/agendový/104/pojem/má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci",
+          "@type": "xsd:date"
+        },
+        "pozastavení-od": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od",
+          "@type": "xsd:date"
+        },
+        "pozastavení-do": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do",
+          "@type": "xsd:date"
+        },
+        "přerušení-od": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od",
+          "@type": "xsd:date"
+        },
+        "přerušení-do": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do",
+          "@type": "xsd:date"
+        },
+        "pracoviště-ovm": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pracoviště-vykonávající-úkon",
+          "@container": "@set",
+          "@context": "../../pracoviste/pracoviste/context.jsonld"
+        },
+        "má_právní_formu_osoby": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-právní-formu-osoby",
+          "@container": "@set",
+          "@type": "@id"
+        }
+      }
+    }
+  }
+}

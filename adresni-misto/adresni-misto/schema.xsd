@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1" elementFormDefault="unqualified" xmlns:c="https://schemas.dataspecer.com/xsd/core/" xmlns:sawsdl="http://www.w3.org/ns/sawsdl">
+  <xs:import namespace="https://schemas.dataspecer.com/xsd/core/" schemaLocation="./2022-07.xsd"/>
+  <xs:element name="adresní_místo">
+    <xs:complexType sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresní-místo">
+      <xs:annotation>
+        <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresní-místo
+Název (cs): adresní místo
+Popis (cs): Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="c:iri"/>
+        <xs:element name="kód" type="xs:string" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-kód-adresního-místa">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-kód-adresního-místa
+Název (cs): Má kód adresního místa
+Popis (cs): Referenční vazba na referenční údaj o adrese v registru územní identifikace.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

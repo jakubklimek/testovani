@@ -1,0 +1,55 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "cs"
+        }
+    ],
+    "@id": "https://ofn.gov.cz/schema/1657559114087-5726-eb06-aeb8/table.csv-metadata.json",
+    "@type": "Table",
+    "url": "table.csv",
+    "tableSchema": {
+        "@type": "Schema",
+        "columns": [
+            {
+                "@type": "Column",
+                "name": "typ-ds",
+                "titles": "typ-ds",
+                "dc:title": {
+                    "@value": "Má typ datové schránky",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Určuje typ datové schránky z číselníku typů datových schránek.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-typ-datové-schránky",
+                "valueUrl": "{+typ-ds}",
+                "datatype": "anyURI",
+                "required": true
+            },
+            {
+                "@type": "Column",
+                "name": "identifik%C3%A1tor-ds",
+                "titles": "identifikátor-ds",
+                "dc:title": {
+                    "@value": "Má identifikátor datové schránky",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Jednoznačný identifikátor datové schránky.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikátor-datové-schránky",
+                "datatype": "string",
+                "required": true
+            },
+            {
+                "@type": "Column",
+                "propertyUrl": "rdf:type",
+                "valueUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/datová-schránka",
+                "virtual": true
+            }
+        ]
+    }
+}

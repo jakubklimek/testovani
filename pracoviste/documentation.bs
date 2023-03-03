@@ -1,0 +1,421 @@
+<pre class='metadata'>
+Title : Pracoviště 
+Shortname : Pracoviště 
+Status : LS 
+Editor : Dataspecer editor, https://slovník.gov.cz/generujeme 
+Boilerplate : conformance no, copyright no 
+Abstract : Tento dokument je otevřenou formální normou ve smyslu <a href="https://www.zakonyprolidi.cz/cs/1999-106#p3-9">§ 3 odst. 9 zákona č. 106/1999 Sb., o svobodném přístupu k informacím</a>, pro zveřejňování číselníků.Norma popisuje konceptuální model číselníků a stanovuje podobu jejich reprezentace ve strojově čítelné podobě ve formátech JSON-LD [[json-ld11]], a tedy i JSON [[ECMA-404]], a CSV [[rfc4180]] v denormalizované i normalizované podobě.Jednotlivé způsoby reprezentace číselníků také demonstruje na příkladech. 
+Markup Shorthands : markdown yes 
+Logo : https://ofn.gov.cz/static/images/logo.png 
+</pre>
+
+# Konceptuální model # {#konceptualni-model}
+V této sekci je definován konceptuální model.
+
+<figure><img src="./conceptual-model.png"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
+
+## Pracoviště ## {#konceptuální-třída-pracoviště}
+: Popis
+:: Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Význam
+:: Typ Pracoviště je definován v sémantickém slovníku pojmů jako [Pracoviště](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/pracoviště).
+
+### Má adresu pracoviště neevidovanou v RÚIAN ### {#konceptuální-třída-pracoviště-má-adresu-pracoviště-neevidovanou-v-rúian}
+: Jméno
+:: Má adresu pracoviště neevidovanou v RÚIAN
+: Popis
+:: Adresa pracoviště orgánu veřejné moci v textové podobě v případě, že adresa není evidována v registru územní identifikace, adres a nemovitostí.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Význam
+:: Vlastnost Má adresu pracoviště neevidovanou v RÚIAN je definován v sémantickém slovníku pojmů jako [Má adresu pracoviště neevidovanou v RÚIAN](https://slovník.gov.cz/agendový/104/pojem/má-adresu-pracoviště-neevidovanou-v-rúian).
+
+### Má datum otevření pracoviště ### {#konceptuální-třída-pracoviště-má-datum-otevření-pracoviště}
+: Jméno
+:: Má datum otevření pracoviště
+: Popis
+:: Datum, ke kterému bylo nebo bude otevřeno pracoviště orgánu veřejné moci.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Význam
+:: Vlastnost Má datum otevření pracoviště je definován v sémantickém slovníku pojmů jako [Má datum otevření pracoviště](https://slovník.gov.cz/agendový/104/pojem/má-datum-otevření-pracoviště).
+
+### Má datum uzavření pracoviště ### {#konceptuální-třída-pracoviště-má-datum-uzavření-pracoviště}
+: Jméno
+:: Má datum uzavření pracoviště
+: Popis
+:: Datum, ke kterému bylo nebo bude uzavřeno pracoviště orgánu veřejné moci.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Význam
+:: Vlastnost Má datum uzavření pracoviště je definován v sémantickém slovníku pojmů jako [Má datum uzavření pracoviště](https://slovník.gov.cz/agendový/104/pojem/má-datum-uzavření-pracoviště).
+
+### Vztah (asociace): Má adresu pracoviště ### {#konceptuální-třída-pracoviště-má-adresu-pracoviště}
+: Jméno
+:: Má adresu pracoviště
+: Popis
+:: Přiřazuje pracovišti orgánu veřejné moci jeho adresu v podobě reference na adresní místo vedené v registru územní identifikace, adres a nemovitostí.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](#konceptuální-třída-adresní-místo)
+: Význam
+:: Vlastnost Má adresu pracoviště je definován v sémantickém slovníku pojmů jako [Má adresu pracoviště](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-pracoviště).
+
+### Vztah (asociace): Má stát pracoviště ### {#konceptuální-třída-pracoviště-má-stát-pracoviště}
+: Jméno
+:: Má stát pracoviště
+: Popis
+:: Přiřazuje pracovišti orgánu veřejné moci jeho stát z číselníku států.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Stát](#konceptuální-třída-stát)
+: Význam
+:: Vlastnost Má stát pracoviště je definován v sémantickém slovníku pojmů jako [Má stát pracoviště](https://slovník.gov.cz/agendový/104/pojem/má-stát-pracoviště).
+
+## adresní místo ## {#konceptuální-třída-adresní-místo}
+: Popis
+:: Adresním místem se rozumí takové místo v terénu, kterému lze ve vztahu ke stavebnímu objektu jednoznačně přiřadit adresu.
+: Význam
+:: Typ adresní místo je definován v sémantickém slovníku pojmů jako [adresní místo](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresní-místo).
+
+### Vztah (asociace): Má adresu pracoviště ### {#konceptuální-třída-adresní-místo-má-adresu-pracoviště}
+: Jméno
+:: Má adresu pracoviště
+: Popis
+:: Přiřazuje pracovišti orgánu veřejné moci jeho adresu v podobě reference na adresní místo vedené v registru územní identifikace, adres a nemovitostí.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Pracoviště](#konceptuální-třída-pracoviště)
+: Význam
+:: Vlastnost Má adresu pracoviště je definován v sémantickém slovníku pojmů jako [Má adresu pracoviště](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-pracoviště).
+
+## Stát ## {#konceptuální-třída-stát}
+: Popis
+:: Stát z číselníku států.
+: Číselník
+:: Typ reprezentuje číselník.
+: Význam
+:: Typ Stát je definován v sémantickém slovníku pojmů jako [Stát](https://slovník.gov.cz/agendový/104/pojem/stát).
+
+### Vztah (asociace): Má stát pracoviště ### {#konceptuální-třída-stát-má-stát-pracoviště}
+: Jméno
+:: Má stát pracoviště
+: Popis
+:: Přiřazuje pracovišti orgánu veřejné moci jeho stát z číselníku států.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Pracoviště](#konceptuální-třída-pracoviště)
+: Význam
+:: Vlastnost Má stát pracoviště je definován v sémantickém slovníku pojmů jako [Má stát pracoviště](https://slovník.gov.cz/agendový/104/pojem/má-stát-pracoviště).
+
+# Pracoviště
+Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+
+## Pracoviště JSON
+V této sekci je definován strukturní model pro [JSON schéma](./pracoviste/schema.json).
+
+### Pracoviště ### {#strukturální-json-pracoviště-třída-pracoviště}
+: Popis
+:: Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Interpretace
+:: [Pracoviště](#konceptuální-třída-pracoviště)
+
+#### Má adresu pracoviště neevidovanou v RÚIAN #### {#strukturální-json-pracoviště-třída-pracoviště-má-adresu-pracoviště-neevidovanou-v-rúian}
+: Klíč
+:: adresa-pr-txt
+: Jméno
+:: Má adresu pracoviště neevidovanou v RÚIAN
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má adresu pracoviště neevidovanou v RÚIAN](#konceptuální-třída-pracoviště-má-adresu-pracoviště-neevidovanou-v-rúian)
+
+#### Má datum otevření pracoviště #### {#strukturální-json-pracoviště-třída-pracoviště-má-datum-otevření-pracoviště}
+: Klíč
+:: otevření
+: Jméno
+:: Má datum otevření pracoviště
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum otevření pracoviště](#konceptuální-třída-pracoviště-má-datum-otevření-pracoviště)
+
+#### Má datum uzavření pracoviště #### {#strukturální-json-pracoviště-třída-pracoviště-má-datum-uzavření-pracoviště}
+: Klíč
+:: uzavření
+: Jméno
+:: Má datum uzavření pracoviště
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum uzavření pracoviště](#konceptuální-třída-pracoviště-má-datum-uzavření-pracoviště)
+
+#### Vztah (asociace): Má adresu pracoviště #### {#strukturální-json-pracoviště-třída-pracoviště-má-adresu-pracoviště}
+: Klíč
+:: adresa-pr
+: Jméno
+:: Má adresu pracoviště
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](/adresni-misto/conceptual-model.plantuml#strukturální-json-adresní-místo-třída-adresní-místo)
+: Interpretace
+:: [Má adresu pracoviště](#konceptuální-třída-pracoviště-má-adresu-pracoviště)
+
+#### Vztah (asociace): Má stát pracoviště #### {#strukturální-json-pracoviště-třída-pracoviště-má-stát-pracoviště}
+: Klíč
+:: stát-pr
+: Jméno
+:: Má stát pracoviště
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Stát](#strukturální-json-pracoviště-třída-stát)
+: Interpretace
+:: [Má stát pracoviště](#konceptuální-třída-pracoviště-má-stát-pracoviště)
+
+### Stát ### {#strukturální-json-pracoviště-třída-stát}
+: Popis
+:: Stát z číselníku států.
+: Číselník
+:: Typ reprezentuje číselník.
+: Interpretace
+:: [Stát](#konceptuální-třída-stát)
+
+## Pracoviště XML
+V této sekci je definován strukturní model pro [XML schéma](./pracoviste/schema.xsd).
+
+### Pracoviště ### {#strukturální-xml-pracoviště-třída-pracoviště}
+: Popis
+:: Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Interpretace
+:: [Pracoviště](#konceptuální-třída-pracoviště)
+
+#### Má adresu pracoviště neevidovanou v RÚIAN #### {#strukturální-xml-pracoviště-třída-pracoviště-má-adresu-pracoviště-neevidovanou-v-rúian}
+: Klíč
+:: adresa-pr-txt
+: Jméno
+:: Má adresu pracoviště neevidovanou v RÚIAN
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má adresu pracoviště neevidovanou v RÚIAN](#konceptuální-třída-pracoviště-má-adresu-pracoviště-neevidovanou-v-rúian)
+
+#### Má datum otevření pracoviště #### {#strukturální-xml-pracoviště-třída-pracoviště-má-datum-otevření-pracoviště}
+: Klíč
+:: otevření
+: Jméno
+:: Má datum otevření pracoviště
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum otevření pracoviště](#konceptuální-třída-pracoviště-má-datum-otevření-pracoviště)
+
+#### Má datum uzavření pracoviště #### {#strukturální-xml-pracoviště-třída-pracoviště-má-datum-uzavření-pracoviště}
+: Klíč
+:: uzavření
+: Jméno
+:: Má datum uzavření pracoviště
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum uzavření pracoviště](#konceptuální-třída-pracoviště-má-datum-uzavření-pracoviště)
+
+#### Vztah (asociace): Má adresu pracoviště #### {#strukturální-xml-pracoviště-třída-pracoviště-má-adresu-pracoviště}
+: Klíč
+:: adresa-pr
+: Jméno
+:: Má adresu pracoviště
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](/adresni-misto/conceptual-model.plantuml#strukturální-xml-adresní-místo-třída-adresní-místo)
+: Interpretace
+:: [Má adresu pracoviště](#konceptuální-třída-pracoviště-má-adresu-pracoviště)
+
+#### Vztah (asociace): Má stát pracoviště #### {#strukturální-xml-pracoviště-třída-pracoviště-má-stát-pracoviště}
+: Klíč
+:: stát-pr
+: Jméno
+:: Má stát pracoviště
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Stát](#strukturální-xml-pracoviště-třída-stát)
+: Interpretace
+:: [Má stát pracoviště](#konceptuální-třída-pracoviště-má-stát-pracoviště)
+
+### Stát ### {#strukturální-xml-pracoviště-třída-stát}
+: Popis
+:: Stát z číselníku států.
+: Číselník
+:: Typ reprezentuje číselník.
+: Interpretace
+:: [Stát](#konceptuální-třída-stát)
+
+## Pracoviště CSV
+V této sekci je definován strukturní model pro [CSV schéma](./pracoviste/schema.csv-metadata.json).
+
+### Pracoviště ### {#strukturální-csv-pracoviště-třída-pracoviště}
+: Popis
+:: Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Interpretace
+:: [Pracoviště](#konceptuální-třída-pracoviště)
+
+#### Má adresu pracoviště neevidovanou v RÚIAN #### {#strukturální-csv-pracoviště-třída-pracoviště-má-adresu-pracoviště-neevidovanou-v-rúian}
+: Klíč
+:: adresa-pr-txt
+: Jméno
+:: Má adresu pracoviště neevidovanou v RÚIAN
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má adresu pracoviště neevidovanou v RÚIAN](#konceptuální-třída-pracoviště-má-adresu-pracoviště-neevidovanou-v-rúian)
+
+#### Má datum otevření pracoviště #### {#strukturální-csv-pracoviště-třída-pracoviště-má-datum-otevření-pracoviště}
+: Klíč
+:: otevření
+: Jméno
+:: Má datum otevření pracoviště
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum otevření pracoviště](#konceptuální-třída-pracoviště-má-datum-otevření-pracoviště)
+
+#### Má datum uzavření pracoviště #### {#strukturální-csv-pracoviště-třída-pracoviště-má-datum-uzavření-pracoviště}
+: Klíč
+:: uzavření
+: Jméno
+:: Má datum uzavření pracoviště
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Datum](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/datum)
+: Interpretace
+:: [Má datum uzavření pracoviště](#konceptuální-třída-pracoviště-má-datum-uzavření-pracoviště)
+
+#### Vztah (asociace): Má adresu pracoviště #### {#strukturální-csv-pracoviště-třída-pracoviště-má-adresu-pracoviště}
+: Klíč
+:: adresa-pr
+: Jméno
+:: Má adresu pracoviště
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [adresní místo](/adresni-misto/conceptual-model.plantuml#strukturální-csv-adresní-místo-třída-adresní-místo)
+: Interpretace
+:: [Má adresu pracoviště](#konceptuální-třída-pracoviště-má-adresu-pracoviště)
+
+#### Vztah (asociace): Má stát pracoviště #### {#strukturální-csv-pracoviště-třída-pracoviště-má-stát-pracoviště}
+: Klíč
+:: stát-pr
+: Jméno
+:: Má stát pracoviště
+: Popis
+:: Datová struktura pro Pracoviště. Pracoviště, na kterém orgán veřejné moci vykonává úkony.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Stát](#strukturální-csv-pracoviště-třída-stát)
+: Interpretace
+:: [Má stát pracoviště](#konceptuální-třída-pracoviště-má-stát-pracoviště)
+
+### Stát ### {#strukturální-csv-pracoviště-třída-stát}
+: Popis
+:: Stát z číselníku států.
+: Číselník
+:: Typ reprezentuje číselník.
+: Interpretace
+:: [Stát](#konceptuální-třída-stát)

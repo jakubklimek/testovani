@@ -1,0 +1,934 @@
+PREFIX ns0: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>
+PREFIX ns1: <https://slovník.gov.cz/agendový/104/pojem/>
+PREFIX ns2: <https://slovník.gov.cz/generický/adresy/pojem/>
+CONSTRUCT {
+  ?v0 a ns0:orgán-veřejné-moci .
+  ?v0 ns0:má-identifikátor-orgánu-veřejné-moci ?v1 .
+  ?v0 ns0:má-název-orgánu-veřejné-moci ?v2 .
+  ?v0 ns0:je-vnitřní-organizační-jednotkou ?v3 .
+  ?v0 ns0:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?v4 .
+  ?v0 ns0:má-datovou-schránku-orgánu-veřejné-moci ?v5 .
+  ?v5 a ns0:datová-schránka .
+  ?v5 ns0:má-typ-datové-schránky ?v6 .
+  ?v6 a ns0:typ-datové-schránky .
+  ?v5 ns0:má-identifikátor-datové-schránky ?v7 .
+  ?v0 ns0:vykonává-působnost-na-základě-ustanovení ?v8 .
+  ?v8 a ns0:ustanovení-právního-předpisu .
+  ?v8 ns0:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v9 .
+  ?v0 ns1:má-zařazený-subjekt ?v10 .
+  ?v10 a ns0:zařazení-do-kategorie .
+  ?v10 ns1:zařazuje-do-kategorie ?v11 .
+  ?v11 a ns0:kategorie .
+  ?v10 ns1:má-datum-zařazení-do-kategorie ?v12 .
+  ?v10 ns1:má-datum-vyřazení-z-kategorie ?v13 .
+  ?v0 ns0:má-adresu-místa-pobytu-orgánu-veřejné-moci ?v14 .
+  ?v14 a ns0:adresní-místo .
+  ?v0 ns0:má-adresu-sídla-orgánu-veřejné-moci ?v15 .
+  ?v15 a ns0:adresní-místo .
+  ?v15 ns2:kód-adresního-místa ?v16 .
+  ?v0 ns0:stojí-v-čele-orgánu-veřejné-moci ?v17 .
+  ?v17 a ns0:osoba-stojící-v-čele-orgánu-veřejné-moci .
+  ?v17 ns0:má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci ?v18 .
+  ?v0 ns0:má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci ?v19 .
+  ?v0 ns1:má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci ?v20 .
+  ?v0 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od ?v21 .
+  ?v0 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do ?v22 .
+  ?v0 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od ?v23 .
+  ?v0 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do ?v24 .
+  ?v0 ns0:má-pracoviště-vykonávající-úkon ?v25 .
+  ?v25 a ns0:pracoviště .
+  ?v25 ns0:má-adresu-pracoviště ?v26 .
+  ?v26 a ns0:adresní-místo .
+  ?v26 ns0:má-kód-adresního-místa ?v27 .
+  ?v25 ns1:má-adresu-pracoviště-neevidovanou-v-rúian ?v28 .
+  ?v25 ns1:má-stát-pracoviště ?v29 .
+  ?v29 a ns1:stát .
+  ?v25 ns1:má-datum-otevření-pracoviště ?v30 .
+  ?v25 ns1:má-datum-uzavření-pracoviště ?v31 .
+  ?v32 a ns0:právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy .
+  ?v32 ns0:má-identifikátor-orgánu-veřejné-moci ?v33 .
+  ?v32 ns0:má-název-orgánu-veřejné-moci ?v34 .
+  ?v32 ns0:je-vnitřní-organizační-jednotkou ?v35 .
+  ?v32 ns0:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?v36 .
+  ?v32 ns0:má-datovou-schránku-orgánu-veřejné-moci ?v37 .
+  ?v37 a ns0:datová-schránka .
+  ?v37 ns0:má-typ-datové-schránky ?v38 .
+  ?v38 a ns0:typ-datové-schránky .
+  ?v37 ns0:má-identifikátor-datové-schránky ?v39 .
+  ?v32 ns0:vykonává-působnost-na-základě-ustanovení ?v40 .
+  ?v40 a ns0:ustanovení-právního-předpisu .
+  ?v40 ns0:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v41 .
+  ?v32 ns1:má-zařazený-subjekt ?v42 .
+  ?v42 a ns0:zařazení-do-kategorie .
+  ?v42 ns1:zařazuje-do-kategorie ?v43 .
+  ?v43 a ns0:kategorie .
+  ?v42 ns1:má-datum-zařazení-do-kategorie ?v44 .
+  ?v42 ns1:má-datum-vyřazení-z-kategorie ?v45 .
+  ?v32 ns0:má-adresu-místa-pobytu-orgánu-veřejné-moci ?v46 .
+  ?v46 a ns0:adresní-místo .
+  ?v32 ns0:má-adresu-sídla-orgánu-veřejné-moci ?v47 .
+  ?v47 a ns0:adresní-místo .
+  ?v47 ns2:kód-adresního-místa ?v48 .
+  ?v32 ns0:stojí-v-čele-orgánu-veřejné-moci ?v49 .
+  ?v49 a ns0:osoba-stojící-v-čele-orgánu-veřejné-moci .
+  ?v49 ns0:má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci ?v50 .
+  ?v32 ns0:má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci ?v51 .
+  ?v32 ns1:má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci ?v52 .
+  ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od ?v53 .
+  ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do ?v54 .
+  ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od ?v55 .
+  ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do ?v56 .
+  ?v32 ns0:má-pracoviště-vykonávající-úkon ?v57 .
+  ?v57 a ns0:pracoviště .
+  ?v57 ns0:má-adresu-pracoviště ?v58 .
+  ?v58 a ns0:adresní-místo .
+  ?v58 ns0:má-kód-adresního-místa ?v59 .
+  ?v57 ns1:má-adresu-pracoviště-neevidovanou-v-rúian ?v60 .
+  ?v57 ns1:má-stát-pracoviště ?v61 .
+  ?v61 a ns1:stát .
+  ?v57 ns1:má-datum-otevření-pracoviště ?v62 .
+  ?v57 ns1:má-datum-uzavření-pracoviště ?v63 .
+  ?v32 ns0:má-identifikátor-orgánu-veřejné-moci ?v64 .
+  ?v32 ns0:má-název-orgánu-veřejné-moci ?v65 .
+  ?v32 ns0:je-vnitřní-organizační-jednotkou ?v66 .
+  ?v32 ns0:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?v67 .
+  ?v32 ns0:má-datovou-schránku-orgánu-veřejné-moci ?v68 .
+  ?v68 a ns0:datová-schránka .
+  ?v68 ns0:má-typ-datové-schránky ?v69 .
+  ?v69 a ns0:typ-datové-schránky .
+  ?v68 ns0:má-identifikátor-datové-schránky ?v70 .
+  ?v32 ns0:vykonává-působnost-na-základě-ustanovení ?v71 .
+  ?v71 a ns0:ustanovení-právního-předpisu .
+  ?v71 ns0:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v72 .
+  ?v32 ns1:má-zařazený-subjekt ?v73 .
+  ?v73 a ns0:zařazení-do-kategorie .
+  ?v73 ns1:zařazuje-do-kategorie ?v74 .
+  ?v74 a ns0:kategorie .
+  ?v73 ns1:má-datum-zařazení-do-kategorie ?v75 .
+  ?v73 ns1:má-datum-vyřazení-z-kategorie ?v76 .
+  ?v32 ns0:má-adresu-místa-pobytu-orgánu-veřejné-moci ?v77 .
+  ?v77 a ns0:adresní-místo .
+  ?v32 ns0:má-adresu-sídla-orgánu-veřejné-moci ?v78 .
+  ?v78 a ns0:adresní-místo .
+  ?v78 ns2:kód-adresního-místa ?v79 .
+  ?v32 ns0:stojí-v-čele-orgánu-veřejné-moci ?v80 .
+  ?v80 a ns0:osoba-stojící-v-čele-orgánu-veřejné-moci .
+  ?v80 ns0:má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci ?v81 .
+  ?v32 ns0:má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci ?v82 .
+  ?v32 ns1:má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci ?v83 .
+  ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od ?v84 .
+  ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do ?v85 .
+  ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od ?v86 .
+  ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do ?v87 .
+  ?v32 ns0:má-pracoviště-vykonávající-úkon ?v88 .
+  ?v88 a ns0:pracoviště .
+  ?v88 ns0:má-adresu-pracoviště ?v89 .
+  ?v89 a ns0:adresní-místo .
+  ?v89 ns0:má-kód-adresního-místa ?v90 .
+  ?v88 ns1:má-adresu-pracoviště-neevidovanou-v-rúian ?v91 .
+  ?v88 ns1:má-stát-pracoviště ?v92 .
+  ?v92 a ns1:stát .
+  ?v88 ns1:má-datum-otevření-pracoviště ?v93 .
+  ?v88 ns1:má-datum-uzavření-pracoviště ?v94 .
+  ?v32 ns0:má-identifikátor-orgánu-veřejné-moci ?v95 .
+  ?v32 ns0:má-název-orgánu-veřejné-moci ?v96 .
+  ?v32 ns0:je-vnitřní-organizační-jednotkou ?v97 .
+  ?v32 ns0:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?v98 .
+  ?v32 ns0:má-datovou-schránku-orgánu-veřejné-moci ?v99 .
+  ?v99 a ns0:datová-schránka .
+  ?v99 ns0:má-typ-datové-schránky ?v100 .
+  ?v100 a ns0:typ-datové-schránky .
+  ?v99 ns0:má-identifikátor-datové-schránky ?v101 .
+  ?v32 ns0:vykonává-působnost-na-základě-ustanovení ?v102 .
+  ?v102 a ns0:ustanovení-právního-předpisu .
+  ?v102 ns0:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v103 .
+  ?v32 ns1:má-zařazený-subjekt ?v104 .
+  ?v104 a ns0:zařazení-do-kategorie .
+  ?v104 ns1:zařazuje-do-kategorie ?v105 .
+  ?v105 a ns0:kategorie .
+  ?v104 ns1:má-datum-zařazení-do-kategorie ?v106 .
+  ?v104 ns1:má-datum-vyřazení-z-kategorie ?v107 .
+  ?v32 ns0:má-adresu-místa-pobytu-orgánu-veřejné-moci ?v108 .
+  ?v108 a ns0:adresní-místo .
+  ?v32 ns0:má-adresu-sídla-orgánu-veřejné-moci ?v109 .
+  ?v109 a ns0:adresní-místo .
+  ?v109 ns2:kód-adresního-místa ?v110 .
+  ?v32 ns0:stojí-v-čele-orgánu-veřejné-moci ?v111 .
+  ?v111 a ns0:osoba-stojící-v-čele-orgánu-veřejné-moci .
+  ?v111 ns0:má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci ?v112 .
+  ?v32 ns0:má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci ?v113 .
+  ?v32 ns1:má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci ?v114 .
+  ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od ?v115 .
+  ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do ?v116 .
+  ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od ?v117 .
+  ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do ?v118 .
+  ?v32 ns0:má-pracoviště-vykonávající-úkon ?v119 .
+  ?v119 a ns0:pracoviště .
+  ?v119 ns0:má-adresu-pracoviště ?v120 .
+  ?v120 a ns0:adresní-místo .
+  ?v120 ns0:má-kód-adresního-místa ?v121 .
+  ?v119 ns1:má-adresu-pracoviště-neevidovanou-v-rúian ?v122 .
+  ?v119 ns1:má-stát-pracoviště ?v123 .
+  ?v123 a ns1:stát .
+  ?v119 ns1:má-datum-otevření-pracoviště ?v124 .
+  ?v119 ns1:má-datum-uzavření-pracoviště ?v125 .
+  ?v32 ns0:má-identifikátor-orgánu-veřejné-moci ?v126 .
+  ?v32 ns0:má-název-orgánu-veřejné-moci ?v127 .
+  ?v32 ns0:je-vnitřní-organizační-jednotkou ?v128 .
+  ?v32 ns0:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?v129 .
+  ?v32 ns0:má-datovou-schránku-orgánu-veřejné-moci ?v130 .
+  ?v130 a ns0:datová-schránka .
+  ?v130 ns0:má-typ-datové-schránky ?v131 .
+  ?v131 a ns0:typ-datové-schránky .
+  ?v130 ns0:má-identifikátor-datové-schránky ?v132 .
+  ?v32 ns0:vykonává-působnost-na-základě-ustanovení ?v133 .
+  ?v133 a ns0:ustanovení-právního-předpisu .
+  ?v133 ns0:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v134 .
+  ?v32 ns1:má-zařazený-subjekt ?v135 .
+  ?v135 a ns0:zařazení-do-kategorie .
+  ?v135 ns1:zařazuje-do-kategorie ?v136 .
+  ?v136 a ns0:kategorie .
+  ?v135 ns1:má-datum-zařazení-do-kategorie ?v137 .
+  ?v135 ns1:má-datum-vyřazení-z-kategorie ?v138 .
+  ?v32 ns0:má-adresu-místa-pobytu-orgánu-veřejné-moci ?v139 .
+  ?v139 a ns0:adresní-místo .
+  ?v32 ns0:má-adresu-sídla-orgánu-veřejné-moci ?v140 .
+  ?v140 a ns0:adresní-místo .
+  ?v140 ns2:kód-adresního-místa ?v141 .
+  ?v32 ns0:stojí-v-čele-orgánu-veřejné-moci ?v142 .
+  ?v142 a ns0:osoba-stojící-v-čele-orgánu-veřejné-moci .
+  ?v142 ns0:má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci ?v143 .
+  ?v32 ns0:má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci ?v144 .
+  ?v32 ns1:má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci ?v145 .
+  ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od ?v146 .
+  ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do ?v147 .
+  ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od ?v148 .
+  ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do ?v149 .
+  ?v32 ns0:má-pracoviště-vykonávající-úkon ?v150 .
+  ?v150 a ns0:pracoviště .
+  ?v150 ns0:má-adresu-pracoviště ?v151 .
+  ?v151 a ns0:adresní-místo .
+  ?v151 ns0:má-kód-adresního-místa ?v152 .
+  ?v150 ns1:má-adresu-pracoviště-neevidovanou-v-rúian ?v153 .
+  ?v150 ns1:má-stát-pracoviště ?v154 .
+  ?v154 a ns1:stát .
+  ?v150 ns1:má-datum-otevření-pracoviště ?v155 .
+  ?v150 ns1:má-datum-uzavření-pracoviště ?v156 .
+  ?v32 ns0:má-identifikátor-orgánu-veřejné-moci ?v157 .
+  ?v32 ns0:má-název-orgánu-veřejné-moci ?v158 .
+  ?v32 ns0:je-vnitřní-organizační-jednotkou ?v159 .
+  ?v32 ns0:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?v160 .
+  ?v32 ns0:má-datovou-schránku-orgánu-veřejné-moci ?v161 .
+  ?v161 a ns0:datová-schránka .
+  ?v161 ns0:má-typ-datové-schránky ?v162 .
+  ?v162 a ns0:typ-datové-schránky .
+  ?v161 ns0:má-identifikátor-datové-schránky ?v163 .
+  ?v32 ns0:vykonává-působnost-na-základě-ustanovení ?v164 .
+  ?v164 a ns0:ustanovení-právního-předpisu .
+  ?v164 ns0:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v165 .
+  ?v32 ns1:má-zařazený-subjekt ?v166 .
+  ?v166 a ns0:zařazení-do-kategorie .
+  ?v166 ns1:zařazuje-do-kategorie ?v167 .
+  ?v167 a ns0:kategorie .
+  ?v166 ns1:má-datum-zařazení-do-kategorie ?v168 .
+  ?v166 ns1:má-datum-vyřazení-z-kategorie ?v169 .
+  ?v32 ns0:má-adresu-místa-pobytu-orgánu-veřejné-moci ?v170 .
+  ?v170 a ns0:adresní-místo .
+  ?v32 ns0:má-adresu-sídla-orgánu-veřejné-moci ?v171 .
+  ?v171 a ns0:adresní-místo .
+  ?v171 ns2:kód-adresního-místa ?v172 .
+  ?v32 ns0:stojí-v-čele-orgánu-veřejné-moci ?v173 .
+  ?v173 a ns0:osoba-stojící-v-čele-orgánu-veřejné-moci .
+  ?v173 ns0:má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci ?v174 .
+  ?v32 ns0:má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci ?v175 .
+  ?v32 ns1:má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci ?v176 .
+  ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od ?v177 .
+  ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do ?v178 .
+  ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od ?v179 .
+  ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do ?v180 .
+  ?v32 ns0:má-pracoviště-vykonávající-úkon ?v181 .
+  ?v181 a ns0:pracoviště .
+  ?v181 ns0:má-adresu-pracoviště ?v182 .
+  ?v182 a ns0:adresní-místo .
+  ?v182 ns0:má-kód-adresního-místa ?v183 .
+  ?v181 ns1:má-adresu-pracoviště-neevidovanou-v-rúian ?v184 .
+  ?v181 ns1:má-stát-pracoviště ?v185 .
+  ?v185 a ns1:stát .
+  ?v181 ns1:má-datum-otevření-pracoviště ?v186 .
+  ?v181 ns1:má-datum-uzavření-pracoviště ?v187 .
+  ?v32 ns0:má-právní-formu-osoby ?v188 .
+  ?v188 a ns0:právní-forma .
+}
+WHERE {
+  {
+    ?v0 a ns0:orgán-veřejné-moci .
+    ?v0 ns0:má-identifikátor-orgánu-veřejné-moci ?v1 .
+    ?v0 ns0:má-název-orgánu-veřejné-moci ?v2 .
+    OPTIONAL {
+      ?v0 ns0:je-vnitřní-organizační-jednotkou ?v3 .
+    }
+    OPTIONAL {
+      ?v0 ns0:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?v4 .
+    }
+    OPTIONAL {
+      ?v0 ns0:má-datovou-schránku-orgánu-veřejné-moci ?v5 .
+      OPTIONAL {
+        ?v5 a ns0:datová-schránka .
+      }
+      ?v5 ns0:má-typ-datové-schránky ?v6 .
+      OPTIONAL {
+        ?v6 a ns0:typ-datové-schránky .
+      }
+      ?v5 ns0:má-identifikátor-datové-schránky ?v7 .
+    }
+    ?v0 ns0:vykonává-působnost-na-základě-ustanovení ?v8 .
+    OPTIONAL {
+      ?v8 a ns0:ustanovení-právního-předpisu .
+    }
+    OPTIONAL {
+      ?v8 ns0:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v9 .
+    }
+    OPTIONAL {
+      ?v0 ns1:má-zařazený-subjekt ?v10 .
+      OPTIONAL {
+        ?v10 a ns0:zařazení-do-kategorie .
+      }
+      ?v10 ns1:zařazuje-do-kategorie ?v11 .
+      OPTIONAL {
+        ?v11 a ns0:kategorie .
+      }
+      OPTIONAL {
+        ?v10 ns1:má-datum-zařazení-do-kategorie ?v12 .
+      }
+      OPTIONAL {
+        ?v10 ns1:má-datum-vyřazení-z-kategorie ?v13 .
+      }
+    }
+    OPTIONAL {
+      ?v0 ns0:má-adresu-místa-pobytu-orgánu-veřejné-moci ?v14 .
+      OPTIONAL {
+        ?v14 a ns0:adresní-místo .
+      }
+    }
+    OPTIONAL {
+      ?v0 ns0:má-adresu-sídla-orgánu-veřejné-moci ?v15 .
+      OPTIONAL {
+        ?v15 a ns0:adresní-místo .
+      }
+      OPTIONAL {
+        ?v15 ns2:kód-adresního-místa ?v16 .
+      }
+    }
+    OPTIONAL {
+      ?v0 ns0:stojí-v-čele-orgánu-veřejné-moci ?v17 .
+      OPTIONAL {
+        ?v17 a ns0:osoba-stojící-v-čele-orgánu-veřejné-moci .
+      }
+      ?v17 ns0:má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci ?v18 .
+    }
+    OPTIONAL {
+      ?v0 ns0:má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci ?v19 .
+    }
+    OPTIONAL {
+      ?v0 ns1:má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci ?v20 .
+    }
+    OPTIONAL {
+      ?v0 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od ?v21 .
+    }
+    OPTIONAL {
+      ?v0 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do ?v22 .
+    }
+    OPTIONAL {
+      ?v0 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od ?v23 .
+    }
+    OPTIONAL {
+      ?v0 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do ?v24 .
+    }
+    OPTIONAL {
+      ?v0 ns0:má-pracoviště-vykonávající-úkon ?v25 .
+      OPTIONAL {
+        ?v25 a ns0:pracoviště .
+      }
+      OPTIONAL {
+        ?v25 ns0:má-adresu-pracoviště ?v26 .
+        OPTIONAL {
+          ?v26 a ns0:adresní-místo .
+        }
+        ?v26 ns0:má-kód-adresního-místa ?v27 .
+      }
+      OPTIONAL {
+        ?v25 ns1:má-adresu-pracoviště-neevidovanou-v-rúian ?v28 .
+      }
+      OPTIONAL {
+        ?v25 ns1:má-stát-pracoviště ?v29 .
+        OPTIONAL {
+          ?v29 a ns1:stát .
+        }
+      }
+      OPTIONAL {
+        ?v25 ns1:má-datum-otevření-pracoviště ?v30 .
+      }
+      OPTIONAL {
+        ?v25 ns1:má-datum-uzavření-pracoviště ?v31 .
+      }
+    }
+  } UNION {
+    ?v32 a ns0:právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy .
+    ?v32 ns0:má-identifikátor-orgánu-veřejné-moci ?v33 .
+    ?v32 ns0:má-název-orgánu-veřejné-moci ?v34 .
+    OPTIONAL {
+      ?v32 ns0:je-vnitřní-organizační-jednotkou ?v35 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?v36 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-datovou-schránku-orgánu-veřejné-moci ?v37 .
+      OPTIONAL {
+        ?v37 a ns0:datová-schránka .
+      }
+      ?v37 ns0:má-typ-datové-schránky ?v38 .
+      OPTIONAL {
+        ?v38 a ns0:typ-datové-schránky .
+      }
+      ?v37 ns0:má-identifikátor-datové-schránky ?v39 .
+    }
+    ?v32 ns0:vykonává-působnost-na-základě-ustanovení ?v40 .
+    OPTIONAL {
+      ?v40 a ns0:ustanovení-právního-předpisu .
+    }
+    OPTIONAL {
+      ?v40 ns0:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v41 .
+    }
+    OPTIONAL {
+      ?v32 ns1:má-zařazený-subjekt ?v42 .
+      OPTIONAL {
+        ?v42 a ns0:zařazení-do-kategorie .
+      }
+      ?v42 ns1:zařazuje-do-kategorie ?v43 .
+      OPTIONAL {
+        ?v43 a ns0:kategorie .
+      }
+      OPTIONAL {
+        ?v42 ns1:má-datum-zařazení-do-kategorie ?v44 .
+      }
+      OPTIONAL {
+        ?v42 ns1:má-datum-vyřazení-z-kategorie ?v45 .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:má-adresu-místa-pobytu-orgánu-veřejné-moci ?v46 .
+      OPTIONAL {
+        ?v46 a ns0:adresní-místo .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:má-adresu-sídla-orgánu-veřejné-moci ?v47 .
+      OPTIONAL {
+        ?v47 a ns0:adresní-místo .
+      }
+      OPTIONAL {
+        ?v47 ns2:kód-adresního-místa ?v48 .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:stojí-v-čele-orgánu-veřejné-moci ?v49 .
+      OPTIONAL {
+        ?v49 a ns0:osoba-stojící-v-čele-orgánu-veřejné-moci .
+      }
+      ?v49 ns0:má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci ?v50 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci ?v51 .
+    }
+    OPTIONAL {
+      ?v32 ns1:má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci ?v52 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od ?v53 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do ?v54 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od ?v55 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do ?v56 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pracoviště-vykonávající-úkon ?v57 .
+      OPTIONAL {
+        ?v57 a ns0:pracoviště .
+      }
+      OPTIONAL {
+        ?v57 ns0:má-adresu-pracoviště ?v58 .
+        OPTIONAL {
+          ?v58 a ns0:adresní-místo .
+        }
+        ?v58 ns0:má-kód-adresního-místa ?v59 .
+      }
+      OPTIONAL {
+        ?v57 ns1:má-adresu-pracoviště-neevidovanou-v-rúian ?v60 .
+      }
+      OPTIONAL {
+        ?v57 ns1:má-stát-pracoviště ?v61 .
+        OPTIONAL {
+          ?v61 a ns1:stát .
+        }
+      }
+      OPTIONAL {
+        ?v57 ns1:má-datum-otevření-pracoviště ?v62 .
+      }
+      OPTIONAL {
+        ?v57 ns1:má-datum-uzavření-pracoviště ?v63 .
+      }
+    }
+    ?v32 ns0:má-identifikátor-orgánu-veřejné-moci ?v64 .
+    ?v32 ns0:má-název-orgánu-veřejné-moci ?v65 .
+    OPTIONAL {
+      ?v32 ns0:je-vnitřní-organizační-jednotkou ?v66 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?v67 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-datovou-schránku-orgánu-veřejné-moci ?v68 .
+      OPTIONAL {
+        ?v68 a ns0:datová-schránka .
+      }
+      ?v68 ns0:má-typ-datové-schránky ?v69 .
+      OPTIONAL {
+        ?v69 a ns0:typ-datové-schránky .
+      }
+      ?v68 ns0:má-identifikátor-datové-schránky ?v70 .
+    }
+    ?v32 ns0:vykonává-působnost-na-základě-ustanovení ?v71 .
+    OPTIONAL {
+      ?v71 a ns0:ustanovení-právního-předpisu .
+    }
+    OPTIONAL {
+      ?v71 ns0:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v72 .
+    }
+    OPTIONAL {
+      ?v32 ns1:má-zařazený-subjekt ?v73 .
+      OPTIONAL {
+        ?v73 a ns0:zařazení-do-kategorie .
+      }
+      ?v73 ns1:zařazuje-do-kategorie ?v74 .
+      OPTIONAL {
+        ?v74 a ns0:kategorie .
+      }
+      OPTIONAL {
+        ?v73 ns1:má-datum-zařazení-do-kategorie ?v75 .
+      }
+      OPTIONAL {
+        ?v73 ns1:má-datum-vyřazení-z-kategorie ?v76 .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:má-adresu-místa-pobytu-orgánu-veřejné-moci ?v77 .
+      OPTIONAL {
+        ?v77 a ns0:adresní-místo .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:má-adresu-sídla-orgánu-veřejné-moci ?v78 .
+      OPTIONAL {
+        ?v78 a ns0:adresní-místo .
+      }
+      OPTIONAL {
+        ?v78 ns2:kód-adresního-místa ?v79 .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:stojí-v-čele-orgánu-veřejné-moci ?v80 .
+      OPTIONAL {
+        ?v80 a ns0:osoba-stojící-v-čele-orgánu-veřejné-moci .
+      }
+      ?v80 ns0:má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci ?v81 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci ?v82 .
+    }
+    OPTIONAL {
+      ?v32 ns1:má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci ?v83 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od ?v84 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do ?v85 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od ?v86 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do ?v87 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pracoviště-vykonávající-úkon ?v88 .
+      OPTIONAL {
+        ?v88 a ns0:pracoviště .
+      }
+      OPTIONAL {
+        ?v88 ns0:má-adresu-pracoviště ?v89 .
+        OPTIONAL {
+          ?v89 a ns0:adresní-místo .
+        }
+        ?v89 ns0:má-kód-adresního-místa ?v90 .
+      }
+      OPTIONAL {
+        ?v88 ns1:má-adresu-pracoviště-neevidovanou-v-rúian ?v91 .
+      }
+      OPTIONAL {
+        ?v88 ns1:má-stát-pracoviště ?v92 .
+        OPTIONAL {
+          ?v92 a ns1:stát .
+        }
+      }
+      OPTIONAL {
+        ?v88 ns1:má-datum-otevření-pracoviště ?v93 .
+      }
+      OPTIONAL {
+        ?v88 ns1:má-datum-uzavření-pracoviště ?v94 .
+      }
+    }
+    ?v32 ns0:má-identifikátor-orgánu-veřejné-moci ?v95 .
+    ?v32 ns0:má-název-orgánu-veřejné-moci ?v96 .
+    OPTIONAL {
+      ?v32 ns0:je-vnitřní-organizační-jednotkou ?v97 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?v98 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-datovou-schránku-orgánu-veřejné-moci ?v99 .
+      OPTIONAL {
+        ?v99 a ns0:datová-schránka .
+      }
+      ?v99 ns0:má-typ-datové-schránky ?v100 .
+      OPTIONAL {
+        ?v100 a ns0:typ-datové-schránky .
+      }
+      ?v99 ns0:má-identifikátor-datové-schránky ?v101 .
+    }
+    ?v32 ns0:vykonává-působnost-na-základě-ustanovení ?v102 .
+    OPTIONAL {
+      ?v102 a ns0:ustanovení-právního-předpisu .
+    }
+    OPTIONAL {
+      ?v102 ns0:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v103 .
+    }
+    OPTIONAL {
+      ?v32 ns1:má-zařazený-subjekt ?v104 .
+      OPTIONAL {
+        ?v104 a ns0:zařazení-do-kategorie .
+      }
+      ?v104 ns1:zařazuje-do-kategorie ?v105 .
+      OPTIONAL {
+        ?v105 a ns0:kategorie .
+      }
+      OPTIONAL {
+        ?v104 ns1:má-datum-zařazení-do-kategorie ?v106 .
+      }
+      OPTIONAL {
+        ?v104 ns1:má-datum-vyřazení-z-kategorie ?v107 .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:má-adresu-místa-pobytu-orgánu-veřejné-moci ?v108 .
+      OPTIONAL {
+        ?v108 a ns0:adresní-místo .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:má-adresu-sídla-orgánu-veřejné-moci ?v109 .
+      OPTIONAL {
+        ?v109 a ns0:adresní-místo .
+      }
+      OPTIONAL {
+        ?v109 ns2:kód-adresního-místa ?v110 .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:stojí-v-čele-orgánu-veřejné-moci ?v111 .
+      OPTIONAL {
+        ?v111 a ns0:osoba-stojící-v-čele-orgánu-veřejné-moci .
+      }
+      ?v111 ns0:má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci ?v112 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci ?v113 .
+    }
+    OPTIONAL {
+      ?v32 ns1:má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci ?v114 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od ?v115 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do ?v116 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od ?v117 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do ?v118 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pracoviště-vykonávající-úkon ?v119 .
+      OPTIONAL {
+        ?v119 a ns0:pracoviště .
+      }
+      OPTIONAL {
+        ?v119 ns0:má-adresu-pracoviště ?v120 .
+        OPTIONAL {
+          ?v120 a ns0:adresní-místo .
+        }
+        ?v120 ns0:má-kód-adresního-místa ?v121 .
+      }
+      OPTIONAL {
+        ?v119 ns1:má-adresu-pracoviště-neevidovanou-v-rúian ?v122 .
+      }
+      OPTIONAL {
+        ?v119 ns1:má-stát-pracoviště ?v123 .
+        OPTIONAL {
+          ?v123 a ns1:stát .
+        }
+      }
+      OPTIONAL {
+        ?v119 ns1:má-datum-otevření-pracoviště ?v124 .
+      }
+      OPTIONAL {
+        ?v119 ns1:má-datum-uzavření-pracoviště ?v125 .
+      }
+    }
+    ?v32 ns0:má-identifikátor-orgánu-veřejné-moci ?v126 .
+    ?v32 ns0:má-název-orgánu-veřejné-moci ?v127 .
+    OPTIONAL {
+      ?v32 ns0:je-vnitřní-organizační-jednotkou ?v128 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?v129 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-datovou-schránku-orgánu-veřejné-moci ?v130 .
+      OPTIONAL {
+        ?v130 a ns0:datová-schránka .
+      }
+      ?v130 ns0:má-typ-datové-schránky ?v131 .
+      OPTIONAL {
+        ?v131 a ns0:typ-datové-schránky .
+      }
+      ?v130 ns0:má-identifikátor-datové-schránky ?v132 .
+    }
+    ?v32 ns0:vykonává-působnost-na-základě-ustanovení ?v133 .
+    OPTIONAL {
+      ?v133 a ns0:ustanovení-právního-předpisu .
+    }
+    OPTIONAL {
+      ?v133 ns0:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v134 .
+    }
+    OPTIONAL {
+      ?v32 ns1:má-zařazený-subjekt ?v135 .
+      OPTIONAL {
+        ?v135 a ns0:zařazení-do-kategorie .
+      }
+      ?v135 ns1:zařazuje-do-kategorie ?v136 .
+      OPTIONAL {
+        ?v136 a ns0:kategorie .
+      }
+      OPTIONAL {
+        ?v135 ns1:má-datum-zařazení-do-kategorie ?v137 .
+      }
+      OPTIONAL {
+        ?v135 ns1:má-datum-vyřazení-z-kategorie ?v138 .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:má-adresu-místa-pobytu-orgánu-veřejné-moci ?v139 .
+      OPTIONAL {
+        ?v139 a ns0:adresní-místo .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:má-adresu-sídla-orgánu-veřejné-moci ?v140 .
+      OPTIONAL {
+        ?v140 a ns0:adresní-místo .
+      }
+      OPTIONAL {
+        ?v140 ns2:kód-adresního-místa ?v141 .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:stojí-v-čele-orgánu-veřejné-moci ?v142 .
+      OPTIONAL {
+        ?v142 a ns0:osoba-stojící-v-čele-orgánu-veřejné-moci .
+      }
+      ?v142 ns0:má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci ?v143 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci ?v144 .
+    }
+    OPTIONAL {
+      ?v32 ns1:má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci ?v145 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od ?v146 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do ?v147 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od ?v148 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do ?v149 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pracoviště-vykonávající-úkon ?v150 .
+      OPTIONAL {
+        ?v150 a ns0:pracoviště .
+      }
+      OPTIONAL {
+        ?v150 ns0:má-adresu-pracoviště ?v151 .
+        OPTIONAL {
+          ?v151 a ns0:adresní-místo .
+        }
+        ?v151 ns0:má-kód-adresního-místa ?v152 .
+      }
+      OPTIONAL {
+        ?v150 ns1:má-adresu-pracoviště-neevidovanou-v-rúian ?v153 .
+      }
+      OPTIONAL {
+        ?v150 ns1:má-stát-pracoviště ?v154 .
+        OPTIONAL {
+          ?v154 a ns1:stát .
+        }
+      }
+      OPTIONAL {
+        ?v150 ns1:má-datum-otevření-pracoviště ?v155 .
+      }
+      OPTIONAL {
+        ?v150 ns1:má-datum-uzavření-pracoviště ?v156 .
+      }
+    }
+    ?v32 ns0:má-identifikátor-orgánu-veřejné-moci ?v157 .
+    ?v32 ns0:má-název-orgánu-veřejné-moci ?v158 .
+    OPTIONAL {
+      ?v32 ns0:je-vnitřní-organizační-jednotkou ?v159 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?v160 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-datovou-schránku-orgánu-veřejné-moci ?v161 .
+      OPTIONAL {
+        ?v161 a ns0:datová-schránka .
+      }
+      ?v161 ns0:má-typ-datové-schránky ?v162 .
+      OPTIONAL {
+        ?v162 a ns0:typ-datové-schránky .
+      }
+      ?v161 ns0:má-identifikátor-datové-schránky ?v163 .
+    }
+    ?v32 ns0:vykonává-působnost-na-základě-ustanovení ?v164 .
+    OPTIONAL {
+      ?v164 a ns0:ustanovení-právního-předpisu .
+    }
+    OPTIONAL {
+      ?v164 ns0:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v165 .
+    }
+    OPTIONAL {
+      ?v32 ns1:má-zařazený-subjekt ?v166 .
+      OPTIONAL {
+        ?v166 a ns0:zařazení-do-kategorie .
+      }
+      ?v166 ns1:zařazuje-do-kategorie ?v167 .
+      OPTIONAL {
+        ?v167 a ns0:kategorie .
+      }
+      OPTIONAL {
+        ?v166 ns1:má-datum-zařazení-do-kategorie ?v168 .
+      }
+      OPTIONAL {
+        ?v166 ns1:má-datum-vyřazení-z-kategorie ?v169 .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:má-adresu-místa-pobytu-orgánu-veřejné-moci ?v170 .
+      OPTIONAL {
+        ?v170 a ns0:adresní-místo .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:má-adresu-sídla-orgánu-veřejné-moci ?v171 .
+      OPTIONAL {
+        ?v171 a ns0:adresní-místo .
+      }
+      OPTIONAL {
+        ?v171 ns2:kód-adresního-místa ?v172 .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:stojí-v-čele-orgánu-veřejné-moci ?v173 .
+      OPTIONAL {
+        ?v173 a ns0:osoba-stojící-v-čele-orgánu-veřejné-moci .
+      }
+      ?v173 ns0:má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci ?v174 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci ?v175 .
+    }
+    OPTIONAL {
+      ?v32 ns1:má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci ?v176 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od ?v177 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do ?v178 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od ?v179 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do ?v180 .
+    }
+    OPTIONAL {
+      ?v32 ns0:má-pracoviště-vykonávající-úkon ?v181 .
+      OPTIONAL {
+        ?v181 a ns0:pracoviště .
+      }
+      OPTIONAL {
+        ?v181 ns0:má-adresu-pracoviště ?v182 .
+        OPTIONAL {
+          ?v182 a ns0:adresní-místo .
+        }
+        ?v182 ns0:má-kód-adresního-místa ?v183 .
+      }
+      OPTIONAL {
+        ?v181 ns1:má-adresu-pracoviště-neevidovanou-v-rúian ?v184 .
+      }
+      OPTIONAL {
+        ?v181 ns1:má-stát-pracoviště ?v185 .
+        OPTIONAL {
+          ?v185 a ns1:stát .
+        }
+      }
+      OPTIONAL {
+        ?v181 ns1:má-datum-otevření-pracoviště ?v186 .
+      }
+      OPTIONAL {
+        ?v181 ns1:má-datum-uzavření-pracoviště ?v187 .
+      }
+    }
+    OPTIONAL {
+      ?v32 ns0:má-právní-formu-osoby ?v188 .
+      OPTIONAL {
+        ?v188 a ns0:právní-forma .
+      }
+    }
+  }
+}

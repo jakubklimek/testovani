@@ -1,0 +1,38 @@
+PREFIX ns0: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>
+PREFIX ns1: <https://slovník.gov.cz/agendový/104/pojem/>
+CONSTRUCT {
+  ?v0 a ns0:pracoviště .
+  ?v0 ns0:má-adresu-pracoviště ?v1 .
+  ?v1 a ns0:adresní-místo .
+  ?v1 ns0:má-kód-adresního-místa ?v2 .
+  ?v0 ns1:má-adresu-pracoviště-neevidovanou-v-rúian ?v3 .
+  ?v0 ns1:má-stát-pracoviště ?v4 .
+  ?v4 a ns1:stát .
+  ?v0 ns1:má-datum-otevření-pracoviště ?v5 .
+  ?v0 ns1:má-datum-uzavření-pracoviště ?v6 .
+}
+WHERE {
+  ?v0 a ns0:pracoviště .
+  OPTIONAL {
+    ?v0 ns0:má-adresu-pracoviště ?v1 .
+    OPTIONAL {
+      ?v1 a ns0:adresní-místo .
+    }
+    ?v1 ns0:má-kód-adresního-místa ?v2 .
+  }
+  OPTIONAL {
+    ?v0 ns1:má-adresu-pracoviště-neevidovanou-v-rúian ?v3 .
+  }
+  OPTIONAL {
+    ?v0 ns1:má-stát-pracoviště ?v4 .
+    OPTIONAL {
+      ?v4 a ns1:stát .
+    }
+  }
+  OPTIONAL {
+    ?v0 ns1:má-datum-otevření-pracoviště ?v5 .
+  }
+  OPTIONAL {
+    ?v0 ns1:má-datum-uzavření-pracoviště ?v6 .
+  }
+}

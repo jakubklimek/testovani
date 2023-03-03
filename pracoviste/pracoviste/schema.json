@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pracoviště",
+  "description": "Pracoviště, na kterém orgán veřejné moci vykonává úkony.",
+  "type": "object",
+  "required": [
+
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "iri"
+    },
+    "type": {
+      "oneOf": [
+        {
+          "const": "Pracoviště"
+        },
+        {
+          "type": "array",
+          "contains": {
+            "const": "Pracoviště"
+          },
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "adresa-pr": {
+      "$ref": "/adresni-misto/adresni-misto/schema.json"
+    },
+    "adresa-pr-txt": {
+      "title": "Má adresu pracoviště neevidovanou v RÚIAN",
+      "description": "Adresa pracoviště orgánu veřejné moci v textové podobě v případě, že adresa není evidována v registru územní identifikace, adres a nemovitostí.",
+      "type": "string"
+    },
+    "stát-pr": {
+      "title": "Má stát pracoviště",
+      "description": "Přiřazuje pracovišti orgánu veřejné moci jeho stát z číselníku států.",
+      "type": "string",
+      "format": "iri"
+    },
+    "otevření": {
+      "title": "Má datum otevření pracoviště",
+      "description": "Datum, ke kterému bylo nebo bude otevřeno pracoviště orgánu veřejné moci.",
+      "type": "string",
+      "format": "date"
+    },
+    "uzavření": {
+      "title": "Má datum uzavření pracoviště",
+      "description": "Datum, ke kterému bylo nebo bude uzavřeno pracoviště orgánu veřejné moci.",
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

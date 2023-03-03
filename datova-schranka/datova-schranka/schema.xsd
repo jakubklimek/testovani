@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1" elementFormDefault="unqualified" xmlns:c="https://schemas.dataspecer.com/xsd/core/" xmlns:sawsdl="http://www.w3.org/ns/sawsdl">
+  <xs:import namespace="https://schemas.dataspecer.com/xsd/core/" schemaLocation="./2022-07.xsd"/>
+  <xs:element name="datová_schránka">
+    <xs:complexType sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/datová-schránka">
+      <xs:annotation>
+        <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/datová-schránka
+Název (cs): Datová schránka
+Popis (cs): Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="c:iri"/>
+        <xs:element name="typ-ds" type="xs:anyURI" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-typ-datové-schránky">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-typ-datové-schránky
+Název (cs): Má typ datové schránky
+Popis (cs): Určuje typ datové schránky z číselníku typů datových schránek.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element name="identifikátor-ds" type="xs:string" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikátor-datové-schránky">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikátor-datové-schránky
+Název (cs): Má identifikátor datové schránky
+Popis (cs): Jednoznačný identifikátor datové schránky.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

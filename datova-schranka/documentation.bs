@@ -1,0 +1,219 @@
+<pre class='metadata'>
+Title : Datová schránka 
+Shortname : Datová schránka 
+Status : LS 
+Editor : Dataspecer editor, https://slovník.gov.cz/generujeme 
+Boilerplate : conformance no, copyright no 
+Abstract : This document was generated automatically by [Dataspecer](https://dataspecer.com/). 
+Markup Shorthands : markdown yes 
+Logo : https://ofn.gov.cz/static/images/logo.png 
+</pre>
+
+# Konceptuální model # {#konceptualni-model}
+V této sekci je definován konceptuální model.
+
+<figure><img src="./conceptual-model.png"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
+
+## Datová schránka ## {#konceptuální-třída-datová-schránka}
+: Popis
+:: Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.
+: Význam
+:: Typ Datová schránka je definován v sémantickém slovníku pojmů jako [Datová schránka](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/datová-schránka).
+
+### Má identifikátor datové schránky ### {#konceptuální-třída-datová-schránka-má-identifikátor-datové-schránky}
+: Jméno
+:: Má identifikátor datové schránky
+: Popis
+:: Jednoznačný identifikátor datové schránky.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Význam
+:: Vlastnost Má identifikátor datové schránky je definován v sémantickém slovníku pojmů jako [Má identifikátor datové schránky](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikátor-datové-schránky).
+
+### Vztah (asociace): Má typ datové schránky ### {#konceptuální-třída-datová-schránka-má-typ-datové-schránky}
+: Jméno
+:: Má typ datové schránky
+: Popis
+:: Určuje typ datové schránky z číselníku typů datových schránek.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Typ datové schránky](#konceptuální-třída-typ-datové-schránky)
+: Význam
+:: Vlastnost Má typ datové schránky je definován v sémantickém slovníku pojmů jako [Má typ datové schránky](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-typ-datové-schránky).
+
+## Typ datové schránky ## {#konceptuální-třída-typ-datové-schránky}
+: Popis
+:: Typ datové schránky z číselníku typů datových schránek.
+: Číselník
+:: Typ reprezentuje číselník.
+: Význam
+:: Typ Typ datové schránky je definován v sémantickém slovníku pojmů jako [Typ datové schránky](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/typ-datové-schránky).
+
+### Vztah (asociace): Má typ datové schránky ### {#konceptuální-třída-typ-datové-schránky-má-typ-datové-schránky}
+: Jméno
+:: Má typ datové schránky
+: Popis
+:: Určuje typ datové schránky z číselníku typů datových schránek.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - &infin;
+: Typ
+:: [Datová schránka](#konceptuální-třída-datová-schránka)
+: Význam
+:: Vlastnost Má typ datové schránky je definován v sémantickém slovníku pojmů jako [Má typ datové schránky](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-typ-datové-schránky).
+
+# Datová schránka
+Datová struktura pro Datová schránka. Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.
+
+## Datová schránka JSON
+V této sekci je definován strukturní model pro [JSON schéma](./datova-schranka/schema.json).
+
+### Datová schránka ### {#strukturální-json-datová-schránka-třída-datová-schránka}
+: Popis
+:: Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.
+: Interpretace
+:: [Datová schránka](#konceptuální-třída-datová-schránka)
+
+#### Má identifikátor datové schránky #### {#strukturální-json-datová-schránka-třída-datová-schránka-má-identifikátor-datové-schránky}
+: Klíč
+:: identifikátor-ds
+: Jméno
+:: Má identifikátor datové schránky
+: Popis
+:: Datová struktura pro Datová schránka. Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikátor datové schránky](#konceptuální-třída-datová-schránka-má-identifikátor-datové-schránky)
+
+#### Vztah (asociace): Má typ datové schránky #### {#strukturální-json-datová-schránka-třída-datová-schránka-má-typ-datové-schránky}
+: Klíč
+:: typ-ds
+: Jméno
+:: Má typ datové schránky
+: Popis
+:: Datová struktura pro Datová schránka. Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Typ datové schránky](#strukturální-json-datová-schránka-třída-typ-datové-schránky)
+: Interpretace
+:: [Má typ datové schránky](#konceptuální-třída-datová-schránka-má-typ-datové-schránky)
+
+### Typ datové schránky ### {#strukturální-json-datová-schránka-třída-typ-datové-schránky}
+: Popis
+:: Typ datové schránky z číselníku typů datových schránek.
+: Číselník
+:: Typ reprezentuje číselník.
+: Interpretace
+:: [Typ datové schránky](#konceptuální-třída-typ-datové-schránky)
+
+## Datová schránka XML
+V této sekci je definován strukturní model pro [XML schéma](./datova-schranka/schema.xsd).
+
+### Datová schránka ### {#strukturální-xml-datová-schránka-třída-datová-schránka}
+: Popis
+:: Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.
+: Interpretace
+:: [Datová schránka](#konceptuální-třída-datová-schránka)
+
+#### Má identifikátor datové schránky #### {#strukturální-xml-datová-schránka-třída-datová-schránka-má-identifikátor-datové-schránky}
+: Klíč
+:: identifikátor-ds
+: Jméno
+:: Má identifikátor datové schránky
+: Popis
+:: Datová struktura pro Datová schránka. Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikátor datové schránky](#konceptuální-třída-datová-schránka-má-identifikátor-datové-schránky)
+
+#### Vztah (asociace): Má typ datové schránky #### {#strukturální-xml-datová-schránka-třída-datová-schránka-má-typ-datové-schránky}
+: Klíč
+:: typ-ds
+: Jméno
+:: Má typ datové schránky
+: Popis
+:: Datová struktura pro Datová schránka. Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Typ datové schránky](#strukturální-xml-datová-schránka-třída-typ-datové-schránky)
+: Interpretace
+:: [Má typ datové schránky](#konceptuální-třída-datová-schránka-má-typ-datové-schránky)
+
+### Typ datové schránky ### {#strukturální-xml-datová-schránka-třída-typ-datové-schránky}
+: Popis
+:: Typ datové schránky z číselníku typů datových schránek.
+: Číselník
+:: Typ reprezentuje číselník.
+: Interpretace
+:: [Typ datové schránky](#konceptuální-třída-typ-datové-schránky)
+
+## Datová schránka CSV
+V této sekci je definován strukturní model pro [CSV schéma](./datova-schranka/schema.csv-metadata.json).
+
+### Datová schránka ### {#strukturální-csv-datová-schránka-třída-datová-schránka}
+: Popis
+:: Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.
+: Interpretace
+:: [Datová schránka](#konceptuální-třída-datová-schránka)
+
+#### Má identifikátor datové schránky #### {#strukturální-csv-datová-schránka-třída-datová-schránka-má-identifikátor-datové-schránky}
+: Klíč
+:: identifikátor-ds
+: Jméno
+:: Má identifikátor datové schránky
+: Popis
+:: Datová struktura pro Datová schránka. Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má identifikátor datové schránky](#konceptuální-třída-datová-schránka-má-identifikátor-datové-schránky)
+
+#### Vztah (asociace): Má typ datové schránky #### {#strukturální-csv-datová-schránka-třída-datová-schránka-má-typ-datové-schránky}
+: Klíč
+:: typ-ds
+: Jméno
+:: Má typ datové schránky
+: Popis
+:: Datová struktura pro Datová schránka. Datová schránka tak, jak je definována v zákoně č. 300/2008 Sb.
+: Povinnost
+:: povinné
+: Kardinalita
+:: 1 - 1
+: Typ
+:: [Typ datové schránky](#strukturální-csv-datová-schránka-třída-typ-datové-schránky)
+: Interpretace
+:: [Má typ datové schránky](#konceptuální-třída-datová-schránka-má-typ-datové-schránky)
+
+### Typ datové schránky ### {#strukturální-csv-datová-schránka-třída-typ-datové-schránky}
+: Popis
+:: Typ datové schránky z číselníku typů datových schránek.
+: Číselník
+:: Typ reprezentuje číselník.
+: Interpretace
+:: [Typ datové schránky](#konceptuální-třída-typ-datové-schránky)

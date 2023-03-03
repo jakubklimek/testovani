@@ -1,0 +1,7 @@
+PREFIX ns1: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>
+SELECT (?v2 AS ?typ-ds) (?v3 AS ?identifikátor-ds)
+WHERE {
+  ?v1 a ns1:datová-schránka .
+  ?v1 ns1:má-typ-datové-schránky ?v2 .
+  ?v1 ns1:má-identifikátor-datové-schránky ?v3 .
+}

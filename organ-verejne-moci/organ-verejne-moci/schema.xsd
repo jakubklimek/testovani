@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1" elementFormDefault="unqualified" xmlns:c="https://schemas.dataspecer.com/xsd/core/" xmlns:sawsdl="http://www.w3.org/ns/sawsdl">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+  <xs:import namespace="https://schemas.dataspecer.com/xsd/core/" schemaLocation="./2022-07.xsd"/>
+  <xs:import schemaLocation="../../datova-schranka/datova-schranka/schema.xsd"/>
+  <xs:import schemaLocation="../../ustanoveni-pravniho-predpisu/ustanoveni-pravniho-predpisu/schema.xsd"/>
+  <xs:import schemaLocation="../../pracoviste/pracoviste/schema.xsd"/>
+  <xs:complexType name="langString">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute ref="xml:lang" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:element name="orgán-veřejné-moci">
+    <xs:complexType sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/orgán-veřejné-moci">
+      <xs:annotation>
+        <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/orgán-veřejné-moci</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="c:iri"/>
+        <xs:element name="identifikátor" type="xs:string" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikátor-orgánu-veřejné-moci">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikátor-orgánu-veřejné-moci
+Název (cs): Má identifikátor orgánu veřejné moci
+Popis (cs): Jednoznačný identifikátor orgánu veřejné moci v rámci všech orgánů veřejné moci. Identifikátor je referenčním údajem.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element name="název" type="langString" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-název-orgánu-veřejné-moci">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-název-orgánu-veřejné-moci
+Název (cs): Má název orgánu veřejné moci
+Popis (cs): Pojmenovává orgán veřejné moci názvem, který je oficiálním názvem orgánu veřejné moci. Název je referenčním údajem převzatým z registru obyvatel nebo z registru osob.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" name="vnitřní-organizační-jednotka" type="xs:boolean" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/je-vnitřní-organizační-jednotkou">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/je-vnitřní-organizační-jednotkou
+Název (cs): Je vnitřní organizační jednotkou
+Popis (cs): Údaj o tom, zda je orgán veřejné moci vnitřní organizační jednotkou organizační složky státu, které byla zákonem svěřena vlastní působnost. Jedná se o referenční údaj.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" name="ičo" type="xs:string" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikační-číslo-osoby-orgánu-veřejné-moci">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-identifikační-číslo-osoby-orgánu-veřejné-moci
+Název (cs): Má identifikační číslo osoby orgánu veřejné moci
+Popis (cs): Identifikační číslo osoby orgánu veřejné moci, bylo-li přiděleno. Identifikační číslo je referenčním údajem.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="datové-schránky" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-datovou-schránku-orgánu-veřejné-moci">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-datovou-schránku-orgánu-veřejné-moci
+Název (cs): Má datovou schránku orgánu veřejné moci
+Popis (cs): Určuje datovou schránku orgánu veřejné moci. Datová schránka orgánu veřejné moci vedená v Registru práv a povinností je referenčním údajem a je převzata z registru obyvatel nebo registru osob. Orgán veřejné moci může mít více datových schránek a má alespoň jednu. Jedna datová schránka patří nejvýše jednomu orgánu veřejné moci.</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" ref="c:iri"/>
+              <xs:group ref="datová_schránka"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ustanovení" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/vykonává-působnost-na-základě-ustanovení">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/vykonává-působnost-na-základě-ustanovení
+Název (cs): Vykonává působnost na základě ustanovení
+Popis (cs): Určuje právní předpis a označení jeho ustanovení, na jehož základě orgán veřejné moci vykonává svoji působnost.</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" ref="c:iri"/>
+              <xs:group ref="ustanovení_právního_předpisu"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="seznam-kategorií" sawsdl:modelReference="https://slovník.gov.cz/agendový/104/pojem/má-zařazený-subjekt">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/agendový/104/pojem/má-zařazený-subjekt
+Název (cs): Má zařazený subjekt
+Popis (cs): Určuje orgán veřejné moci nebo soukromoprávního uživatele údajů zařazený do kategorie.</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" ref="c:iri"/>
+              <xs:element name="kategorie" sawsdl:modelReference="https://slovník.gov.cz/agendový/104/pojem/zařazuje-do-kategorie">
+                <xs:annotation>
+                  <xs:documentation>Význam: https://slovník.gov.cz/agendový/104/pojem/zařazuje-do-kategorie
+Název (cs): Zařazuje do kategorie
+Popis (cs): Určuje kategorii, do které je orgán veřejné moci nebo soukromoprávní uživatel údajů zařazen.</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" ref="c:iri"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="zařazení-od" type="xs:date" sawsdl:modelReference="https://slovník.gov.cz/agendový/104/pojem/má-datum-zařazení-do-kategorie">
+                <xs:annotation>
+                  <xs:documentation>Význam: https://slovník.gov.cz/agendový/104/pojem/má-datum-zařazení-do-kategorie
+Název (cs): Má datum zařazení do kategorie
+Popis (cs): Datum, ke kterému byl nebo bude orgán veřejné moci nebo soukromoprávní uživatel údajů  do kategorie zařazen.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element minOccurs="0" name="zařazení-do" type="xs:date" sawsdl:modelReference="https://slovník.gov.cz/agendový/104/pojem/má-datum-vyřazení-z-kategorie">
+                <xs:annotation>
+                  <xs:documentation>Význam: https://slovník.gov.cz/agendový/104/pojem/má-datum-vyřazení-z-kategorie
+Název (cs): Má datum vyřazení z kategorie
+Popis (cs): Datum, ke kterému byl nebo bude orgán veřejné moci nebo soukromoprávní uživatel údajů z kategorie vyřazen.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="adresa-místa-pobytu" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-místa-pobytu-orgánu-veřejné-moci">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-místa-pobytu-orgánu-veřejné-moci
+Název (cs): Má adresu místa pobytu orgánu veřejné moci
+Popis (cs): Adresa místa pobytu orgánu veřejné moci, pokud takovou adresu má. Adresa místa pobytu je referenční údaj. Je vyjádřena referencí do Registru územní identifikace, adres a nemovitostí. Je převzata z registru osob nebo z registru obyvatel. Jeden orgán veřejné moci může mít nejvýše jednu adresu místa pobytu.</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" ref="c:iri"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="adresa-sídla" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-sídla-orgánu-veřejné-moci">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-sídla-orgánu-veřejné-moci
+Název (cs): Má adresu sídla orgánu veřejné moci
+Popis (cs): Adresa sídla orgánu veřejné moci, pokud takovou adresu má. Adresa sídla je referenční údaj. Je vyjádřena referencí do Registru územní identifikace, adres a nemovitostí. Je převzata z registru osob nebo z registru obyvatel. Jeden orgán veřejné moci může mít nejvýše jednu adresu sídla.</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" ref="c:iri"/>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="kód_adresního_místa" type="xs:anySimpleType" sawsdl:modelReference="https://slovník.gov.cz/generický/adresy/pojem/kód-adresního-místa">
+                <xs:annotation>
+                  <xs:documentation>Význam: https://slovník.gov.cz/generický/adresy/pojem/kód-adresního-místa
+Název (cs): kód adresního místa</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="osoba-v-čele" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/stojí-v-čele-orgánu-veřejné-moci">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/stojí-v-čele-orgánu-veřejné-moci
+Název (cs): Stojí v čele orgánu veřejné moci
+Popis (cs): Určuje osobu stojící v čele orgánu veřejné moci, pokud lze pro daný orgán veřejné moci takový údaj zveřejnit. Pro každý orgán veřejné moci je zveřejněna nejvýše jedna osoba.</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" ref="c:iri"/>
+              <xs:element name="jméno" type="xs:string" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci">
+                <xs:annotation>
+                  <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci
+Název (cs): Má jméno a příjmení osoby stojící v čele orgánu veřejné moci
+Popis (cs): Plné jméno osoby stojicí v čele orgánu veřejné moci převzaté z registru obyvatel.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="zahájení" type="xs:date" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci
+Název (cs): Má datum zahájení výkonu působnosti orgánu veřejné moci
+Popis (cs): Datum, od kterého orgán veřejné moci vykonává působnost</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" name="ukončení" type="xs:date" sawsdl:modelReference="https://slovník.gov.cz/agendový/104/pojem/má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/agendový/104/pojem/má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci
+Název (cs): Má datum ukončení výkonu působnosti orgánu veřejné moci
+Popis (cs): Datum, do kterého orgán veřejné moci vykonává působnost</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" name="pozastavení-od" type="xs:date" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od
+Název (cs): Má pozastavený výkon působnosti orgánu veřejné moci od
+Popis (cs): Datum, od kterého má nebo měl orgán veřejné moci pozastaven výkon působnosti.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" name="pozastavení-do" type="xs:date" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do
+Název (cs): Má pozastavený výkon působnosti orgánu veřejné moci do
+Popis (cs): Datum, do kterého má nebo měl orgán veřejné moci pozastaven výkon působnosti.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" name="přerušení-od" type="xs:date" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od
+Název (cs): Má přerušený výkon působnosti orgánu veřejné moci od
+Popis (cs): Datum, od kterého má nebo měl orgán veřejné moci přerušen výkon působnosti.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" name="přerušení-do" type="xs:date" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do
+Název (cs): Má přerušený výkon působnosti orgánu veřejné moci do
+Popis (cs): Datum, do kterého má nebo měl orgán veřejné moci přerušen výkon působnosti.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="pracoviště-ovm" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pracoviště-vykonávající-úkon">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-pracoviště-vykonávající-úkon
+Název (cs): Má pracoviště vykonávající úkon
+Popis (cs): Přiřazuje orgánu veřejné moci pracoviště, na kterém vykonává úkony. K danému orgánu veřejné moci může být uvedeno více pracovišť. Jedno pracoviště patří k právě jednomu orgánu veřejné moci.</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" ref="c:iri"/>
+              <xs:group ref="pracoviště"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="právnická_osoba_se_svěřenou_působností_v_oblasti_veřejné_správy">
+    <xs:complexType sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy">
+      <xs:annotation>
+        <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy
+Název (cs): Právnická osoba se svěřenou působností v oblasti veřejné správy</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="c:iri"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="má_právní_formu_osoby" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-právní-formu-osoby">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-právní-formu-osoby
+Název (cs): Má právní formu osoby
+Popis (cs): Určuje právní formu osoby z číselníku právních forem.</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" ref="c:iri"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

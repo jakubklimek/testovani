@@ -1,0 +1,111 @@
+<pre class='metadata'>
+Title : Ustanovení právního předpisu 
+Shortname : Ustanovení právního předpisu 
+Status : LS 
+Editor : Dataspecer editor, https://slovník.gov.cz/generujeme 
+Boilerplate : conformance no, copyright no 
+Abstract : This document was generated automatically by [Dataspecer](https://dataspecer.com/). 
+Markup Shorthands : markdown yes 
+Logo : https://ofn.gov.cz/static/images/logo.png 
+</pre>
+
+# Konceptuální model # {#konceptualni-model}
+V této sekci je definován konceptuální model.
+
+<figure><img src="./conceptual-model.png"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
+
+## Ustanovení právního předpisu ## {#konceptuální-třída-ustanovení-právního-předpisu}
+: Popis
+:: Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno.
+: Význam
+:: Typ Ustanovení právního předpisu je definován v sémantickém slovníku pojmů jako [Ustanovení právního předpisu](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/ustanovení-právního-předpisu).
+
+### Má úplné označení ustanovení včetně označení právního předpisu ### {#konceptuální-třída-ustanovení-právního-předpisu-má-úplné-označení-ustanovení-včetně-označení-právního-předpisu}
+: Jméno
+:: Má úplné označení ustanovení včetně označení právního předpisu
+: Popis
+:: Úplné označení ustanovení je řetězec, který obsahuje označení samotného předpisu dle jeho označení ve Sbírce zákonů a dále označení samotného ustanovení v rámci předpisu. Jeho vnitřní struktura není nijak předepsána.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Význam
+:: Vlastnost Má úplné označení ustanovení včetně označení právního předpisu je definován v sémantickém slovníku pojmů jako [Má úplné označení ustanovení včetně označení právního předpisu](https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-úplné-označení-ustanovení-včetně-označení-právního-předpisu).
+
+# Ustanovení právního předpisu
+Datová struktura pro Ustanovení právního předpisu. Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno.
+
+## Ustanovení právního předpisu JSON
+V této sekci je definován strukturní model pro [JSON schéma](./ustanoveni-pravniho-predpisu/schema.json).
+
+### Ustanovení právního předpisu ### {#strukturální-json-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu}
+: Popis
+:: Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno.
+: Interpretace
+:: [Ustanovení právního předpisu](#konceptuální-třída-ustanovení-právního-předpisu)
+
+#### Má úplné označení ustanovení včetně označení právního předpisu #### {#strukturální-json-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu-má-úplné-označení-ustanovení-včetně-označení-právního-předpisu}
+: Klíč
+:: označení
+: Jméno
+:: Má úplné označení ustanovení včetně označení právního předpisu
+: Popis
+:: Datová struktura pro Ustanovení právního předpisu. Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má úplné označení ustanovení včetně označení právního předpisu](#konceptuální-třída-ustanovení-právního-předpisu-má-úplné-označení-ustanovení-včetně-označení-právního-předpisu)
+
+## Ustanovení právního předpisu XML
+V této sekci je definován strukturní model pro [XML schéma](./ustanoveni-pravniho-predpisu/schema.xsd).
+
+### Ustanovení právního předpisu ### {#strukturální-xml-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu}
+: Popis
+:: Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno.
+: Interpretace
+:: [Ustanovení právního předpisu](#konceptuální-třída-ustanovení-právního-předpisu)
+
+#### Má úplné označení ustanovení včetně označení právního předpisu #### {#strukturální-xml-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu-má-úplné-označení-ustanovení-včetně-označení-právního-předpisu}
+: Klíč
+:: označení
+: Jméno
+:: Má úplné označení ustanovení včetně označení právního předpisu
+: Popis
+:: Datová struktura pro Ustanovení právního předpisu. Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má úplné označení ustanovení včetně označení právního předpisu](#konceptuální-třída-ustanovení-právního-předpisu-má-úplné-označení-ustanovení-včetně-označení-právního-předpisu)
+
+## Ustanovení právního předpisu CSV
+V této sekci je definován strukturní model pro [CSV schéma](./ustanoveni-pravniho-predpisu/schema.csv-metadata.json).
+
+### Ustanovení právního předpisu ### {#strukturální-csv-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu}
+: Popis
+:: Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno.
+: Interpretace
+:: [Ustanovení právního předpisu](#konceptuální-třída-ustanovení-právního-předpisu)
+
+#### Má úplné označení ustanovení včetně označení právního předpisu #### {#strukturální-csv-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu-má-úplné-označení-ustanovení-včetně-označení-právního-předpisu}
+: Klíč
+:: označení
+: Jméno
+:: Má úplné označení ustanovení včetně označení právního předpisu
+: Popis
+:: Datová struktura pro Ustanovení právního předpisu. Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno.
+: Povinnost
+:: nepovinné
+: Kardinalita
+:: 0 - 1
+: Typ
+:: [Řetězec](https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/řetězec)
+: Interpretace
+:: [Má úplné označení ustanovení včetně označení právního předpisu](#konceptuální-třída-ustanovení-právního-předpisu-má-úplné-označení-ustanovení-včetně-označení-právního-předpisu)

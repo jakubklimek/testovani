@@ -1,0 +1,8 @@
+@startuml
+set namespaceSeparator none
+skinparam dpi 200
+class "Ustanovení právního předpisu" {
+  Má úplné označení ustanovení včetně označení právního předpisu
+}
+
+@enduml

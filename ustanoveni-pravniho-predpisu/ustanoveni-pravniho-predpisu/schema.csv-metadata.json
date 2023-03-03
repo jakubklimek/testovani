@@ -1,0 +1,37 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "cs"
+        }
+    ],
+    "@id": "https://ofn.gov.cz/schema/1657544506050-d34f-81c9-9ef9/table.csv-metadata.json",
+    "@type": "Table",
+    "url": "table.csv",
+    "tableSchema": {
+        "@type": "Schema",
+        "columns": [
+            {
+                "@type": "Column",
+                "name": "ozna%C4%8Den%C3%AD",
+                "titles": "označení",
+                "dc:title": {
+                    "@value": "Má úplné označení ustanovení včetně označení právního předpisu",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Úplné označení ustanovení je řetězec, který obsahuje označení samotného předpisu dle jeho označení ve Sbírce zákonů a dále označení samotného ustanovení v rámci předpisu. Jeho vnitřní struktura není nijak předepsána.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-úplné-označení-ustanovení-včetně-označení-právního-předpisu",
+                "datatype": "string"
+            },
+            {
+                "@type": "Column",
+                "propertyUrl": "rdf:type",
+                "valueUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/ustanovení-právního-předpisu",
+                "virtual": true
+            }
+        ]
+    }
+}

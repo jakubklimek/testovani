@@ -1,0 +1,71 @@
+@startuml
+set namespaceSeparator none
+skinparam dpi 200
+class "Orgán veřejné moci" {
+  Má identifikátor orgánu veřejné moci
+  Má název orgánu veřejné moci
+  Je vnitřní organizační jednotkou
+  Má identifikační číslo osoby orgánu veřejné moci
+  Má datum zahájení výkonu působnosti orgánu veřejné moci
+  Má datum ukončení výkonu působnosti orgánu veřejné moci
+  Má pozastavený výkon působnosti orgánu veřejné moci od
+  Má pozastavený výkon působnosti orgánu veřejné moci do
+  Má přerušený výkon působnosti orgánu veřejné moci od
+  Má přerušený výkon působnosti orgánu veřejné moci do
+}
+
+class "Orgán veřejné moci nebo soukromoprávní uživatel údajů" {
+}
+
+class "Datová schránka" {
+}
+
+class "Ustanovení právního předpisu" {
+}
+
+class "Zařazení do kategorie" {
+  Má datum zařazení do kategorie
+  Má datum vyřazení z kategorie
+}
+
+class Kategorie {
+}
+
+class "adresní místo" {
+  kód adresního místa
+}
+
+class "Osoba stojící v čele orgánu veřejné moci" {
+  Má jméno a příjmení osoby stojící v čele orgánu veřejné moci
+}
+
+class "Pracoviště" {
+}
+
+class "Právnická osoba se svěřenou působností v oblasti veřejné správy" {
+}
+
+class "Právnická osoba" {
+}
+
+class Osoba {
+}
+
+class "Právní forma" {
+}
+
+"Orgán veřejné moci nebo soukromoprávní uživatel údajů" <|-- "Orgán veřejné moci"
+"Orgán veřejné moci" <|-- "Právnická osoba se svěřenou působností v oblasti veřejné správy"
+"Právnická osoba" <|-- "Právnická osoba se svěřenou působností v oblasti veřejné správy"
+Osoba <|-- "Právnická osoba"
+"Orgán veřejné moci" -- "Datová schránka" :  "Má datovou schránku orgánu veřejné moci"
+"Orgán veřejné moci" -- "1..1" "Ustanovení právního předpisu" :  "Vykonává působnost na základě ustanovení"
+"Orgán veřejné moci" -- "0..1" "adresní místo" :  "Má adresu místa pobytu orgánu veřejné moci"
+"Orgán veřejné moci" -- "0..1" "adresní místo" :  "Má adresu sídla orgánu veřejné moci"
+"Orgán veřejné moci" -- "0..1" "Osoba stojící v čele orgánu veřejné moci" :  "Stojí v čele orgánu veřejné moci"
+"Orgán veřejné moci" -- "Pracoviště" :  "Má pracoviště vykonávající úkon"
+"Orgán veřejné moci nebo soukromoprávní uživatel údajů" -- "Zařazení do kategorie" :  "Má zařazený subjekt"
+"Zařazení do kategorie" -- "1..1" Kategorie :  "Zařazuje do kategorie"
+"adresní místo" -- "Pracoviště" :  "Má adresu pracoviště"
+Osoba -- "Právní forma" :  "Má právní formu osoby"
+@enduml

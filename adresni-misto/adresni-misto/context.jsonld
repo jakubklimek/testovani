@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "adresní místo": {
+      "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresní-místo",
+      "@context": {
+        "kód": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-kód-adresního-místa",
+          "@type": "xsd:string"
+        }
+      }
+    }
+  }
+}

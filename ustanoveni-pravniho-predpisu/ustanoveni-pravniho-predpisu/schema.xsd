@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1" elementFormDefault="unqualified" xmlns:c="https://schemas.dataspecer.com/xsd/core/" xmlns:sawsdl="http://www.w3.org/ns/sawsdl">
+  <xs:import namespace="https://schemas.dataspecer.com/xsd/core/" schemaLocation="./2022-07.xsd"/>
+  <xs:element name="ustanovení_právního_předpisu">
+    <xs:complexType sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/ustanovení-právního-předpisu">
+      <xs:annotation>
+        <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/ustanovení-právního-předpisu
+Název (cs): Ustanovení právního předpisu
+Popis (cs): Ustanovení právního předpisu je identifikovatelná součást právního předpisu, např. jeho paragraf, odstavec nebo písmeno.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="c:iri"/>
+        <xs:element minOccurs="0" name="označení" type="xs:string" sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-úplné-označení-ustanovení-včetně-označení-právního-předpisu">
+          <xs:annotation>
+            <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-úplné-označení-ustanovení-včetně-označení-právního-předpisu
+Název (cs): Má úplné označení ustanovení včetně označení právního předpisu
+Popis (cs): Úplné označení ustanovení je řetězec, který obsahuje označení samotného předpisu dle jeho označení ve Sbírce zákonů a dále označení samotného ustanovení v rámci předpisu. Jeho vnitřní struktura není nijak předepsána.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

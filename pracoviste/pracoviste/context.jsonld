@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "Pracoviště": {
+      "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/pracoviště",
+      "@context": {
+        "adresa-pr": {
+          "@id": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-adresu-pracoviště",
+          "@context": "../../adresni-misto/adresni-misto/context.jsonld"
+        },
+        "adresa-pr-txt": {
+          "@id": "https://slovník.gov.cz/agendový/104/pojem/má-adresu-pracoviště-neevidovanou-v-rúian",
+          "@type": "xsd:string"
+        },
+        "stát-pr": "https://slovník.gov.cz/agendový/104/pojem/má-stát-pracoviště",
+        "otevření": {
+          "@id": "https://slovník.gov.cz/agendový/104/pojem/má-datum-otevření-pracoviště",
+          "@type": "xsd:date"
+        },
+        "uzavření": {
+          "@id": "https://slovník.gov.cz/agendový/104/pojem/má-datum-uzavření-pracoviště",
+          "@type": "xsd:date"
+        }
+      }
+    }
+  }
+}

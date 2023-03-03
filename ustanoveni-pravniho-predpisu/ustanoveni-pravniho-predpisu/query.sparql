@@ -1,0 +1,11 @@
+PREFIX ns0: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>
+CONSTRUCT {
+  ?v0 a ns0:ustanovení-právního-předpisu .
+  ?v0 ns0:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v1 .
+}
+WHERE {
+  ?v0 a ns0:ustanovení-právního-předpisu .
+  OPTIONAL {
+    ?v0 ns0:má-úplné-označení-ustanovení-včetně-označení-právního-předpisu ?v1 .
+  }
+}

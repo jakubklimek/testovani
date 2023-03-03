@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "cs"
+        }
+    ],
+    "@id": "https://ofn.gov.cz/schema/1657559319354-bee3-99f5-b38f/table.csv-metadata.json",
+    "@type": "Table",
+    "url": "table.csv",
+    "tableSchema": {
+        "@type": "Schema",
+        "columns": [
+            {
+                "@type": "Column",
+                "name": "k%C3%B3d",
+                "titles": "kód",
+                "dc:title": {
+                    "@value": "Má kód adresního místa",
+                    "@language": "cs"
+                },
+                "dc:description": {
+                    "@value": "Referenční vazba na referenční údaj o adrese v registru územní identifikace.",
+                    "@language": "cs"
+                },
+                "propertyUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/má-kód-adresního-místa",
+                "datatype": "string",
+                "required": true
+            },
+            {
+                "@type": "Column",
+                "propertyUrl": "rdf:type",
+                "valueUrl": "https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/adresní-místo",
+                "virtual": true
+            }
+        ]
+    }
+}
