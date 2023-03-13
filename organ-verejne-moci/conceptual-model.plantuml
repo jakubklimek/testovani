@@ -1,6 +1,5 @@
 @startuml
 set namespaceSeparator none
-skinparam dpi 200
 class "Orgán veřejné moci" {
   Má identifikátor orgánu veřejné moci
   Má název orgánu veřejné moci

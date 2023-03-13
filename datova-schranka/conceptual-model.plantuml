@@ -1,6 +1,5 @@
 @startuml
 set namespaceSeparator none
-skinparam dpi 200
 class "Datová schránka" {
   Má identifikátor datové schránky
 }

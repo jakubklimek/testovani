@@ -12,7 +12,7 @@ Logo : https://ofn.gov.cz/static/images/logo.png
 # Konceptuální model # {#konceptualni-model}
 V této sekci je definován konceptuální model.
 
-<figure><img src="./conceptual-model.png"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
+<figure><img src="./conceptual-model.svg"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
 
 ## Orgán veřejné moci ## {#konceptuální-třída-orgán-veřejné-moci}
 : Popis
@@ -542,13 +542,15 @@ Datová struktura pro Orgán veřejné moci. Orgánem veřejné moci se rozumí 
 ## Orgán veřejné moci JSON
 V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne-moci/schema.json).
 
-### nedefinováno ### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno}
+### Orgán veřejné moci ### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci}
+: Popis
+:: Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
 : Interpretace
 :: [Orgán veřejné moci](#konceptuální-třída-orgán-veřejné-moci)
 
-#### Má identifikátor orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-identifikátor-orgánu-veřejné-moci}
+#### Má identifikátor orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-identifikátor-orgánu-veřejné-moci}
 : Klíč
-:: identifikátor
+:: `identifikátor`
 : Jméno
 :: Má identifikátor orgánu veřejné moci
 : Popis
@@ -562,9 +564,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Má identifikátor orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikátor-orgánu-veřejné-moci)
 
-#### Má název orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-název-orgánu-veřejné-moci}
+#### Má název orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-název-orgánu-veřejné-moci}
 : Klíč
-:: název
+:: `název`
 : Jméno
 :: Má název orgánu veřejné moci
 : Popis
@@ -578,9 +580,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Má název orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-název-orgánu-veřejné-moci)
 
-#### Je vnitřní organizační jednotkou #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-je-vnitřní-organizační-jednotkou}
+#### Je vnitřní organizační jednotkou #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-je-vnitřní-organizační-jednotkou}
 : Klíč
-:: vnitřní-organizační-jednotka
+:: `vnitřní-organizační-jednotka`
 : Jméno
 :: Je vnitřní organizační jednotkou
 : Popis
@@ -594,9 +596,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Je vnitřní organizační jednotkou](#konceptuální-třída-orgán-veřejné-moci-je-vnitřní-organizační-jednotkou)
 
-#### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
+#### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
 : Klíč
-:: ičo
+:: `ičo`
 : Jméno
 :: Má identifikační číslo osoby orgánu veřejné moci
 : Popis
@@ -610,9 +612,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Má identifikační číslo osoby orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikační-číslo-osoby-orgánu-veřejné-moci)
 
-#### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
+#### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
 : Klíč
-:: zahájení
+:: `zahájení`
 : Jméno
 :: Má datum zahájení výkonu působnosti orgánu veřejné moci
 : Popis
@@ -626,9 +628,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Má datum zahájení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci)
 
-#### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
+#### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
 : Klíč
-:: ukončení
+:: `ukončení`
 : Jméno
 :: Má datum ukončení výkonu působnosti orgánu veřejné moci
 : Popis
@@ -642,9 +644,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Má datum ukončení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci)
 
-#### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
+#### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
 : Klíč
-:: pozastavení-od
+:: `pozastavení-od`
 : Jméno
 :: Má pozastavený výkon působnosti orgánu veřejné moci od
 : Popis
@@ -658,9 +660,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Má pozastavený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od)
 
-#### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
+#### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
 : Klíč
-:: pozastavení-do
+:: `pozastavení-do`
 : Jméno
 :: Má pozastavený výkon působnosti orgánu veřejné moci do
 : Popis
@@ -674,9 +676,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Má pozastavený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do)
 
-#### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
+#### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
 : Klíč
-:: přerušení-od
+:: `přerušení-od`
 : Jméno
 :: Má přerušený výkon působnosti orgánu veřejné moci od
 : Popis
@@ -690,9 +692,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Má přerušený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od)
 
-#### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
+#### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
 : Klíč
-:: přerušení-do
+:: `přerušení-do`
 : Jméno
 :: Má přerušený výkon působnosti orgánu veřejné moci do
 : Popis
@@ -706,9 +708,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Má přerušený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do)
 
-#### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-datovou-schránku-orgánu-veřejné-moci}
+#### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-datovou-schránku-orgánu-veřejné-moci}
 : Klíč
-:: datové-schránky
+:: `datové-schránky`
 : Jméno
 :: Má datovou schránku orgánu veřejné moci
 : Popis
@@ -722,9 +724,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Má datovou schránku orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datovou-schránku-orgánu-veřejné-moci)
 
-#### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-vykonává-působnost-na-základě-ustanovení}
+#### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-vykonává-působnost-na-základě-ustanovení}
 : Klíč
-:: ustanovení
+:: `ustanovení`
 : Jméno
 :: Vykonává působnost na základě ustanovení
 : Popis
@@ -738,9 +740,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Vykonává působnost na základě ustanovení](#konceptuální-třída-orgán-veřejné-moci-vykonává-působnost-na-základě-ustanovení)
 
-#### Vztah (asociace): Má zařazený subjekt #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-zařazený-subjekt}
+#### Vztah (asociace): Má zařazený subjekt #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-zařazený-subjekt}
 : Klíč
-:: seznam-kategorií
+:: `seznam-kategorií`
 : Jméno
 :: Má zařazený subjekt
 : Popis
@@ -754,9 +756,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Má zařazený subjekt](#konceptuální-třída-orgán-veřejné-moci-nebo-soukromoprávní-uživatel-údajů-má-zařazený-subjekt)
 
-#### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-adresu-místa-pobytu-orgánu-veřejné-moci}
+#### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-adresu-místa-pobytu-orgánu-veřejné-moci}
 : Klíč
-:: adresa-místa-pobytu
+:: `adresa-místa-pobytu`
 : Jméno
 :: Má adresu místa pobytu orgánu veřejné moci
 : Popis
@@ -770,9 +772,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Má adresu místa pobytu orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-místa-pobytu-orgánu-veřejné-moci)
 
-#### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-adresu-sídla-orgánu-veřejné-moci}
+#### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-adresu-sídla-orgánu-veřejné-moci}
 : Klíč
-:: adresa-sídla
+:: `adresa-sídla`
 : Jméno
 :: Má adresu sídla orgánu veřejné moci
 : Popis
@@ -786,9 +788,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Má adresu sídla orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-sídla-orgánu-veřejné-moci)
 
-#### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-stojí-v-čele-orgánu-veřejné-moci}
+#### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-stojí-v-čele-orgánu-veřejné-moci}
 : Klíč
-:: osoba-v-čele
+:: `osoba-v-čele`
 : Jméno
 :: Stojí v čele orgánu veřejné moci
 : Popis
@@ -802,9 +804,9 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 : Interpretace
 :: [Stojí v čele orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-stojí-v-čele-orgánu-veřejné-moci)
 
-#### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-json-orgán-veřejné-moci-třída-nedefinováno-má-pracoviště-vykonávající-úkon}
+#### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-json-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-pracoviště-vykonávající-úkon}
 : Klíč
-:: pracoviště-ovm
+:: `pracoviště-ovm`
 : Jméno
 :: Má pracoviště vykonávající úkon
 : Popis
@@ -824,7 +826,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Má identifikátor orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-identifikátor-orgánu-veřejné-moci}
 : Klíč
-:: identifikátor
+:: `identifikátor`
 : Jméno
 :: Má identifikátor orgánu veřejné moci
 : Popis
@@ -840,7 +842,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Má název orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-název-orgánu-veřejné-moci}
 : Klíč
-:: název
+:: `název`
 : Jméno
 :: Má název orgánu veřejné moci
 : Popis
@@ -856,7 +858,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Je vnitřní organizační jednotkou #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-je-vnitřní-organizační-jednotkou}
 : Klíč
-:: vnitřní-organizační-jednotka
+:: `vnitřní-organizační-jednotka`
 : Jméno
 :: Je vnitřní organizační jednotkou
 : Popis
@@ -872,7 +874,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
 : Klíč
-:: ičo
+:: `ičo`
 : Jméno
 :: Má identifikační číslo osoby orgánu veřejné moci
 : Popis
@@ -888,7 +890,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
 : Klíč
-:: zahájení
+:: `zahájení`
 : Jméno
 :: Má datum zahájení výkonu působnosti orgánu veřejné moci
 : Popis
@@ -904,7 +906,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
 : Klíč
-:: ukončení
+:: `ukončení`
 : Jméno
 :: Má datum ukončení výkonu působnosti orgánu veřejné moci
 : Popis
@@ -920,7 +922,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
 : Klíč
-:: pozastavení-od
+:: `pozastavení-od`
 : Jméno
 :: Má pozastavený výkon působnosti orgánu veřejné moci od
 : Popis
@@ -936,7 +938,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
 : Klíč
-:: pozastavení-do
+:: `pozastavení-do`
 : Jméno
 :: Má pozastavený výkon působnosti orgánu veřejné moci do
 : Popis
@@ -952,7 +954,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
 : Klíč
-:: přerušení-od
+:: `přerušení-od`
 : Jméno
 :: Má přerušený výkon působnosti orgánu veřejné moci od
 : Popis
@@ -968,7 +970,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
 : Klíč
-:: přerušení-do
+:: `přerušení-do`
 : Jméno
 :: Má přerušený výkon působnosti orgánu veřejné moci do
 : Popis
@@ -984,7 +986,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datovou-schránku-orgánu-veřejné-moci}
 : Klíč
-:: datové-schránky
+:: `datové-schránky`
 : Jméno
 :: Má datovou schránku orgánu veřejné moci
 : Popis
@@ -1000,7 +1002,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-vykonává-působnost-na-základě-ustanovení}
 : Klíč
-:: ustanovení
+:: `ustanovení`
 : Jméno
 :: Vykonává působnost na základě ustanovení
 : Popis
@@ -1016,7 +1018,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Vztah (asociace): Má zařazený subjekt #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-zařazený-subjekt}
 : Klíč
-:: seznam-kategorií
+:: `seznam-kategorií`
 : Jméno
 :: Má zařazený subjekt
 : Popis
@@ -1032,7 +1034,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-adresu-místa-pobytu-orgánu-veřejné-moci}
 : Klíč
-:: adresa-místa-pobytu
+:: `adresa-místa-pobytu`
 : Jméno
 :: Má adresu místa pobytu orgánu veřejné moci
 : Popis
@@ -1048,7 +1050,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-adresu-sídla-orgánu-veřejné-moci}
 : Klíč
-:: adresa-sídla
+:: `adresa-sídla`
 : Jméno
 :: Má adresu sídla orgánu veřejné moci
 : Popis
@@ -1064,7 +1066,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-stojí-v-čele-orgánu-veřejné-moci}
 : Klíč
-:: osoba-v-čele
+:: `osoba-v-čele`
 : Jméno
 :: Stojí v čele orgánu veřejné moci
 : Popis
@@ -1080,7 +1082,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pracoviště-vykonávající-úkon}
 : Klíč
-:: pracoviště-ovm
+:: `pracoviště-ovm`
 : Jméno
 :: Má pracoviště vykonávající úkon
 : Popis
@@ -1096,7 +1098,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Vztah (asociace): Má právní formu osoby #### {#strukturální-json-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-právní-formu-osoby}
 : Klíč
-:: má_právní_formu_osoby
+:: `má_právní_formu_osoby`
 : Jméno
 :: Má právní formu osoby
 : Popis
@@ -1118,7 +1120,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Má datum zařazení do kategorie #### {#strukturální-json-orgán-veřejné-moci-třída-zařazení-do-kategorie-má-datum-zařazení-do-kategorie}
 : Klíč
-:: zařazení-od
+:: `zařazení-od`
 : Jméno
 :: Má datum zařazení do kategorie
 : Popis
@@ -1134,7 +1136,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Má datum vyřazení z kategorie #### {#strukturální-json-orgán-veřejné-moci-třída-zařazení-do-kategorie-má-datum-vyřazení-z-kategorie}
 : Klíč
-:: zařazení-do
+:: `zařazení-do`
 : Jméno
 :: Má datum vyřazení z kategorie
 : Popis
@@ -1150,7 +1152,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Vztah (asociace): Zařazuje do kategorie #### {#strukturální-json-orgán-veřejné-moci-třída-zařazení-do-kategorie-zařazuje-do-kategorie}
 : Klíč
-:: kategorie
+:: `kategorie`
 : Jméno
 :: Zařazuje do kategorie
 : Popis
@@ -1178,7 +1180,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### kód adresního místa #### {#strukturální-json-orgán-veřejné-moci-třída-adresní-místo-kód-adresního-místa}
 : Klíč
-:: kód_adresního_místa
+:: `kód_adresního_místa`
 : Jméno
 :: kód adresního místa
 : Popis
@@ -1200,7 +1202,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 
 #### Má jméno a příjmení osoby stojící v čele orgánu veřejné moci #### {#strukturální-json-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci-má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci}
 : Klíč
-:: jméno
+:: `jméno`
 : Jméno
 :: Má jméno a příjmení osoby stojící v čele orgánu veřejné moci
 : Popis
@@ -1229,13 +1231,15 @@ V této sekci je definován strukturní model pro [JSON schéma](./organ-verejne
 ## Orgán veřejné moci XML
 V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-moci/schema.xsd).
 
-### nedefinováno ### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno}
+### Orgán veřejné moci ### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci}
+: Popis
+:: Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
 : Interpretace
 :: [Orgán veřejné moci](#konceptuální-třída-orgán-veřejné-moci)
 
-#### Má identifikátor orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-identifikátor-orgánu-veřejné-moci}
+#### Má identifikátor orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-identifikátor-orgánu-veřejné-moci}
 : Klíč
-:: identifikátor
+:: `identifikátor`
 : Jméno
 :: Má identifikátor orgánu veřejné moci
 : Popis
@@ -1249,9 +1253,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Má identifikátor orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikátor-orgánu-veřejné-moci)
 
-#### Má název orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-název-orgánu-veřejné-moci}
+#### Má název orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-název-orgánu-veřejné-moci}
 : Klíč
-:: název
+:: `název`
 : Jméno
 :: Má název orgánu veřejné moci
 : Popis
@@ -1265,9 +1269,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Má název orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-název-orgánu-veřejné-moci)
 
-#### Je vnitřní organizační jednotkou #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-je-vnitřní-organizační-jednotkou}
+#### Je vnitřní organizační jednotkou #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-je-vnitřní-organizační-jednotkou}
 : Klíč
-:: vnitřní-organizační-jednotka
+:: `vnitřní-organizační-jednotka`
 : Jméno
 :: Je vnitřní organizační jednotkou
 : Popis
@@ -1281,9 +1285,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Je vnitřní organizační jednotkou](#konceptuální-třída-orgán-veřejné-moci-je-vnitřní-organizační-jednotkou)
 
-#### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
+#### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
 : Klíč
-:: ičo
+:: `ičo`
 : Jméno
 :: Má identifikační číslo osoby orgánu veřejné moci
 : Popis
@@ -1297,9 +1301,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Má identifikační číslo osoby orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikační-číslo-osoby-orgánu-veřejné-moci)
 
-#### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
+#### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
 : Klíč
-:: zahájení
+:: `zahájení`
 : Jméno
 :: Má datum zahájení výkonu působnosti orgánu veřejné moci
 : Popis
@@ -1313,9 +1317,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Má datum zahájení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci)
 
-#### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
+#### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
 : Klíč
-:: ukončení
+:: `ukončení`
 : Jméno
 :: Má datum ukončení výkonu působnosti orgánu veřejné moci
 : Popis
@@ -1329,9 +1333,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Má datum ukončení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci)
 
-#### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
+#### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
 : Klíč
-:: pozastavení-od
+:: `pozastavení-od`
 : Jméno
 :: Má pozastavený výkon působnosti orgánu veřejné moci od
 : Popis
@@ -1345,9 +1349,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Má pozastavený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od)
 
-#### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
+#### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
 : Klíč
-:: pozastavení-do
+:: `pozastavení-do`
 : Jméno
 :: Má pozastavený výkon působnosti orgánu veřejné moci do
 : Popis
@@ -1361,9 +1365,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Má pozastavený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do)
 
-#### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
+#### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
 : Klíč
-:: přerušení-od
+:: `přerušení-od`
 : Jméno
 :: Má přerušený výkon působnosti orgánu veřejné moci od
 : Popis
@@ -1377,9 +1381,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Má přerušený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od)
 
-#### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
+#### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
 : Klíč
-:: přerušení-do
+:: `přerušení-do`
 : Jméno
 :: Má přerušený výkon působnosti orgánu veřejné moci do
 : Popis
@@ -1393,9 +1397,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Má přerušený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do)
 
-#### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-datovou-schránku-orgánu-veřejné-moci}
+#### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-datovou-schránku-orgánu-veřejné-moci}
 : Klíč
-:: datové-schránky
+:: `datové-schránky`
 : Jméno
 :: Má datovou schránku orgánu veřejné moci
 : Popis
@@ -1409,9 +1413,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Má datovou schránku orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datovou-schránku-orgánu-veřejné-moci)
 
-#### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-vykonává-působnost-na-základě-ustanovení}
+#### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-vykonává-působnost-na-základě-ustanovení}
 : Klíč
-:: ustanovení
+:: `ustanovení`
 : Jméno
 :: Vykonává působnost na základě ustanovení
 : Popis
@@ -1425,9 +1429,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Vykonává působnost na základě ustanovení](#konceptuální-třída-orgán-veřejné-moci-vykonává-působnost-na-základě-ustanovení)
 
-#### Vztah (asociace): Má zařazený subjekt #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-zařazený-subjekt}
+#### Vztah (asociace): Má zařazený subjekt #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-zařazený-subjekt}
 : Klíč
-:: seznam-kategorií
+:: `seznam-kategorií`
 : Jméno
 :: Má zařazený subjekt
 : Popis
@@ -1441,9 +1445,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Má zařazený subjekt](#konceptuální-třída-orgán-veřejné-moci-nebo-soukromoprávní-uživatel-údajů-má-zařazený-subjekt)
 
-#### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-adresu-místa-pobytu-orgánu-veřejné-moci}
+#### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-adresu-místa-pobytu-orgánu-veřejné-moci}
 : Klíč
-:: adresa-místa-pobytu
+:: `adresa-místa-pobytu`
 : Jméno
 :: Má adresu místa pobytu orgánu veřejné moci
 : Popis
@@ -1457,9 +1461,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Má adresu místa pobytu orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-místa-pobytu-orgánu-veřejné-moci)
 
-#### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-adresu-sídla-orgánu-veřejné-moci}
+#### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-adresu-sídla-orgánu-veřejné-moci}
 : Klíč
-:: adresa-sídla
+:: `adresa-sídla`
 : Jméno
 :: Má adresu sídla orgánu veřejné moci
 : Popis
@@ -1473,9 +1477,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Má adresu sídla orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-sídla-orgánu-veřejné-moci)
 
-#### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-stojí-v-čele-orgánu-veřejné-moci}
+#### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-stojí-v-čele-orgánu-veřejné-moci}
 : Klíč
-:: osoba-v-čele
+:: `osoba-v-čele`
 : Jméno
 :: Stojí v čele orgánu veřejné moci
 : Popis
@@ -1489,9 +1493,9 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 : Interpretace
 :: [Stojí v čele orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-stojí-v-čele-orgánu-veřejné-moci)
 
-#### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-xml-orgán-veřejné-moci-třída-nedefinováno-má-pracoviště-vykonávající-úkon}
+#### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-xml-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-pracoviště-vykonávající-úkon}
 : Klíč
-:: pracoviště-ovm
+:: `pracoviště-ovm`
 : Jméno
 :: Má pracoviště vykonávající úkon
 : Popis
@@ -1511,7 +1515,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Má identifikátor orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-identifikátor-orgánu-veřejné-moci}
 : Klíč
-:: identifikátor
+:: `identifikátor`
 : Jméno
 :: Má identifikátor orgánu veřejné moci
 : Popis
@@ -1527,7 +1531,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Má název orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-název-orgánu-veřejné-moci}
 : Klíč
-:: název
+:: `název`
 : Jméno
 :: Má název orgánu veřejné moci
 : Popis
@@ -1543,7 +1547,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Je vnitřní organizační jednotkou #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-je-vnitřní-organizační-jednotkou}
 : Klíč
-:: vnitřní-organizační-jednotka
+:: `vnitřní-organizační-jednotka`
 : Jméno
 :: Je vnitřní organizační jednotkou
 : Popis
@@ -1559,7 +1563,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
 : Klíč
-:: ičo
+:: `ičo`
 : Jméno
 :: Má identifikační číslo osoby orgánu veřejné moci
 : Popis
@@ -1575,7 +1579,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
 : Klíč
-:: zahájení
+:: `zahájení`
 : Jméno
 :: Má datum zahájení výkonu působnosti orgánu veřejné moci
 : Popis
@@ -1591,7 +1595,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
 : Klíč
-:: ukončení
+:: `ukončení`
 : Jméno
 :: Má datum ukončení výkonu působnosti orgánu veřejné moci
 : Popis
@@ -1607,7 +1611,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
 : Klíč
-:: pozastavení-od
+:: `pozastavení-od`
 : Jméno
 :: Má pozastavený výkon působnosti orgánu veřejné moci od
 : Popis
@@ -1623,7 +1627,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
 : Klíč
-:: pozastavení-do
+:: `pozastavení-do`
 : Jméno
 :: Má pozastavený výkon působnosti orgánu veřejné moci do
 : Popis
@@ -1639,7 +1643,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
 : Klíč
-:: přerušení-od
+:: `přerušení-od`
 : Jméno
 :: Má přerušený výkon působnosti orgánu veřejné moci od
 : Popis
@@ -1655,7 +1659,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
 : Klíč
-:: přerušení-do
+:: `přerušení-do`
 : Jméno
 :: Má přerušený výkon působnosti orgánu veřejné moci do
 : Popis
@@ -1671,7 +1675,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datovou-schránku-orgánu-veřejné-moci}
 : Klíč
-:: datové-schránky
+:: `datové-schránky`
 : Jméno
 :: Má datovou schránku orgánu veřejné moci
 : Popis
@@ -1687,7 +1691,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-vykonává-působnost-na-základě-ustanovení}
 : Klíč
-:: ustanovení
+:: `ustanovení`
 : Jméno
 :: Vykonává působnost na základě ustanovení
 : Popis
@@ -1703,7 +1707,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Vztah (asociace): Má zařazený subjekt #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-zařazený-subjekt}
 : Klíč
-:: seznam-kategorií
+:: `seznam-kategorií`
 : Jméno
 :: Má zařazený subjekt
 : Popis
@@ -1719,7 +1723,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-adresu-místa-pobytu-orgánu-veřejné-moci}
 : Klíč
-:: adresa-místa-pobytu
+:: `adresa-místa-pobytu`
 : Jméno
 :: Má adresu místa pobytu orgánu veřejné moci
 : Popis
@@ -1735,7 +1739,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-adresu-sídla-orgánu-veřejné-moci}
 : Klíč
-:: adresa-sídla
+:: `adresa-sídla`
 : Jméno
 :: Má adresu sídla orgánu veřejné moci
 : Popis
@@ -1751,7 +1755,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-stojí-v-čele-orgánu-veřejné-moci}
 : Klíč
-:: osoba-v-čele
+:: `osoba-v-čele`
 : Jméno
 :: Stojí v čele orgánu veřejné moci
 : Popis
@@ -1767,7 +1771,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pracoviště-vykonávající-úkon}
 : Klíč
-:: pracoviště-ovm
+:: `pracoviště-ovm`
 : Jméno
 :: Má pracoviště vykonávající úkon
 : Popis
@@ -1783,7 +1787,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Vztah (asociace): Má právní formu osoby #### {#strukturální-xml-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-právní-formu-osoby}
 : Klíč
-:: má_právní_formu_osoby
+:: `má_právní_formu_osoby`
 : Jméno
 :: Má právní formu osoby
 : Popis
@@ -1805,7 +1809,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Má datum zařazení do kategorie #### {#strukturální-xml-orgán-veřejné-moci-třída-zařazení-do-kategorie-má-datum-zařazení-do-kategorie}
 : Klíč
-:: zařazení-od
+:: `zařazení-od`
 : Jméno
 :: Má datum zařazení do kategorie
 : Popis
@@ -1821,7 +1825,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Má datum vyřazení z kategorie #### {#strukturální-xml-orgán-veřejné-moci-třída-zařazení-do-kategorie-má-datum-vyřazení-z-kategorie}
 : Klíč
-:: zařazení-do
+:: `zařazení-do`
 : Jméno
 :: Má datum vyřazení z kategorie
 : Popis
@@ -1837,7 +1841,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Vztah (asociace): Zařazuje do kategorie #### {#strukturální-xml-orgán-veřejné-moci-třída-zařazení-do-kategorie-zařazuje-do-kategorie}
 : Klíč
-:: kategorie
+:: `kategorie`
 : Jméno
 :: Zařazuje do kategorie
 : Popis
@@ -1865,7 +1869,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### kód adresního místa #### {#strukturální-xml-orgán-veřejné-moci-třída-adresní-místo-kód-adresního-místa}
 : Klíč
-:: kód_adresního_místa
+:: `kód_adresního_místa`
 : Jméno
 :: kód adresního místa
 : Popis
@@ -1887,7 +1891,7 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 
 #### Má jméno a příjmení osoby stojící v čele orgánu veřejné moci #### {#strukturální-xml-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci-má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci}
 : Klíč
-:: jméno
+:: `jméno`
 : Jméno
 :: Má jméno a příjmení osoby stojící v čele orgánu veřejné moci
 : Popis
@@ -1916,13 +1920,15 @@ V této sekci je definován strukturní model pro [XML schéma](./organ-verejne-
 ## Orgán veřejné moci CSV
 V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-moci/schema.csv-metadata.json).
 
-### nedefinováno ### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno}
+### Orgán veřejné moci ### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci}
+: Popis
+:: Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.
 : Interpretace
 :: [Orgán veřejné moci](#konceptuální-třída-orgán-veřejné-moci)
 
-#### Má identifikátor orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-identifikátor-orgánu-veřejné-moci}
+#### Má identifikátor orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-identifikátor-orgánu-veřejné-moci}
 : Klíč
-:: identifikátor
+:: `identifikátor`
 : Jméno
 :: Má identifikátor orgánu veřejné moci
 : Popis
@@ -1936,9 +1942,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Má identifikátor orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikátor-orgánu-veřejné-moci)
 
-#### Má název orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-název-orgánu-veřejné-moci}
+#### Má název orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-název-orgánu-veřejné-moci}
 : Klíč
-:: název
+:: `název`
 : Jméno
 :: Má název orgánu veřejné moci
 : Popis
@@ -1952,9 +1958,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Má název orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-název-orgánu-veřejné-moci)
 
-#### Je vnitřní organizační jednotkou #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-je-vnitřní-organizační-jednotkou}
+#### Je vnitřní organizační jednotkou #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-je-vnitřní-organizační-jednotkou}
 : Klíč
-:: vnitřní-organizační-jednotka
+:: `vnitřní-organizační-jednotka`
 : Jméno
 :: Je vnitřní organizační jednotkou
 : Popis
@@ -1968,9 +1974,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Je vnitřní organizační jednotkou](#konceptuální-třída-orgán-veřejné-moci-je-vnitřní-organizační-jednotkou)
 
-#### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
+#### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
 : Klíč
-:: ičo
+:: `ičo`
 : Jméno
 :: Má identifikační číslo osoby orgánu veřejné moci
 : Popis
@@ -1984,9 +1990,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Má identifikační číslo osoby orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-identifikační-číslo-osoby-orgánu-veřejné-moci)
 
-#### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
+#### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
 : Klíč
-:: zahájení
+:: `zahájení`
 : Jméno
 :: Má datum zahájení výkonu působnosti orgánu veřejné moci
 : Popis
@@ -2000,9 +2006,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Má datum zahájení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci)
 
-#### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
+#### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
 : Klíč
-:: ukončení
+:: `ukončení`
 : Jméno
 :: Má datum ukončení výkonu působnosti orgánu veřejné moci
 : Popis
@@ -2016,9 +2022,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Má datum ukončení výkonu působnosti orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci)
 
-#### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
+#### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
 : Klíč
-:: pozastavení-od
+:: `pozastavení-od`
 : Jméno
 :: Má pozastavený výkon působnosti orgánu veřejné moci od
 : Popis
@@ -2032,9 +2038,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Má pozastavený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od)
 
-#### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
+#### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
 : Klíč
-:: pozastavení-do
+:: `pozastavení-do`
 : Jméno
 :: Má pozastavený výkon působnosti orgánu veřejné moci do
 : Popis
@@ -2048,9 +2054,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Má pozastavený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do)
 
-#### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
+#### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
 : Klíč
-:: přerušení-od
+:: `přerušení-od`
 : Jméno
 :: Má přerušený výkon působnosti orgánu veřejné moci od
 : Popis
@@ -2064,9 +2070,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Má přerušený výkon působnosti orgánu veřejné moci od](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od)
 
-#### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
+#### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
 : Klíč
-:: přerušení-do
+:: `přerušení-do`
 : Jméno
 :: Má přerušený výkon působnosti orgánu veřejné moci do
 : Popis
@@ -2080,9 +2086,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Má přerušený výkon působnosti orgánu veřejné moci do](#konceptuální-třída-orgán-veřejné-moci-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do)
 
-#### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-datovou-schránku-orgánu-veřejné-moci}
+#### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-datovou-schránku-orgánu-veřejné-moci}
 : Klíč
-:: datové-schránky
+:: `datové-schránky`
 : Jméno
 :: Má datovou schránku orgánu veřejné moci
 : Popis
@@ -2096,9 +2102,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Má datovou schránku orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-datovou-schránku-orgánu-veřejné-moci)
 
-#### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-vykonává-působnost-na-základě-ustanovení}
+#### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-vykonává-působnost-na-základě-ustanovení}
 : Klíč
-:: ustanovení
+:: `ustanovení`
 : Jméno
 :: Vykonává působnost na základě ustanovení
 : Popis
@@ -2112,9 +2118,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Vykonává působnost na základě ustanovení](#konceptuální-třída-orgán-veřejné-moci-vykonává-působnost-na-základě-ustanovení)
 
-#### Vztah (asociace): Má zařazený subjekt #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-zařazený-subjekt}
+#### Vztah (asociace): Má zařazený subjekt #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-zařazený-subjekt}
 : Klíč
-:: seznam-kategorií
+:: `seznam-kategorií`
 : Jméno
 :: Má zařazený subjekt
 : Popis
@@ -2128,9 +2134,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Má zařazený subjekt](#konceptuální-třída-orgán-veřejné-moci-nebo-soukromoprávní-uživatel-údajů-má-zařazený-subjekt)
 
-#### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-adresu-místa-pobytu-orgánu-veřejné-moci}
+#### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-adresu-místa-pobytu-orgánu-veřejné-moci}
 : Klíč
-:: adresa-místa-pobytu
+:: `adresa-místa-pobytu`
 : Jméno
 :: Má adresu místa pobytu orgánu veřejné moci
 : Popis
@@ -2144,9 +2150,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Má adresu místa pobytu orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-místa-pobytu-orgánu-veřejné-moci)
 
-#### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-adresu-sídla-orgánu-veřejné-moci}
+#### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-adresu-sídla-orgánu-veřejné-moci}
 : Klíč
-:: adresa-sídla
+:: `adresa-sídla`
 : Jméno
 :: Má adresu sídla orgánu veřejné moci
 : Popis
@@ -2160,9 +2166,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Má adresu sídla orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-má-adresu-sídla-orgánu-veřejné-moci)
 
-#### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-stojí-v-čele-orgánu-veřejné-moci}
+#### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-stojí-v-čele-orgánu-veřejné-moci}
 : Klíč
-:: osoba-v-čele
+:: `osoba-v-čele`
 : Jméno
 :: Stojí v čele orgánu veřejné moci
 : Popis
@@ -2176,9 +2182,9 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 : Interpretace
 :: [Stojí v čele orgánu veřejné moci](#konceptuální-třída-orgán-veřejné-moci-stojí-v-čele-orgánu-veřejné-moci)
 
-#### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-csv-orgán-veřejné-moci-třída-nedefinováno-má-pracoviště-vykonávající-úkon}
+#### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-csv-orgán-veřejné-moci-třída-orgán-veřejné-moci-má-pracoviště-vykonávající-úkon}
 : Klíč
-:: pracoviště-ovm
+:: `pracoviště-ovm`
 : Jméno
 :: Má pracoviště vykonávající úkon
 : Popis
@@ -2198,7 +2204,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Má identifikátor orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-identifikátor-orgánu-veřejné-moci}
 : Klíč
-:: identifikátor
+:: `identifikátor`
 : Jméno
 :: Má identifikátor orgánu veřejné moci
 : Popis
@@ -2214,7 +2220,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Má název orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-název-orgánu-veřejné-moci}
 : Klíč
-:: název
+:: `název`
 : Jméno
 :: Má název orgánu veřejné moci
 : Popis
@@ -2230,7 +2236,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Je vnitřní organizační jednotkou #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-je-vnitřní-organizační-jednotkou}
 : Klíč
-:: vnitřní-organizační-jednotka
+:: `vnitřní-organizační-jednotka`
 : Jméno
 :: Je vnitřní organizační jednotkou
 : Popis
@@ -2246,7 +2252,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Má identifikační číslo osoby orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-identifikační-číslo-osoby-orgánu-veřejné-moci}
 : Klíč
-:: ičo
+:: `ičo`
 : Jméno
 :: Má identifikační číslo osoby orgánu veřejné moci
 : Popis
@@ -2262,7 +2268,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Má datum zahájení výkonu působnosti orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datum-zahájení-výkonu-působnosti-orgánu-veřejné-moci}
 : Klíč
-:: zahájení
+:: `zahájení`
 : Jméno
 :: Má datum zahájení výkonu působnosti orgánu veřejné moci
 : Popis
@@ -2278,7 +2284,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Má datum ukončení výkonu působnosti orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datum-ukončení-výkonu-působnosti-orgánu-veřejné-moci}
 : Klíč
-:: ukončení
+:: `ukončení`
 : Jméno
 :: Má datum ukončení výkonu působnosti orgánu veřejné moci
 : Popis
@@ -2294,7 +2300,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Má pozastavený výkon působnosti orgánu veřejné moci od #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-od}
 : Klíč
-:: pozastavení-od
+:: `pozastavení-od`
 : Jméno
 :: Má pozastavený výkon působnosti orgánu veřejné moci od
 : Popis
@@ -2310,7 +2316,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Má pozastavený výkon působnosti orgánu veřejné moci do #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pozastavený-výkon-působnosti-orgánu-veřejné-moci-do}
 : Klíč
-:: pozastavení-do
+:: `pozastavení-do`
 : Jméno
 :: Má pozastavený výkon působnosti orgánu veřejné moci do
 : Popis
@@ -2326,7 +2332,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Má přerušený výkon působnosti orgánu veřejné moci od #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-od}
 : Klíč
-:: přerušení-od
+:: `přerušení-od`
 : Jméno
 :: Má přerušený výkon působnosti orgánu veřejné moci od
 : Popis
@@ -2342,7 +2348,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Má přerušený výkon působnosti orgánu veřejné moci do #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-přerušený-výkon-působnosti-orgánu-veřejné-moci-do}
 : Klíč
-:: přerušení-do
+:: `přerušení-do`
 : Jméno
 :: Má přerušený výkon působnosti orgánu veřejné moci do
 : Popis
@@ -2358,7 +2364,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Vztah (asociace): Má datovou schránku orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-datovou-schránku-orgánu-veřejné-moci}
 : Klíč
-:: datové-schránky
+:: `datové-schránky`
 : Jméno
 :: Má datovou schránku orgánu veřejné moci
 : Popis
@@ -2374,7 +2380,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Vztah (asociace): Vykonává působnost na základě ustanovení #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-vykonává-působnost-na-základě-ustanovení}
 : Klíč
-:: ustanovení
+:: `ustanovení`
 : Jméno
 :: Vykonává působnost na základě ustanovení
 : Popis
@@ -2390,7 +2396,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Vztah (asociace): Má zařazený subjekt #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-zařazený-subjekt}
 : Klíč
-:: seznam-kategorií
+:: `seznam-kategorií`
 : Jméno
 :: Má zařazený subjekt
 : Popis
@@ -2406,7 +2412,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Vztah (asociace): Má adresu místa pobytu orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-adresu-místa-pobytu-orgánu-veřejné-moci}
 : Klíč
-:: adresa-místa-pobytu
+:: `adresa-místa-pobytu`
 : Jméno
 :: Má adresu místa pobytu orgánu veřejné moci
 : Popis
@@ -2422,7 +2428,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Vztah (asociace): Má adresu sídla orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-adresu-sídla-orgánu-veřejné-moci}
 : Klíč
-:: adresa-sídla
+:: `adresa-sídla`
 : Jméno
 :: Má adresu sídla orgánu veřejné moci
 : Popis
@@ -2438,7 +2444,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Vztah (asociace): Stojí v čele orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-stojí-v-čele-orgánu-veřejné-moci}
 : Klíč
-:: osoba-v-čele
+:: `osoba-v-čele`
 : Jméno
 :: Stojí v čele orgánu veřejné moci
 : Popis
@@ -2454,7 +2460,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Vztah (asociace): Má pracoviště vykonávající úkon #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-pracoviště-vykonávající-úkon}
 : Klíč
-:: pracoviště-ovm
+:: `pracoviště-ovm`
 : Jméno
 :: Má pracoviště vykonávající úkon
 : Popis
@@ -2470,7 +2476,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Vztah (asociace): Má právní formu osoby #### {#strukturální-csv-orgán-veřejné-moci-třída-právnická-osoba-se-svěřenou-působností-v-oblasti-veřejné-správy-má-právní-formu-osoby}
 : Klíč
-:: má_právní_formu_osoby
+:: `má_právní_formu_osoby`
 : Jméno
 :: Má právní formu osoby
 : Popis
@@ -2492,7 +2498,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Má datum zařazení do kategorie #### {#strukturální-csv-orgán-veřejné-moci-třída-zařazení-do-kategorie-má-datum-zařazení-do-kategorie}
 : Klíč
-:: zařazení-od
+:: `zařazení-od`
 : Jméno
 :: Má datum zařazení do kategorie
 : Popis
@@ -2508,7 +2514,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Má datum vyřazení z kategorie #### {#strukturální-csv-orgán-veřejné-moci-třída-zařazení-do-kategorie-má-datum-vyřazení-z-kategorie}
 : Klíč
-:: zařazení-do
+:: `zařazení-do`
 : Jméno
 :: Má datum vyřazení z kategorie
 : Popis
@@ -2524,7 +2530,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Vztah (asociace): Zařazuje do kategorie #### {#strukturální-csv-orgán-veřejné-moci-třída-zařazení-do-kategorie-zařazuje-do-kategorie}
 : Klíč
-:: kategorie
+:: `kategorie`
 : Jméno
 :: Zařazuje do kategorie
 : Popis
@@ -2552,7 +2558,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### kód adresního místa #### {#strukturální-csv-orgán-veřejné-moci-třída-adresní-místo-kód-adresního-místa}
 : Klíč
-:: kód_adresního_místa
+:: `kód_adresního_místa`
 : Jméno
 :: kód adresního místa
 : Popis
@@ -2574,7 +2580,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./organ-verejne-
 
 #### Má jméno a příjmení osoby stojící v čele orgánu veřejné moci #### {#strukturální-csv-orgán-veřejné-moci-třída-osoba-stojící-v-čele-orgánu-veřejné-moci-má-jméno-a-příjmení-osoby-stojící-v-čele-orgánu-veřejné-moci}
 : Klíč
-:: jméno
+:: `jméno`
 : Jméno
 :: Má jméno a příjmení osoby stojící v čele orgánu veřejné moci
 : Popis

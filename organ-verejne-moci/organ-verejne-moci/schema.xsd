@@ -15,7 +15,9 @@
   <xs:element name="orgán-veřejné-moci">
     <xs:complexType sawsdl:modelReference="https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/orgán-veřejné-moci">
       <xs:annotation>
-        <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/orgán-veřejné-moci</xs:documentation>
+        <xs:documentation>Význam: https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/orgán-veřejné-moci
+Název (cs): Orgán veřejné moci
+Popis (cs): Orgánem veřejné moci se rozumí státní orgán, územní samosprávný celek a fyzická nebo právnická osoba, byla-li jí svěřena působnost v oblasti veřejné správy.</xs:documentation>
       </xs:annotation>
       <xs:sequence>
         <xs:element minOccurs="0" ref="c:iri"/>

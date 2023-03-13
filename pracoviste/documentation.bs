@@ -12,7 +12,7 @@ Logo : https://ofn.gov.cz/static/images/logo.png
 # Konceptuální model # {#konceptualni-model}
 V této sekci je definován konceptuální model.
 
-<figure><img src="./conceptual-model.png"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
+<figure><img src="./conceptual-model.svg"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
 
 ## Pracoviště ## {#konceptuální-třída-pracoviště}
 : Popis
@@ -140,7 +140,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./pracoviste/sc
 
 #### Má adresu pracoviště neevidovanou v RÚIAN #### {#strukturální-json-pracoviště-třída-pracoviště-má-adresu-pracoviště-neevidovanou-v-rúian}
 : Klíč
-:: adresa-pr-txt
+:: `adresa-pr-txt`
 : Jméno
 :: Má adresu pracoviště neevidovanou v RÚIAN
 : Popis
@@ -156,7 +156,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./pracoviste/sc
 
 #### Má datum otevření pracoviště #### {#strukturální-json-pracoviště-třída-pracoviště-má-datum-otevření-pracoviště}
 : Klíč
-:: otevření
+:: `otevření`
 : Jméno
 :: Má datum otevření pracoviště
 : Popis
@@ -172,7 +172,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./pracoviste/sc
 
 #### Má datum uzavření pracoviště #### {#strukturální-json-pracoviště-třída-pracoviště-má-datum-uzavření-pracoviště}
 : Klíč
-:: uzavření
+:: `uzavření`
 : Jméno
 :: Má datum uzavření pracoviště
 : Popis
@@ -188,7 +188,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./pracoviste/sc
 
 #### Vztah (asociace): Má adresu pracoviště #### {#strukturální-json-pracoviště-třída-pracoviště-má-adresu-pracoviště}
 : Klíč
-:: adresa-pr
+:: `adresa-pr`
 : Jméno
 :: Má adresu pracoviště
 : Popis
@@ -204,7 +204,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./pracoviste/sc
 
 #### Vztah (asociace): Má stát pracoviště #### {#strukturální-json-pracoviště-třída-pracoviště-má-stát-pracoviště}
 : Klíč
-:: stát-pr
+:: `stát-pr`
 : Jméno
 :: Má stát pracoviště
 : Popis
@@ -237,7 +237,7 @@ V této sekci je definován strukturní model pro [XML schéma](./pracoviste/sch
 
 #### Má adresu pracoviště neevidovanou v RÚIAN #### {#strukturální-xml-pracoviště-třída-pracoviště-má-adresu-pracoviště-neevidovanou-v-rúian}
 : Klíč
-:: adresa-pr-txt
+:: `adresa-pr-txt`
 : Jméno
 :: Má adresu pracoviště neevidovanou v RÚIAN
 : Popis
@@ -253,7 +253,7 @@ V této sekci je definován strukturní model pro [XML schéma](./pracoviste/sch
 
 #### Má datum otevření pracoviště #### {#strukturální-xml-pracoviště-třída-pracoviště-má-datum-otevření-pracoviště}
 : Klíč
-:: otevření
+:: `otevření`
 : Jméno
 :: Má datum otevření pracoviště
 : Popis
@@ -269,7 +269,7 @@ V této sekci je definován strukturní model pro [XML schéma](./pracoviste/sch
 
 #### Má datum uzavření pracoviště #### {#strukturální-xml-pracoviště-třída-pracoviště-má-datum-uzavření-pracoviště}
 : Klíč
-:: uzavření
+:: `uzavření`
 : Jméno
 :: Má datum uzavření pracoviště
 : Popis
@@ -285,7 +285,7 @@ V této sekci je definován strukturní model pro [XML schéma](./pracoviste/sch
 
 #### Vztah (asociace): Má adresu pracoviště #### {#strukturální-xml-pracoviště-třída-pracoviště-má-adresu-pracoviště}
 : Klíč
-:: adresa-pr
+:: `adresa-pr`
 : Jméno
 :: Má adresu pracoviště
 : Popis
@@ -301,7 +301,7 @@ V této sekci je definován strukturní model pro [XML schéma](./pracoviste/sch
 
 #### Vztah (asociace): Má stát pracoviště #### {#strukturální-xml-pracoviště-třída-pracoviště-má-stát-pracoviště}
 : Klíč
-:: stát-pr
+:: `stát-pr`
 : Jméno
 :: Má stát pracoviště
 : Popis
@@ -334,7 +334,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./pracoviste/sch
 
 #### Má adresu pracoviště neevidovanou v RÚIAN #### {#strukturální-csv-pracoviště-třída-pracoviště-má-adresu-pracoviště-neevidovanou-v-rúian}
 : Klíč
-:: adresa-pr-txt
+:: `adresa-pr-txt`
 : Jméno
 :: Má adresu pracoviště neevidovanou v RÚIAN
 : Popis
@@ -350,7 +350,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./pracoviste/sch
 
 #### Má datum otevření pracoviště #### {#strukturální-csv-pracoviště-třída-pracoviště-má-datum-otevření-pracoviště}
 : Klíč
-:: otevření
+:: `otevření`
 : Jméno
 :: Má datum otevření pracoviště
 : Popis
@@ -366,7 +366,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./pracoviste/sch
 
 #### Má datum uzavření pracoviště #### {#strukturální-csv-pracoviště-třída-pracoviště-má-datum-uzavření-pracoviště}
 : Klíč
-:: uzavření
+:: `uzavření`
 : Jméno
 :: Má datum uzavření pracoviště
 : Popis
@@ -382,7 +382,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./pracoviste/sch
 
 #### Vztah (asociace): Má adresu pracoviště #### {#strukturální-csv-pracoviště-třída-pracoviště-má-adresu-pracoviště}
 : Klíč
-:: adresa-pr
+:: `adresa-pr`
 : Jméno
 :: Má adresu pracoviště
 : Popis
@@ -398,7 +398,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./pracoviste/sch
 
 #### Vztah (asociace): Má stát pracoviště #### {#strukturální-csv-pracoviště-třída-pracoviště-má-stát-pracoviště}
 : Klíč
-:: stát-pr
+:: `stát-pr`
 : Jméno
 :: Má stát pracoviště
 : Popis

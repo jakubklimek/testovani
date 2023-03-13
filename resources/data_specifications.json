@@ -485,8 +485,8 @@
             {
                 "iri": "https://ofn.gov.cz/data-specification/3efaf255-aec8-45d2-872e-5033cbabc354#plantUmlImage",
                 "name": null,
-                "outputPath": "organ-verejne-moci/conceptual-model.png",
-                "publicUrl": "/organ-verejne-moci/conceptual-model.png",
+                "outputPath": "organ-verejne-moci/conceptual-model.svg",
+                "publicUrl": "/organ-verejne-moci/conceptual-model.svg",
                 "generator": "plant-uml/image",
                 "configuration": {
                     "json": {
@@ -648,8 +648,8 @@
             "json": {
                 "jsonRootCardinality": "object-with-array",
                 "jsonRootCardinalityObjectKey": "položky",
-                "jsonDefaultTypeKeyMapping": "technical-label",
-                "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/"
+                "jsonLdBaseUrl": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/",
+                "jsonDefaultTypeKeyMapping": "technical-label"
             }
         },
         "pimStores": [
@@ -1155,8 +1155,8 @@
             {
                 "iri": "https://ofn.gov.cz/data-specification/0287d578-22ae-44be-8dae-903d12d8572a#plantUmlImage",
                 "name": null,
-                "outputPath": "ustanoveni-pravniho-predpisu/conceptual-model.png",
-                "publicUrl": "/ustanoveni-pravniho-predpisu/conceptual-model.png",
+                "outputPath": "ustanoveni-pravniho-predpisu/conceptual-model.svg",
+                "publicUrl": "/ustanoveni-pravniho-predpisu/conceptual-model.svg",
                 "generator": "plant-uml/image",
                 "configuration": {
                     "json": {
@@ -1818,8 +1818,8 @@
             {
                 "iri": "https://ofn.gov.cz/data-specification/26ca6ed6-8d6e-4c27-9b83-3269c3a4a811#plantUmlImage",
                 "name": null,
-                "outputPath": "adresni-misto/conceptual-model.png",
-                "publicUrl": "/adresni-misto/conceptual-model.png",
+                "outputPath": "adresni-misto/conceptual-model.svg",
+                "publicUrl": "/adresni-misto/conceptual-model.svg",
                 "generator": "plant-uml/image",
                 "configuration": {
                     "json": {
@@ -2481,8 +2481,8 @@
             {
                 "iri": "https://ofn.gov.cz/data-specification/a0a0b81c-e443-44e5-b38b-f6c6fac97488#plantUmlImage",
                 "name": null,
-                "outputPath": "datova-schranka/conceptual-model.png",
-                "publicUrl": "/datova-schranka/conceptual-model.png",
+                "outputPath": "datova-schranka/conceptual-model.svg",
+                "publicUrl": "/datova-schranka/conceptual-model.svg",
                 "generator": "plant-uml/image",
                 "configuration": {
                     "json": {
@@ -3146,8 +3146,8 @@
             {
                 "iri": "https://ofn.gov.cz/data-specification/d3d0b0f2-3c7b-48f2-baf1-145ca7d51d65#plantUmlImage",
                 "name": null,
-                "outputPath": "pracoviste/conceptual-model.png",
-                "publicUrl": "/pracoviste/conceptual-model.png",
+                "outputPath": "pracoviste/conceptual-model.svg",
+                "publicUrl": "/pracoviste/conceptual-model.svg",
                 "generator": "plant-uml/image",
                 "configuration": {
                     "json": {

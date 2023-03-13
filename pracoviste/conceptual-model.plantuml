@@ -1,6 +1,5 @@
 @startuml
 set namespaceSeparator none
-skinparam dpi 200
 class "Pracoviště" {
   Má adresu pracoviště neevidovanou v RÚIAN
   Má datum otevření pracoviště

@@ -28,7 +28,7 @@
       ]
     },
     "adresa-pr": {
-      "$ref": "/adresni-misto/adresni-misto/schema.json"
+      "$ref": "../../adresni-misto/adresni-misto/schema.json"
     },
     "adresa-pr-txt": {
       "title": "Má adresu pracoviště neevidovanou v RÚIAN",

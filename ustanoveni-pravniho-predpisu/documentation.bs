@@ -12,7 +12,7 @@ Logo : https://ofn.gov.cz/static/images/logo.png
 # Konceptuální model # {#konceptualni-model}
 V této sekci je definován konceptuální model.
 
-<figure><img src="./conceptual-model.png"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
+<figure><img src="./conceptual-model.svg"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
 
 ## Ustanovení právního předpisu ## {#konceptuální-třída-ustanovení-právního-předpisu}
 : Popis
@@ -46,7 +46,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./ustanoveni-pr
 
 #### Má úplné označení ustanovení včetně označení právního předpisu #### {#strukturální-json-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu-má-úplné-označení-ustanovení-včetně-označení-právního-předpisu}
 : Klíč
-:: označení
+:: `označení`
 : Jméno
 :: Má úplné označení ustanovení včetně označení právního předpisu
 : Popis
@@ -71,7 +71,7 @@ V této sekci je definován strukturní model pro [XML schéma](./ustanoveni-pra
 
 #### Má úplné označení ustanovení včetně označení právního předpisu #### {#strukturální-xml-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu-má-úplné-označení-ustanovení-včetně-označení-právního-předpisu}
 : Klíč
-:: označení
+:: `označení`
 : Jméno
 :: Má úplné označení ustanovení včetně označení právního předpisu
 : Popis
@@ -96,7 +96,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./ustanoveni-pra
 
 #### Má úplné označení ustanovení včetně označení právního předpisu #### {#strukturální-csv-ustanovení-právního-předpisu-třída-ustanovení-právního-předpisu-má-úplné-označení-ustanovení-včetně-označení-právního-předpisu}
 : Klíč
-:: označení
+:: `označení`
 : Jméno
 :: Má úplné označení ustanovení včetně označení právního předpisu
 : Popis

@@ -92,7 +92,9 @@
             "https://ofn.gov.cz/class/1657559665649-8410-28bc-8483"
         ],
         "pimIsCodelist": false,
-        "pimCodelistUrl": []
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null
     },
     "https://ofn.gov.cz/attribute/1657559470029-3242-f4ad-a7c6": {
         "types": [
@@ -384,7 +386,9 @@
         },
         "pimExtends": [],
         "pimIsCodelist": false,
-        "pimCodelistUrl": []
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null
     },
     "https://ofn.gov.cz/association/1657559683393-247a-80d3-be17": {
         "types": [

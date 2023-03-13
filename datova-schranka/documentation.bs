@@ -12,7 +12,7 @@ Logo : https://ofn.gov.cz/static/images/logo.png
 # Konceptuální model # {#konceptualni-model}
 V této sekci je definován konceptuální model.
 
-<figure><img src="./conceptual-model.png"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
+<figure><img src="./conceptual-model.svg"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
 
 ## Datová schránka ## {#konceptuální-třída-datová-schránka}
 : Popis
@@ -82,7 +82,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./datova-schran
 
 #### Má identifikátor datové schránky #### {#strukturální-json-datová-schránka-třída-datová-schránka-má-identifikátor-datové-schránky}
 : Klíč
-:: identifikátor-ds
+:: `identifikátor-ds`
 : Jméno
 :: Má identifikátor datové schránky
 : Popis
@@ -98,7 +98,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./datova-schran
 
 #### Vztah (asociace): Má typ datové schránky #### {#strukturální-json-datová-schránka-třída-datová-schránka-má-typ-datové-schránky}
 : Klíč
-:: typ-ds
+:: `typ-ds`
 : Jméno
 :: Má typ datové schránky
 : Popis
@@ -131,7 +131,7 @@ V této sekci je definován strukturní model pro [XML schéma](./datova-schrank
 
 #### Má identifikátor datové schránky #### {#strukturální-xml-datová-schránka-třída-datová-schránka-má-identifikátor-datové-schránky}
 : Klíč
-:: identifikátor-ds
+:: `identifikátor-ds`
 : Jméno
 :: Má identifikátor datové schránky
 : Popis
@@ -147,7 +147,7 @@ V této sekci je definován strukturní model pro [XML schéma](./datova-schrank
 
 #### Vztah (asociace): Má typ datové schránky #### {#strukturální-xml-datová-schránka-třída-datová-schránka-má-typ-datové-schránky}
 : Klíč
-:: typ-ds
+:: `typ-ds`
 : Jméno
 :: Má typ datové schránky
 : Popis
@@ -180,7 +180,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./datova-schrank
 
 #### Má identifikátor datové schránky #### {#strukturální-csv-datová-schránka-třída-datová-schránka-má-identifikátor-datové-schránky}
 : Klíč
-:: identifikátor-ds
+:: `identifikátor-ds`
 : Jméno
 :: Má identifikátor datové schránky
 : Popis
@@ -196,7 +196,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./datova-schrank
 
 #### Vztah (asociace): Má typ datové schránky #### {#strukturální-csv-datová-schránka-třída-datová-schránka-má-typ-datové-schránky}
 : Klíč
-:: typ-ds
+:: `typ-ds`
 : Jméno
 :: Má typ datové schránky
 : Popis

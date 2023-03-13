@@ -12,7 +12,7 @@ Logo : https://ofn.gov.cz/static/images/logo.png
 # Konceptuální model # {#konceptualni-model}
 V této sekci je definován konceptuální model.
 
-<figure><img src="./conceptual-model.png"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
+<figure><img src="./conceptual-model.svg"><figcaption>Diagram konceptuálního modelu.</figcaption></figure>
 
 ## adresní místo ## {#konceptuální-třída-adresní-místo}
 : Popis
@@ -46,7 +46,7 @@ V této sekci je definován strukturní model pro [JSON schéma](./adresni-misto
 
 #### Má kód adresního místa #### {#strukturální-json-adresní-místo-třída-adresní-místo-má-kód-adresního-místa}
 : Klíč
-:: kód
+:: `kód`
 : Jméno
 :: Má kód adresního místa
 : Popis
@@ -71,7 +71,7 @@ V této sekci je definován strukturní model pro [XML schéma](./adresni-misto/
 
 #### Má kód adresního místa #### {#strukturální-xml-adresní-místo-třída-adresní-místo-má-kód-adresního-místa}
 : Klíč
-:: kód
+:: `kód`
 : Jméno
 :: Má kód adresního místa
 : Popis
@@ -96,7 +96,7 @@ V této sekci je definován strukturní model pro [CSV schéma](./adresni-misto/
 
 #### Má kód adresního místa #### {#strukturální-csv-adresní-místo-třída-adresní-místo-má-kód-adresního-místa}
 : Klíč
-:: kód
+:: `kód`
 : Jméno
 :: Má kód adresního místa
 : Popis
